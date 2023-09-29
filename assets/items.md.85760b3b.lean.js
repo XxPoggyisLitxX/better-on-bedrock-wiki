@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as o,Q as t}from"./chunks/framework.084b86b1.js";const p=JSON.parse('{"title":"Better on Bedrock","description":"","frontmatter":{},"headers":[],"relativePath":"items.md","filePath":"items.md"}'),r={name:"items.md"},i=t("",55),n=[i];function h(s,d,l,c,f,u){return a(),o("div",null,n)}const m=e(r,[["render",h]]);export{p as __pageData,m as default};
