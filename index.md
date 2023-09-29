@@ -3,15 +3,15 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Test Name"
+  text: "Test Text"
+  tagline: Test Tagline
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Test Example
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: Test Example 2
       link: /api-examples
 
 features:
