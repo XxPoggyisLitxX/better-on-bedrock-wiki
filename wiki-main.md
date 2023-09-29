@@ -4,15 +4,21 @@ layout: home
 
 hero:
   name: "Better on Bedrock Wiki"
-  text: "You place for support"
+  text: "Choose a topic you need help with"
   tagline:  
   actions:
     - theme: brand
-      text: Begginers Guide
-      link: /test
+      text: Items
+      link: /items
     - theme: alt
-      text: Main Wiki
-      link: /wiki-main
+      text: Blocks
+      link: /api-examples
+    - theme: alt
+      text: Mobs
+      link: /api-examples
+    - theme: alt
+      text: Structures
+      link: /api-examples
 
 features:
   - title: Wiki
