@@ -7,7 +7,7 @@ hero:
   text: "Choose a topic you need help with"
   tagline: " "  
     image:
-    src: /assets.title.png
+    src: /assets/title.png
     alt: Better on Bedrock
   actions:
     - theme: alt
