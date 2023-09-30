@@ -137,6 +137,22 @@ This item does 12 attack Damage, and has 1243 durability. This item can be repea
 ### Where to find
 This item is found by killing the Shielded Pyroclast.
 
+## Nether Gauntlet
+<div style="display: flex; align-items: center;">
+  <img src="./assets/empty_gauntlet.png" alt="Example Image" width="64">
+</div>
+
+### Info
+This item requires 3 stones to fucntion. You don't need all 3, and you can add them in any order.
+
+### Where to find
+This item is found by killing a Withered Samurai.
+### Stone Usage
+- Green Stone
+  * When the player sneaks and they use the item, it will shoot a wither skull.
+- Yellow Stone
+  * When the player charges the item, it will shoot a Pyroclast Shield
+
 ## Stardust
 <div style="display: flex; align-items: center;">
   <img src="./assets/stardust_ingot.png" alt="Example Image" width="64">
@@ -194,6 +210,11 @@ This item is found inside of beach trees. Once you have a coconut, you need to b
 
 # Foods
 ## Healthy Carrot
+<div style="display: flex; align-items: center;">
+  <img src="./assets/healthy_carrot.png" alt="Example Image" width="64">
+</div>
+
+
 ### Info
 This carrot type is healthy and gives regeneration for 5 seconds.
 ### Where to find
