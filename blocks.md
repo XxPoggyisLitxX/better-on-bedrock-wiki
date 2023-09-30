@@ -56,5 +56,3 @@ To use the Miner Bench, you need to hold either a `pickaxe`, `axe`, `hoe` or `sh
 
 ### How to find
 This block is found via Crafting
-
-

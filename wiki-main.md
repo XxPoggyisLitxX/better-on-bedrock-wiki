@@ -10,12 +10,15 @@ hero:
     src: /assets.title.png
     alt: Better on Bedrock
   actions:
-    - theme: brand
+    - theme: alt
       text: Items
       link: /items
     - theme: alt
       text: Blocks
       link: /blocks
+    - theme: alt
+      text: Mobs
+      link: /mobs
 features:
   - title: Wiki
     details: Learn everyhting about anything that exists in the Add-On
