@@ -11,20 +11,29 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
-    logo: './assets/tite.png',
-
+    logo: '/assets/tite.png',
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2022-present XxPoggyisLitxX'
+    },
+    search: {
+      provider: 'local'
+    },
     sidebar: [
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Home', link: '/index' },
+          { text: 'Beginner Guide', link: '/api-beginner-guide' },
+          { text: 'Items', link: '/items' },
+          { text: 'Blocks', link: '/blocks' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/XxPoggyisLitxX' }
+      { icon: 'github', link: 'https://github.com/XxPoggyisLitxX' },
+      { icon: 'discord', link: 'https://discord.gg/AxTZ7727AR' }
     ]
   }
 })
