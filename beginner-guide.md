@@ -15,10 +15,25 @@ Android 12+ will not recognize Minecraft for `.mcaddon` files. Download Third-Pa
 
 ### Adding to your world
 Create a new world. Configure the world how you like, and enable EVERY experimental toggle. Add the resource pack and behavior pack to your world and load your world.
+<div style="display: flex; align-items: center;">
+  <img src="./assets/rp.png" alt="Example Image">
+</div>
+<div style="display: flex; align-items: center;">
+  <img src="./assets/bp.png" alt="Example Image">
+</div>
+<div style="display: flex; align-items: center;">
+  <img src="./assets/exp.png" alt="Example Image">
+</div>
 
 ## Add-On config
 ### What it does
-You will notice that you have items in your inventory. Do not fear, these items are there to help you. The `Config` item is where you can toggle various options.
+You will notice that you have items in your inventory.
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/hotbar.png" alt="Example Image">
+</div>
+
+Do not fear, these items are there to help you. The `Config` item is where you can toggle various options.
 - Player Corpse
     * Enables Player Corpse
 - Poggy's WAWLA
