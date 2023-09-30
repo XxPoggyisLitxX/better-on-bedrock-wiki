@@ -33,6 +33,7 @@ Backpacks can be shared to other player. When your backpack has 32 stone, and yo
 <div style="display: flex; align-items: center;">
   <img src="./assets/deer_hide.png" alt="Example Image" width="32">
 </div>
+
 Deer Hide is an item dropped from Deers
 ### Where to find
 This item is found by killing Deers
@@ -79,7 +80,7 @@ The Bounty Scroll can be found at a Trader Outpost. You need to use the Bounty B
 ### Info
 Magic staffs are items that can cast different types of spells.
 ### Where to find
-Magic Scroll are found by trading with a Lonely Wizard. This mob spawns in a house in forest biomes. The process to obtain Staffs are a bit complex, but it will be explained below.
+Magic Staffs are found by trading with a Lonely Wizard. This mob spawns in a house in forest biomes. The process to obtain Staffs are a bit complex, but it will be explained below.
 ## Process to find
 <div style="display: flex; align-items: center;">
   <img src="./assets/magic_scroll_mine.png" alt="Example Image" width="64">
@@ -134,6 +135,14 @@ This item is obtained by first finding a Stardust Ore, which in return will drop
   <img src="./assets/stardust.gif" alt="Example Image" width="256">
 </div>
 
+### Stats
+| Item                | Durability | Armor Points |
+|---------------------|------------|--------------|
+| Stardust Chestplate | 2312       | 5            |
+| Stardust Leggings   | 2000       | 4            |
+| Stardust Boots      | 1500       | 4            |
+| Stardust Helmet     | 1500       | 6            |
+
 ## Coconut
 <div style="display: flex; align-items: center;">
   <img src="./assets/Coconut.png" alt="Example Image" width="64">
@@ -144,3 +153,4 @@ This item is obtained by first finding a Stardust Ore, which in return will drop
 This item is a food item.
 ### Where to find
 This item is found inside of beach trees. Once you have a coconut, you need to break it open on stone blocks.
+
