@@ -136,7 +136,7 @@ This item is obtained by first finding a Stardust Ore, which in return will drop
 
 ## Coconut
 <div style="display: flex; align-items: center;">
-  <img src="./assets/coconut.png" alt="Example Image" width="64">
+  <img src="./assets/Coconut.png" alt="Example Image" width="64">
   <img src="./assets/Opened_Coconut.png" alt="Example Image" width="64">
 </div>
 
