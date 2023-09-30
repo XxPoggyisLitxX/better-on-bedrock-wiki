@@ -19,8 +19,8 @@ hero:
 features:
   - title: Wiki
     details: Learn everyhting about anything that exists in the Add-On
-  - title: Very Detailed
-    details: You will learn so much about everything
+  - title: Found Issues?
+    details: Make an [issue request](URL)
   - title: Contribute?
     details: Feel something is missing? Feel free to contribute!
 ---
