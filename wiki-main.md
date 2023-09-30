@@ -7,7 +7,7 @@ hero:
   text: "Choose a topic you need help with"
 tagline: A true Vanilla+ experience
   image:
-    src: /assets/logo.png
+    src: "/assets/logo.png"
     alt: VitePress
   actions:
     - theme: alt
