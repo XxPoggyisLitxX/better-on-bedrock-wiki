@@ -14,7 +14,7 @@
 ![Alt Text](/assets/recipes/corstinite_helmet.png)
 ![Alt Text](/assets/recipes/corstinite_chestplate.png)
 ![Alt Text](/assets/recipes/corstinite_leggings.png)
-![Alt Text](/assets/recipes/corstinite_Boots.png)
+![Alt Text](/assets/recipes/corstinite_boots.png)
 
 ## Fixed Ghost Necklace
 ![Alt Text](/assets/recipes/fixed_ghost_necklace.png)
