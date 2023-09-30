@@ -64,8 +64,9 @@
 ![Alt Text](/assets/recipes/baked_onion.png)
 ## Beef Patty
 ![Alt Text](/assets/recipes/beef_patty_cooked.png)
+
 ## Deer Meat
-![Alt Text](/assets/recipes/cooked_deer_meat .png)
+![Alt Text](/assets/recipes/cooked_deer_meat.png)
 ## Chops
 ![Alt Text](/assets/recipes/mutton_chops_cooked.png)
 ## Fried Egg
