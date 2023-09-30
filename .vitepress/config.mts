@@ -7,7 +7,7 @@ export default defineConfig({
   description: "Official Wiki",
   head: [
     // ...other meta tags
-    ['link', { rel: 'icon', href: '/favicon.ico' }] // Adjust the href to your favicon file name
+    ['link', { rel: 'icon', href: '/facicon.ico' }] // Adjust the href to your favicon file name
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
