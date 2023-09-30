@@ -120,6 +120,21 @@ This item has only one use, and that is to craft a Waystone Key
 ### Where to find
 This item is found by killing Enderman.
 
+## Blade of the Nether
+<div style="display: flex; align-items: center;">
+  <img src="./assets/blade_of_the_nether.png" alt="Example Image" width="64">
+</div>
+
+### Info
+This item wields the power of the nether. Any mob that you hit with this sword, will be set on fire.
+
+::: info
+This item does 12 attack damane, and has 1243 durability. This item can be repeared with a Fiery Ingot, which can be crafted.
+:::
+
+### Where to find
+This item is found by killing the Shielded Pyroclast.
+
 ## Stardust
 <div style="display: flex; align-items: center;">
   <img src="./assets/stardust_ingot.png" alt="Example Image" width="64">
@@ -137,10 +152,32 @@ This item is obtained by first finding a Stardust Ore, which in return will drop
 ### Stats
 | Item                | Durability | Armor Points |
 |---------------------|------------|--------------|
-| Stardust Chestplate | 2312       | 5            |
-| Stardust Leggings   | 2000       | 4            |
-| Stardust Boots      | 1500       | 4            |
-| Stardust Helmet     | 1500       | 6            |
+| Stardust Chestplate | 2312       | 7            |
+| Stardust Leggings   | 2000       | 7            |
+| Stardust Boots      | 1500       | 3            |
+| Stardust Helmet     | 1500       | 5            |
+
+## Corstinite
+<div style="display: flex; align-items: center;">
+  <img src="./assets/corstinite_ingot.png" alt="Example Image" width="64">
+</div>
+
+### Info
+This item is used to craft a new armor set
+### Where to find
+This item is obtained by first finding Costinite Ore, which in return will drop a Costinite Ingot. This Ingot can then craft armor.
+<div style="display: flex; align-items: center;">
+  <img src="./assets/corstinite.gif" alt="Example Image" width="256">
+</div>
+
+### Stats
+| Item                | Durability | Armor Points |
+|---------------------|------------|--------------|
+| Corstinite Chestplate | 1312 | 5            |
+| Corstinite Leggings   | 1000 | 4            |
+| Corstinite Boots      | 1200 | 4            |
+| Corstinite Helmet     | 1100 | 6            |
+
 
 ## Coconut
 <div style="display: flex; align-items: center;">
@@ -153,3 +190,31 @@ This item is a food item.
 ### Where to find
 This item is found inside of beach trees. Once you have a coconut, you need to break it open on stone blocks.
 
+# Foods
+## Healthy Carrot
+### Info
+This carrot type is healthy and gives regeneration for 5 seconds.
+### Where to find
+This carrot type is found by planting Wild Carrots
+## Food table
+| Food            | Saturation          | Effects |
+|-----------------|---------------------|---------|
+| baguete         | 3 | None    | None
+| Baked Eggplant  | 2                  | None         |
+| Baked Onion     | 2                    | None         |
+| Barley Stew     | 6                   | None         |
+| Sweet Berry Pie | 1.5                  | None         |
+| Sweet Berry Pie Slice | 2                    | None         |
+| Cabbage Leaf | 2                    | None         |
+| Eggplant | 1                    | None         |
+| Grape | 2.5                     | None         |
+| Blueberry | 2.5                     | None         |
+| Healthy Carrot | 2                     | Regeneration 2         |
+| Onion | 1                     | None         |
+| Opened Coconut | 2                    | None         |
+| Orange & Peach | 2                    | None         |
+| Salad | 4                    | None         |
+| Tomato | 1                    | None         |
+| Wild Carrot | 2                    | None         |
+| Fungus Salad | 3                    | None         |
+| Lava Stew | 3                    | None         |

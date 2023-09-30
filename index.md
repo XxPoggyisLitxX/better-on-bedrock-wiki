@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Begginers Guide
-      link: /test
+      link: /beginner-guide
     - theme: alt
       text: Main Wiki
       link: /wiki-main

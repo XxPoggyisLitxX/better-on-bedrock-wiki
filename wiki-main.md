@@ -12,14 +12,7 @@ hero:
       link: /items
     - theme: alt
       text: Blocks
-      link: /api-examples
-    - theme: alt
-      text: Mobs
-      link: /api-examples
-    - theme: alt
-      text: Structures
-      link: /api-examples
-
+      link: /blocks
 features:
   - title: Wiki
     details: Learn everyhting about anything that exists in the Add-On
