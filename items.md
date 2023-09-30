@@ -197,24 +197,24 @@ This carrot type is healthy and gives regeneration for 5 seconds.
 ### Where to find
 This carrot type is found by planting Wild Carrots
 ## Food table
-| Food            | Saturation          | Effects |
-|-----------------|---------------------|---------|
-| baguete         | 3 | None    | None
-| Baked Eggplant  | 2                  | None         |
-| Baked Onion     | 2                    | None         |
-| Barley Stew     | 6                   | None         |
-| Sweet Berry Pie | 1.5                  | None         |
-| Sweet Berry Pie Slice | 2                    | None         |
-| Cabbage Leaf | 2                    | None         |
-| Eggplant | 1                    | None         |
-| Grape | 2.5                     | None         |
-| Blueberry | 2.5                     | None         |
-| Healthy Carrot | 2                     | Regeneration 2         |
-| Onion | 1                     | None         |
-| Opened Coconut | 2                    | None         |
-| Orange & Peach | 2                    | None         |
-| Salad | 4                    | None         |
-| Tomato | 1                    | None         |
-| Wild Carrot | 2                    | None         |
-| Fungus Salad | 3                    | None         |
-| Lava Stew | 3                    | None         |
+| Food            | Saturation          | Effects | Crop |
+|-----------------|---------------------|---------|---------|
+| baguete         | 3 | None    | No|
+| Baked Eggplant  | 2                  | None         | No
+| Baked Onion     | 2                    | None         | No
+| Barley Stew     | 6                   | None         | No
+| Sweet Berry Pie | 1.5                  | None         | No
+| Sweet Berry Pie Slice | 2                    | None         | No
+| Cabbage Leaf | 2                    | None         | No
+| Eggplant | 1                    | None         | Yes
+| Grape | 2.5                     | None         | Yes
+| Blueberry | 2.5                     | None         | Yes
+| Healthy Carrot | 2                     | Regeneration 2         | Yes
+| Onion | 1                     | None         | Yes
+| Opened Coconut | 2                    | None         | No
+| Orange & Peach | 2                    | None         | No
+| Salad | 4                    | None         | No
+| Tomato | 1                    | None         | Yes
+| Wild Carrot | 2                    | None         | Yes
+| Fungus Salad | 3                    | None         | No
+| Lava Stew | 3                    | None         | No

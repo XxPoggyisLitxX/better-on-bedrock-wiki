@@ -30,7 +30,9 @@ export default defineConfig({
           { text: 'Home', link: '/index' },
           { text: 'Beginner Guide', link: '/api-beginner-guide' },
           { text: 'Items', link: '/items' },
-          { text: 'Blocks', link: '/blocks' }
+          { text: 'Blocks', link: '/blocks' },
+          { text: 'Mobs', link: '/mobs' },
+          { text: 'Recipes', link: '/recipes' }
         ]
       }
     ],

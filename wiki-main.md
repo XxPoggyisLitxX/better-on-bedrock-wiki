@@ -19,6 +19,9 @@ hero:
     - theme: alt
       text: Mobs
       link: /mobs
+    - theme: alt
+      text: Recipes
+      link: /recipes
 features:
   - title: Wiki
     details: Learn everyhting about anything that exists in the Add-On
