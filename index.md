@@ -20,7 +20,7 @@ features:
   - title: Wiki
     details: Learn everyhting about anything that exists in the Add-On
   - title: Found Issues?
-    details: Make an [issue request](URL)
+    details: Make an [issue request](google.com)
   - title: Contribute?
     details: Feel something is missing? Feel free to contribute!
 ---

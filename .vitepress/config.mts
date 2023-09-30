@@ -5,14 +5,14 @@ export default defineConfig({
   base: "/better-on-bedrock-wiki/",
   title: "Better on Bedrock",
   description: "Official Wiki",
-  logo: './title.png',
+  logo: './title_small.png',
   head: [['link', { rel: 'icon', href: '/facicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/index' }
     ],
-    logo: '/title.png',
+    logo: '/title_small.png',
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2022-present XxPoggyisLitxX'
