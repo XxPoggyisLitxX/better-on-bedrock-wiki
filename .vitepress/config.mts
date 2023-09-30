@@ -7,7 +7,7 @@ export default defineConfig({
   description: "Official Wiki",
   head: [
     // ...other meta tags
-    ['link', { rel: 'icon', href: '/assets/favicon.ico' }] // Adjust the href to your favicon file name
+    ['link', { rel: 'icon', href: '/favicon.ico' }] // Adjust the href to your favicon file name
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -15,7 +15,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
-    logo: '/assets/tite.png',
+    logo: '/tite.png',
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2022-present XxPoggyisLitxX'
