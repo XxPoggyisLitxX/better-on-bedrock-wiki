@@ -5,7 +5,9 @@ layout: home
 hero:
   name: "Better on Bedrock Wiki"
   text: "You place for support"
-  tagline:  
+  image:
+    src: /assets/title.png
+    alt: VitePress
   actions:
     - theme: brand
       text: Begginers Guide
