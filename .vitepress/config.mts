@@ -28,7 +28,7 @@ export default defineConfig({
         text: 'Examples',
         items: [
           { text: 'Home', link: '/index' },
-          { text: 'Beginner Guide', link: '/api-beginner-guide' },
+          { text: 'Beginner Guide', link: '/beginner-guide' },
           { text: 'Items', link: '/items' },
           { text: 'Blocks', link: '/blocks' },
           { text: 'Mobs', link: '/mobs' },
