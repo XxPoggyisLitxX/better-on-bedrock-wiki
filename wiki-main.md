@@ -6,6 +6,9 @@ hero:
   name: "Better on Bedrock Wiki"
   text: "Choose a topic you need help with"
   tagline:  
+    image:
+    src: /assets.title.png
+    alt: Better on Bedrock
   actions:
     - theme: brand
       text: Items
