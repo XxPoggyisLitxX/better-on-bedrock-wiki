@@ -40,6 +40,15 @@
 ## Stronger String
 ![Alt Text](/assets/recipes/string_belt.png)
 
+## Beef Burger
+![Alt Text](/assets/recipes/beef_burger.png)
+## Egg Sandwich
+![Alt Text](/assets/recipes/egg_sandwich.png)
+## Barley Stew
+![Alt Text](/assets/recipes/barley_stew.png)
+## Salad
+![Alt Text](/assets/recipes/salad.png)
+
 # Blocks
 ## Waystone
 ![Alt Text](/assets/recipes/waystone.png)
@@ -47,3 +56,17 @@
 ![Alt Text](/assets/recipes/forger.png)
 ## Miner Bench
 ![Alt Text](/assets/recipes/miner_bench.png)
+
+# Furnace Recipes
+## Baked Eggplant
+![Alt Text](/assets/recipes/baked_eggplant.png)
+## Baked onion
+![Alt Text](/assets/recipes/baked_onion.png)
+## Beef Patty
+![Alt Text](/assets/recipes/beef_patty_cooked.png)
+## Deer Meat
+![Alt Text](/assets/recipes/cooked_deer_meat .png)
+## Chops
+![Alt Text](/assets/recipes/mutton_chops_cooked.png)
+## Fried Egg
+![Alt Text](/assets/recipes/fried_egg.png)
