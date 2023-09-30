@@ -5,9 +5,9 @@ export default defineConfig({
   base: "/better-on-bedrock-wiki/",
   title: "Better on Bedrock",
   description: "Official Wiki",
+  logo: '/assets/title.png',
   head: [
-    // ...other meta tags
-    ['link', { rel: 'icon', href: '/facicon.ico' }] // Adjust the href to your favicon file name
+    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/assets/facicon.ico"}],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
