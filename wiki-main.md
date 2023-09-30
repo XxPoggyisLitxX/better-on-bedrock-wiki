@@ -5,10 +5,10 @@ layout: home
 hero:
   name: "Better on Bedrock Wiki"
   text: "Choose a topic you need help with"
-  tagline: "Really Vanilla Plus"  
-    image:
-    src: /assets/title.png
-    alt: Better on Bedrock
+tagline: A true Vanilla+ experience
+  image:
+    src: /assets/logo.png
+    alt: VitePress
   actions:
     - theme: alt
       text: Items
