@@ -131,7 +131,7 @@ This item is found by killing Enderman.
 This item wields the power of the nether. Any mob that you hit with this sword, will be set on fire.
 
 ::: info
-This item does 12 attack damane, and has 1243 durability. This item can be repeared with a Fiery Ingot, which can be crafted.
+This item does 12 attack Damage, and has 1243 durability. This item can be repeared with a Fiery Ingot, which can be crafted.
 :::
 
 ### Where to find
