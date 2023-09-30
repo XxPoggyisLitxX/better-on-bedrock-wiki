@@ -75,6 +75,25 @@ The Withered Samurai is located inside a Blacstone Caslte found in the Nether.
 The Racoon is a passive mob found in the overworld. This mob is really friendly and will take any gifts you give it.
 ### What It Does
 The Racoon can not be tamed. The Racoon can dig up treasure for you at random times. The items are shown in the table below with the chance it has to spawn.
+| Item                     | Drop % |
+|--------------------------|--------|
+| Record Mellohi           | 10     |
+| Chain Armor              | 20     |
+| Diamond                  | 10     |
+| Gold Ingot               | 30     |
+| Rotten Flesh             | 40     |
+| String                   | 40     |
+| Iron Pickaxe(Damaged)    | 22     |
+| Arrow                    | 27     |
+| Enchanted Apple          | 3      |
+| Raw Iron                 | 32     |
+| Spyglass                 | 7      |
+| Emerald                  | 16     |
+| Pottery Sherds           | 10     |
+| Cherry Sapling           | 19     |
+| Diamond Helmet (Damaged) | 13     |
+
+
 ### Breedable
 This Mob can be bred with any food item
 
