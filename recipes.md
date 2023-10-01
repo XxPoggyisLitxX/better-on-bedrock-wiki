@@ -48,6 +48,8 @@
 ![Alt Text](/assets/recipes/barley_stew.png)
 ## Salad
 ![Alt Text](/assets/recipes/salad.png)
+## Combined Elements
+![Alt Text](/assets/recipes/combined_elements.png)
 
 # Blocks
 ## Waystone
