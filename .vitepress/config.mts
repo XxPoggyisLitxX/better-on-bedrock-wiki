@@ -21,14 +21,15 @@ export default defineConfig({
     },
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Topics',
         items: [
           { text: 'Home', link: '/index' },
           { text: 'Beginner Guide', link: '/beginner-guide' },
           { text: 'Items', link: '/items' },
           { text: 'Blocks', link: '/blocks' },
           { text: 'Mobs', link: '/mobs' },
-          { text: 'Recipes', link: '/recipes' }
+          { text: 'Recipes', link: '/recipes' },
+          { text: 'Structures', link: '/structures' }
         ]
       }
     ],

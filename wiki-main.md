@@ -19,6 +19,9 @@ hero:
     - theme: alt
       text: Recipes
       link: /recipes
+    - theme: alt
+      text: Structures
+      link: /structures
 features:
   - title: Wiki
     details: Learn everyhting about anything that exists in the Add-On
