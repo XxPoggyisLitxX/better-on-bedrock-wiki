@@ -13,9 +13,7 @@ Better on Bedrock adds 4 new utility enchantments to the game. They are:
 Each enchantments only has one level
 ## How can I obtain?
 These enchantments are found in loot chests within a wide range of structures, but you can also get them by trading with a Librarian:
-<div style="display: flex; align-items: center;">
-  <img src="./assets/recipes/trading.png" alt="Example Image">
-</div>
+
 
 ## What do each enchantment do?
 ### Vein Miner
