@@ -15,6 +15,9 @@ hero:
     - theme: alt
       text: Main Wiki
       link: /wiki-main
+    - theme: alt
+      text: Changelogs
+      link: /changelog
 
 features:
   - title: Wiki
