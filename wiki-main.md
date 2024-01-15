@@ -22,6 +22,9 @@ hero:
     - theme: alt
       text: Structures
       link: /structures
+    - theme: alt
+      text: Changelogs
+      link: /changelog
 features:
   - title: Wiki
     details: Learn everyhting about anything that exists in the Add-On

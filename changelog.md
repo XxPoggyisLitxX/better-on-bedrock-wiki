@@ -83,4 +83,3 @@ From laggy mines to smoother trades, we've squashed a swarm of bugs in this upda
 - Removed "unactived" runes
 - Removed some items that were supposed to be hidden
 - Removed Corrupted Villager
-*Download*: <https://www.mediafire.com/file/ocx3zulei7pb3vf/bob_reworked.mcaddon/file>
