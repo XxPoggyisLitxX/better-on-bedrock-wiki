@@ -40,19 +40,24 @@ The End has spoken… and it craved adventure! Hark! A realm reborn awaits, wher
     * Poggy
 - Added Enderite Ingot and Tools
   * Enderite tools are better than Stardust tools
+  * Players are required to find End Scrolls that are found within stucture chest and pots
 - Added Shulker Shell Armor
+  * Shulker Shell Armor passifies Endermen and Shulkers
+  * Requires a full set to take effect
 - Added 7 new structures to the end
-- Added 5 new foods:
-  * Ender Stew
+- Added 6 new foods:
+  * Chorus Flitter
+  * Chorus Pie
+  * End Fruit
   * End Cookie
-  * Dried Chorus Flower
-  * Ender Sherd
-  * Fungal Berry
+  * Ender Stew
+  * Void Berrt Pie
 - Added 9 Useful Items:
   * Ring of Hope
   * Ring of Hate
   * Ring of Care
   * Multi Ring (combined with 3 rings)
+    * These rings grant loot when used on Basic Podiums
   * Void Totem
     * Deals 17 Damage when used
     * Gives Nausea & Blindness for 10 seconds
@@ -62,6 +67,14 @@ The End has spoken… and it craved adventure! Hark! A realm reborn awaits, wher
   * End Scroll
   * Enderite Ingot
   * Enderium
+  * Bane of Spike 
+    * Grants poison to any hit target
+  * Combustible Scrab
+  * Fragments Of Soul
+  * Legrang
+  * Persisting Embodiment
+  * Schroom Sample
+  * Potion of Rage
 - Added over 100 new blocks:
   * Malbite + 5 other variants
     * Included slabs
@@ -69,10 +82,20 @@ The End has spoken… and it craved adventure! Hark! A realm reborn awaits, wher
     * Does include doors
     * Includes slabs
   * New Flowers for decoration
-- Added new Boss Trophies
-  * Poggy Boss Trophy
-  * Seeker Boss Trophy
-  * Soot Collector Boss Trophy
+- Added new Boss Loot
+  * The Bosses of The End will drop shards. These shards are used to create a type of item that Players can use to Summon Poggy, the Final Boss of Better on Bedrock
+
+## Changes
+- Updated some item textures
+- Changed the way Players obtain Stardust Armor
+  * Players are now required to use Persisting Embodiment to craft Stardust Armor.
+  * This makes it so Players can't get Stardust in only the Overworld, making their playthrough easier
+- Added more variants of crafting tables
+- Removed the Custom Jukebox
+- Converted the Custom Discs to be actual record discs
 
 ## Fixes
-- No fixes are present
+- Fixed an issue where Deer Meat had the wrong texture
+- Fixed a case where Blazes would always drop souls
+- Fixed the issue where the Flender Staff recipe required souls with NBT data of 1
+- Fixed an issue where players would only get a regular Iron Pickaxe
