@@ -99,3 +99,5 @@ The End has spoken… and it craved adventure! Hark! A realm reborn awaits, wher
 - Fixed a case where Blazes would always drop souls
 - Fixed the issue where the Flender Staff recipe required souls with NBT data of 1
 - Fixed an issue where players would only get a regular Iron Pickaxe
+- Fixed issues where Fortune and Silk Touch refused to work with Vein Miner
+- Fixed incorrect textures on some items
