@@ -29,7 +29,8 @@ export default defineConfig({
           { text: 'Blocks', link: '/blocks' },
           { text: 'Mobs', link: '/mobs' },
           { text: 'Recipes', link: '/recipes' },
-          { text: 'Structures', link: '/structures' }
+          { text: 'Structures', link: '/structures' },
+          { text: 'Ender Depths', link: '/changelog-ender_depths'}
         ]
       }
     ],

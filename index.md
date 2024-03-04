@@ -17,7 +17,7 @@ hero:
       link: /wiki-main
     - theme: alt
       text: Changelogs
-      link: /changelog
+      link: /changelog-ender_depths
 
 features:
   - title: Wiki

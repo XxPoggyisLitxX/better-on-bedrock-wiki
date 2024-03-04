@@ -14,7 +14,7 @@ The End has spoken… and it craved adventure! Hark! A realm reborn awaits, wher
   * Fungal Grove
   * Chorus Forest
   * End Biomes will not appear at the boss arena
-- Added 18 new Mobs to the end
+- Added 19 new Mobs to the end
   * Chorus Forest:
     * Chorus Behemith
     * Chorus Wanderer
@@ -93,6 +93,8 @@ The End has spoken… and it craved adventure! Hark! A realm reborn awaits, wher
 - Added more variants of crafting tables
 - Removed the Custom Jukebox
 - Converted the Custom Discs to be actual record discs
+- Added a new slider to the Add-On config menu
+- Update the day counter text to be colorful
 
 ## Fixes
 - Fixed an issue where Deer Meat had the wrong texture
@@ -101,3 +103,6 @@ The End has spoken… and it craved adventure! Hark! A realm reborn awaits, wher
 - Fixed an issue where players would only get a regular Iron Pickaxe
 - Fixed issues where Fortune and Silk Touch refused to work with Vein Miner
 - Fixed incorrect textures on some items
+- Fixed an issue where the day counter would continue counting once daylight cylce is false and set to 0
+- Fixed basic staffs being able to stack
+- Fixed an issue where sus-dirt would spam the chat with messages

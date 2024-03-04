@@ -222,8 +222,90 @@ This Mob can not breed.
 ### Info
 The Fire Wisp acts as a Blaze, but weaker.
 
+## Bacterio
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/mobs/bacterio.png" alt="Example Image" width="128">
+</div>
+
+### Info
+The Bacterio is a new alien-like creature in the end dimension. It likes fungus a lot, and is very hostile.
+
+### Extra Info
+| **Spawns**  | **Drops**     | **%** |
+|---------------|---|-------|
+| **Fungal Grove** | Ender Scrap | 20    |
+
+## Bloob
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/mobs/bloob.png" alt="Example Image" width="128">
+</div>
+
+### Info
+The bloob is a new ambient creature for the end dimension. It is friendly, but can't be tamed.
+
+### Extra Info
+| **Spawns**  | **Drops**     | **%** |
+|---------------|---|-------|
+| **Vacant Dusk** | null | null    |
+
+
+## Chorus Behimeth
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/mobs/chorus_behimeth.png" alt="Example Image" width="128">
+</div>
+
+### Info
+The Chorus Behimeth is a new ambient and hostile mob for the end dimension. It is similar to the Sniffer, but this one is a bit more hostile.
+
+### Extra Info
+| **Spawns**  | **Drops**     | **%** |
+|---------------|---|-------|
+| **Chorus Forest** | Tusks | 20    |
 
 
 
+## Chorus Golem
 
+<div style="display: flex; align-items: center;">
+  <img src="./assets/mobs/chorus_golem.png" alt="Example Image" width="128">
+</div>
+
+### Info
+The Chorus Golem is a new mob for the end dimension. The Chorus Golem is hostile by default, but can be made passive when given its own shard
+
+### Extra Info
+| **Spawns**  | **Drops**     | **%** |
+|---------------|---|-------|
+| **Chorus Forest** | Ender Crystals | 20    |
+
+## Croaker
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/mobs/croaker.png" alt="Example Image" width="128">
+</div>
+
+### Info
+The Croaker is a new mob in the end dimension. It's just your regular ol' frog!
+
+### Extra Info
+| **Spawns**  | **Drops**     | **%** |
+|---------------|---|-------|
+| **Voided Abyssal** | Poison Ball | 20    |
+
+## Ender Merchant
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/mobs/end_merchant.png" alt="Example Image" width="128">
+</div>
+
+### Info
+The Ender Merchant is a new alien-like creature in the end dimension. It likes fungus a lot, and is very hostile.
+
+### Extra Info
+| **Spawns**  | **Drops**     | **%** |
+|---------------|---|-------|
+| **Voiding Plains** | Null | Null   |
 
