@@ -11,7 +11,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/index' }
     ],
-    logo: '/assets/title_small.png',
+    logo: '/title_small.png',
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2022-present XxPoggyisLitxX'
