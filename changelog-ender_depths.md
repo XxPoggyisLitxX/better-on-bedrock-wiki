@@ -1,4 +1,4 @@
-# Better on Bedrock: Reworked
+# Better on Bedrock: Ender Depths Changelog
 
 <div style="display: flex; align-items: center;">
   <img src="./assets/bob-ender-depths.png" alt="Example Image">
@@ -97,6 +97,7 @@ The End has spoken… and it craved adventure! Hark! A realm reborn awaits, wher
 - Update the day counter text to be colorful
 
 ## Fixes
+- Fixed the Forger
 - Fixed an issue where Deer Meat had the wrong texture
 - Fixed a case where Blazes would always drop souls
 - Fixed the issue where the Flender Staff recipe required souls with NBT data of 1

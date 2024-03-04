@@ -309,3 +309,188 @@ The Ender Merchant is a new alien-like creature in the end dimension. It likes f
 |---------------|---|-------|
 | **Voiding Plains** | Null | Null   |
 
+
+
+
+## Fireorb 
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/mobs/fireorb.png" alt="Example Image" width="128">
+</div>
+
+### Info
+ The Fireorb is a new ambient mob in the end dimension. What was once a complete living being has become a lost soul wandering across isolated plains, trying to find a purpose for maybe a brave adventurer.
+
+### Extra Info
+| **Spawns**  | **Drops**     | **%** |
+|---------------|---|-------|
+| **Voiding Plains** | Fragment of Soul | 20   |
+
+
+
+## Flasp  
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/mobs/flasp.png" alt="Example Image" width="128">
+</div>
+
+### Info
+ The Flasp is a new hostile in the end dimension. Because of its environment, this monster has acquired the ability to secrete a strong acid that enables it to attack its enemies.
+
+### Extra Info
+| **Spawns**  | **Drops**     | **%** |
+|---------------|---|-------|
+| **Voided Abyssal** | Tusks | 20   |
+
+
+## Groohog   
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/mobs/groohog.png" alt="Example Image" width="128">
+</div>
+
+### Info
+The Groohog is a new ambient mob in the end dimension. Contrary to what their appearance might lead you to believe, they are very passive by nature..
+
+### Extra Info
+| **Spawns**  | **Drops**     | **%** |
+|---------------|---|-------|
+| **Voiding Abyss** | null | null   |
+
+## Hover    
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/mobs/hover.png" alt="Example Image" width="128">
+</div>
+
+### Info
+The Hover is a new hostile in the end dimension. Most likely a distant cousin of the Shulkers and Phantoms, they attack any players from a distance with their projectiles while flying.
+
+### Extra Info
+| **Spawns**  | **Drops**     | **%** |
+|---------------|---|-------|
+| **The End** | null | null   |
+
+
+## Infected     
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/mobs/infected.png" alt="Example Image" width="128">
+</div>
+
+### Info
+The Infected is a new hostile in the end dimension. Formerly an Enderman, they fell victim to the fungus, losing themselves little by little at the cost of increased strength. The remnants of their previous state can be heard in their screams.
+
+### Extra Info
+| **Spawns**  | **Drops**     | **%** |
+|---------------|---|-------|
+| **Fungal Grove** | Schroom Sample | 15   |
+
+## Jelly      
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/mobs/jelly.png" alt="Example Image" width="128">
+</div>
+
+### Info
+The Jelly is a new ambient creature for the end dimension. Just as friendly as their bloob friends
+
+### Extra Info
+| **Spawns**  | **Drops**     | **%** |
+|---------------|---|-------|
+| **Vacant Dusk** | null | null   |
+
+## Longleg       
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/mobs/longleg.png" alt="Example Image" width="128">
+</div>
+
+### Info
+The Longleg is a new hostile in the end dimension. Like their spider cousins, they are very agile and even more powerful. According to a legend, their legs have a special ability to survive.
+
+
+### Extra Info
+| **Spawns**  | **Drops**     | **%** |
+|---------------|---|-------|
+| **Vacant Dusk** | Legrang | 32   |
+
+## Mooth        
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/mobs/mooth.png" alt="Example Image" width="128">
+</div>
+
+### Info
+The Mooth is a new ambient creature for the end dimension. They're just cute and fluffy
+
+
+### Extra Info
+| **Spawns**  | **Drops**     | **%** |
+|---------------|---|-------|
+| **Vacant Dusk** | String | 32   |
+
+## Mush        
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/mobs/mush.png" alt="Example Image" width="128">
+</div>
+
+### Info
+The Mush is a new ambient creature for the end dimension. Their species are surprisingly resistant to the fungus, to the point where they use a mushroom hat, talk about insolence.
+
+### Mush 
+| **Spawns**  | **Drops**     | **%** |
+|---------------|---|-------|
+| **Vacant Dusk** | Schroom Hat | 0.1   |
+
+
+## Poggy         
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/mobs/poggy.png" alt="Example Image" width="128">
+</div>
+
+### Info
+The Pog is a new boss for the end dimension. Representing the final destination of your journey. The culmination of a long tale, which could then create a new one, who knows?
+
+### Extra Info 
+| **Spawns**  | **Drops**     | **%** |
+|---------------|---|-------|
+| **err** | err | err   |
+
+## Seeker          
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/mobs/seeker.png" alt="Example Image" width="128">
+</div>
+
+### Info
+The Seeker is a new boss for the end dimension. Watch out for its piercing eye, the few that survive say it has a strong attraction.
+
+### Extra Info 
+| **Spawns**  | **Drops**     | **%** |
+|---------------|---|-------|
+| **err** | Shard | err   |
+
+## Soot Collector          
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/mobs/soot_collector.png" alt="Example Image" width="128">
+</div>
+
+### Info
+The Soot is a new boss for the end dimension. Keen to preserve its treasure, it will not hesitate to attack anyone who dares to come near its habitat, beware of a certain Eye that this sorcerer can conjure
+### Extra Info 
+| **Spawns**  | **Drops**     | **%** |
+|---------------|---|-------|
+| **err** | Shard | err   |
+
+## Spooder Fox          
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/mobs/spooder_fox.png" alt="Example Image" width="128">
+</div>
+
+### Info
+Who made that thing??

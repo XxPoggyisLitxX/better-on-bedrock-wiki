@@ -29,7 +29,7 @@ To teleport between waystones, you need to interact on the block with an empty h
 ### How to find
 This block is found inside a Waystone Tower or Crafting.
 
-## Forger
+## Forger [No Longer Works]
 <div style="display: flex; align-items: center;">
   <img src="./assets/forge_table.png" alt="Example Image" width="64">
 </div>
