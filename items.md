@@ -310,3 +310,118 @@ This carrot type is found by planting Wild Carrots
 | Wild Carrot | 2                    | None         | Yes
 | Fungus Salad | 3                    | None         | No
 | Lava Stew | 3                    | None         | No
+
+
+
+<table>
+  <tr>
+    <th>Icon</th>
+    <th>Item Name</th>
+    <th>Stats</th>
+  </tr>
+  <tr>
+    <td> <img src="./assets/items/bane_spike.png" alt="Example Image" width="64"></td>
+    <td>Bane Spike</td>
+    <td>Poisons any hit target</td>
+  </tr>
+  <tr>
+    <td> <img src="./assets/items/blazing_jewel.png" alt="Example Image" width="64"></td>
+    <td>Blazing Jewel</td>
+    <td>Item dropped from End Bosses to summon Poggy</td>
+  </tr>
+    <tr>
+    <td> <img src="./assets/items/carnivorous_mandibile.png" alt="Example Image" width="64"></td>
+    <td>Carnivorous Mandibile</td>
+    <td>Item dropped from Flasps</td>
+  </tr>
+      <tr>
+    <td> <img src="./assets/items/chorus_flitter.png" alt="Example Image" width="64"></td>
+    <td>Chorus Flitter</td>
+    <td>Obtained when cooking Chorus</td>
+  </tr>
+      <tr>
+    <td> <img src="./assets/items/combustible_scrap.png" alt="Example Image" width="64"></td>
+    <td>Combustible Scrap</td>
+    <td>Dropped from Bacterios</td>
+  </tr>
+        <tr>
+    <td> <img src="./assets/items/end_berry.png" alt="Example Image" width="64"></td>
+    <td>End Berrt</td>
+    <td>Dropped from Fungal Trees</td>
+  </tr>
+          <tr>
+    <td> <img src="./assets/items/end_cookie.png" alt="Example Image" width="64"></td>
+    <td>End Cookie</td>
+    <td>Food </td>
+  </tr>
+            <tr>
+    <td> <img src="./assets/items/end_scroll.png" alt="Example Image" width="64"></td>
+    <td>End Scroll</td>
+    <td>Found in lost ruins inside the Voiding Plains</td>
+  </tr>
+              <tr>
+    <td> <img src="./assets/items/end_shard.png" alt="Example Image" width="64"></td>
+    <td>End Shard</td>
+    <td>Dropped from Enderman</td>
+  </tr>
+                <tr>
+    <td> <img src="./assets/items/ender_stew.png" alt="Example Image" width="64"></td>
+    <td>End Stew</td>
+    <td>A yummy treat</td>
+  </tr>
+                  <tr>
+    <td> <img src="./assets/items/enderite_ingot.png" alt="Example Image" width="64"></td>
+    <td>Enderite Ingot</td>
+    <td> No Info</td>
+  </tr>
+                    <tr>
+    <td> <img src="./assets/items/enderium.png" alt="Example Image" width="64"></td>
+    <td>Enderium</td>
+    <td>Can be smelted</td>
+  </tr>
+                      <tr>
+    <td> <img src="./assets/items/fragment_of_sou.png" alt="Example Image" width="64"></td>
+    <td>Fragment Of Soul</td>
+    <td>Dropped from Fireorbs</td>
+  </tr>
+                        <tr>
+    <td> <img src="./assets/items/horn.png" alt="Example Image" width="64"></td>
+    <td>Horn</td>
+    <td>Dropped from Chorus Behimeth</td>
+  </tr>
+                          <tr>
+    <td> <img src="./assets/items/legrang.png" alt="Example Image" width="64"></td>
+    <td>Legrang</td>
+    <td>Dropped from Longlegs. Used as a projectile</td>
+  </tr>
+                            <tr>
+    <td> <img src="./assets/items/persisting_embodiment.png" alt="Example Image" width="64"></td>
+    <td>Persisting Embodiment</td>
+    <td>Dropped from Chorus Golems</td>
+  </tr>
+                              <tr>
+    <td> <img src="./assets/items/rage_potion.png" alt="Example Image" width="64"></td>
+    <td>Potion Of Rage</td>
+    <td>Very powerfull</td>
+  </tr>
+                                <tr>
+    <td> <img src="./assets/items/schroom_hat.png" alt="Example Image" width="64"></td>
+    <td>Schroom Hat</td>
+    <td>Just a nice hat</td>
+  </tr>
+                                  <tr>
+    <td> <img src="./assets/items/the_ardent_crystal.png" alt="Example Image" width="64"></td>
+    <td>The Ardent Crystal</td>
+    <td>Used to summon Poggy at a special Podium</td>
+  </tr>
+                                    <tr>
+    <td> <img src="./assets/items/void_totem.png" alt="Example Image" width="64"></td>
+    <td>Void Totem</td>
+    <td>Saves you from the void</td>
+  </tr>
+                                      <tr>
+    <td> <img src="./assets/items/voiding_boots.png" alt="Example Image" width="64"></td>
+    <td>Void Boots</td>
+    <td>Allows you to walk over the void</td>
+  </tr>
+</table>
