@@ -4,19 +4,22 @@
   <img src="./assets/bob-rebrand.png" alt="Example Image">
 </div>
 
-## [Download Here](https://www.mediafire.com/file/cqjkydf0vtawn3j/bob_1.20.80-patch3.mcaddon/file)
+## [Download Here](https://www.mediafire.com/file/wiryfp5cle6mvqo/bob_1.20.80-patch5.mcaddon/file)
 
 ### Changelog
 
-- Fixed an issue where all mobs had now sound at all
-- Fixed a problem where players were unable to consume the Rage Potion
-- Fixed an issue where the Ghost Necklace could not be used
-- Fixed an issue where Dusk Planks behaved like leaves
-- Fixed a problem with Stardust Shovels
-  - They won't play a use animation.
-  - They won't take damage
-- Update Player Corpse to not take any form of Damage
-- Fixed the issue where the Config UI would select the wrong values
-  - Removed Starter Tools for balancing purposes
-- Basic staff will be held correctly
-- Fixed tools not playing the item break sfx
+### Fixes
+
+- Fixed a bug where the Nether Amulet could not switch modes
+- Fixed a bug where some tools were missing some behaviors
+- Removed Record 9
+- Increased the max stack size of the following items to 64
+  - Soul
+  - Nether Stones
+- Updated the model texture of the Stardust Helmet
+- Fixed a bug where the Quetzacaw Egg did not hatch
+- Temporarily buffed the voiding boots to fix a bug
+- Fixed a bug where Waystones won't drop the item when the top bit was mined
+- Partly cleaned up the creative menu
+- Fixed a bug where the Flasp didn't attack the player
+- Fixed a big where waystone towers in the End were common
