@@ -4,22 +4,17 @@
   <img src="./assets/bob-rebrand.png" alt="Example Image">
 </div>
 
-## [Download Here](https://www.mediafire.com/file/wiryfp5cle6mvqo/bob_1.20.80-patch5.mcaddon/file)
+## [Download Here!](https://www.mediafire.com/file/yr2vleyr6ulb0pt/bob_1.20.80-patch5.1.0.mcaddon/file)
 
 ### Changelog
 
 ### Fixes
 
-- Fixed a bug where the Nether Amulet could not switch modes
-- Fixed a bug where some tools were missing some behaviors
-- Removed Record 9
-- Increased the max stack size of the following items to 64
-  - Soul
-  - Nether Stones
-- Updated the model texture of the Stardust Helmet
-- Fixed a bug where the Quetzacaw Egg did not hatch
-- Temporarily buffed the voiding boots to fix a bug
-- Fixed a bug where Waystones won't drop the item when the top bit was mined
-- Partly cleaned up the creative menu
-- Fixed a bug where the Flasp didn't attack the player
-- Fixed a big where waystone towers in the End were common
+- Fixed an issue where a structure loaded incorrectly
+- Fixed tall grass not breaking in the end
+- Fixed the bug where Peach Leaves dropped Orange Fruit
+- Fixed a bug where fruit leaves dropped no loot
+- Fixed a big that caused the Quetzacaw to have buggy movement
+- Fixed an issue where Drowned dropped Gold Ingots instead of Copper Ingots
+- Fixed the bug where some structures had "Enchanted Books" with no enchantments
+- Fixed a bug that prevent player from collecting Grapes and Blueberries
