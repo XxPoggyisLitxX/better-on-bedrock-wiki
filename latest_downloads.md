@@ -4,17 +4,25 @@
   <img src="./assets/bob-rebrand.png" alt="Example Image">
 </div>
 
-## [Download Here!](https://www.mediafire.com/file/yr2vleyr6ulb0pt/bob_1.20.80-patch5.1.0.mcaddon/file)
+## [Download Here](https://www.mediafire.com/file/22ijntkk0npkxv4/Poggy%2527sBetterBedrockRP.mcaddon/file)
 
-### Changelog
+## Changelog
+
+### Changes
+
+- Updated Waystones to save to all players (Global Waystones)
+  - All players fit within the 25 limit.
+  - The limit of 25 is now global, not per-player
+  - Waystones that are broken will remove it from all players
+- Reduced the spawn rate of Fire Wisps
+- Updated textures for Hellhoun, Shielded Pyroclast and Seeker
+- Added trade tables for the Ore Smelter enchantment, aquired by Librarian Villagers
+- Made Structure more rare
 
 ### Fixes
 
-- Fixed an issue where a structure loaded incorrectly
-- Fixed tall grass not breaking in the end
-- Fixed the bug where Peach Leaves dropped Orange Fruit
-- Fixed a bug where fruit leaves dropped no loot
-- Fixed a big that caused the Quetzacaw to have buggy movement
-- Fixed an issue where Drowned dropped Gold Ingots instead of Copper Ingots
-- Fixed the bug where some structures had "Enchanted Books" with no enchantments
-- Fixed a bug that prevent player from collecting Grapes and Blueberries
+- Fixed a bug where the Poggy boss was stuck within a state
+- Fixed a bug that allowed players to kill Poggy in early phases
+- Fixed the problem that allowed swords to break blocks in creative mode
+- Fixed the issue where the Amethyst Axe could not be used on the Miner Bench
+- Fixed the missing dependancy error
