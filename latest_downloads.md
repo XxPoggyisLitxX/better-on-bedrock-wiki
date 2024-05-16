@@ -80,7 +80,7 @@
 - Fixed a bug where Tall Flowers were unable to break correctly
 - Fixed an issue where doors would play the incorrect sound effect
 - Changed the behavior of the Hell Hound to spawn much less (fix)
-- Nerfed the Flender's agro range for when it is in Fireball mode
+- Nerfed the Flender's agro range for when it is in Fireball mode (fix)
 - Fixed a bug that prevent Amethyst Armor from playing walking sounds
 - Fixed a bug where Stardust Sword could be stacked
 - Fixed an issue where Stardust Pickaxe could not be used on the Miner Bench
