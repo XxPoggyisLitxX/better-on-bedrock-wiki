@@ -1,21 +1,34 @@
-# Better on Bedrock v1.0.3.4 Changelog
+# Better on Bedrock v1.1.5.4.2 Changelog
 
 <div style="display: flex; align-items: center;">
   <img src="./assets/bob-rebrand.png" alt="Example Image">
 </div>
 
-## [Download Here](https://www.mediafire.com/file/j0kbev8gox5meza/bob_1.20.80-V1.1.5.4.1.mcaddon/file)
+## [Download Here!!](https://www.mediafire.com/file/gwjq8itgza9s02d/bob_1.20.80-V1.1.5.4.2.mcaddon/file)
 
 ## Changelog
 
 ### Fixes
 
-- Fixed a bug that caused flowers to not drop
-- Fixed the visuals of ore blocks
-- Fixed an issue where some mobs had no sounds
+- Fixed a bug that caused Zombie Varients to hold items incorrectly
+- Fixed a bug that prevented shovels from being used with effeciency
+- Increased the drop rate of Gunpowder
+- Fixed the problem where End fog stayed when player entered a different dimension
+- Fixed a bug where End Fog didn't work as expected
+- Commands such as /locate will now show in chat
+- Fixed the following issues with the Friendly Quetzacaw
+  - Once tamed, it will freely walk randomy
+  - Once tamed, it can attack other hostile entities
+  - Once tamed, it can **only be controlled with a Carrot On A Stick**
+- Hell hounds will no longer attack Striders or Zoglins
+- Reduced Hell Hound spawn rate
+- Fixed a bug where Leafy Liberator could not use Mangrove Leaves
 
 # Full list of fixes over the past few weeks
 
+- Fixed a bug that caused flowers to not drop
+- Fixed the visuals of ore blocks
+- Fixed an issue where some mobs had no sounds
 - Reduced the rates at which enchanted Pillages spawn (fix)
 - Fixed a bug that caused end fog to stay when the player entered the overworld
 - Fixed the rare instance where players could not craft lanterns and torches
