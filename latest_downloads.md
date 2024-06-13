@@ -1,14 +1,47 @@
-# Better on Bedrock v1.1.5.4.2 Changelog
+# Better on Bedrock v1.1.5.5 Changelog
+
+# 1.21.0 Support!!
 
 <div style="display: flex; align-items: center;">
   <img src="./assets/bob-rebrand.png" alt="Example Image">
 </div>
 
-## [Download Here!!](https://www.mediafire.com/file/gwjq8itgza9s02d/bob_1.20.80-V1.1.5.4.2.mcaddon/file)
+## [Download Here!!](https://www.mediafire.com/file/xasrol1igyzacwm/bob_1.21.0-V1.1.5.5.mcaddon/file)
 
 ## Changelog
 
 ### Fixes
+
+- Updated the Add-On to work properly in 1.21.0
+- Fixed an issue where any item with durability would take damage when player attacked mobs or broke blocks while holding thes items
+- Fixed a bug that caused unbreaking to not work on tools
+- Updated tools added by the Add-On to use custom components
+- Fixed a bug that caused the coconut to randomly flood player inventories
+- Enchanted books added by the Add-On can no longer be stacked
+- Mostly cleaned up the error console when loading a world
+- Removed all instance of `console.warn` from scripts. This means for players who run a server or play with content errors enabled, won't have their console spammed with debug or test logs
+- Full amethyst armor now grants its bonus effect [Bug]
+- Fixed a bug that prevented Player Corpse to work properly
+- Fixed up librarian villager trades
+  - The chance to get a bought quest or any of the new enchantent is much lower
+- Resolved some issues with the Waystone Key
+- Fixed an issue that caused the pedestal to randomly loose items
+- Fixed a bug that caused the Willager chest to not summon the Willager
+- Fixed a bug that caused Amethys Armor to play sounds to all players
+- Fixed a bug that allowed players to obtain loads of wool from the Dotted Sheep
+- Fixed sounds for all end wood types
+- Fixed the "?" block that appeared wihtin a structure
+- Fixed a bug that allowed players to obtain a waystone block when using Silk Touch
+  - This also fixed a duplication bug
+- Updated Grape and Berry bushes to match vanilla generation
+- Updated Peach and Orange leaves to follow vanilla behavior
+- Voided boots now have their correct behavior thanks to a bug fixed from Mojang
+- Updated Small Logs to be placed sideways
+- Updated end logs to behave like vanilla logs
+- Updated some food/seed items to work with composters. More will be added in the future!
+  - Anenome Flower, Baguette, Baked Eggplant, Barley Seeds, Barley Straw, Bluegrod Flower, Cabbage Seeds, Grape Pie, Healthy Carrot
+
+# Full list of fixes over the past few weeks
 
 - Fixed a bug that caused Zombie Varients to hold items incorrectly
 - Fixed a bug that prevented shovels from being used with effeciency
@@ -23,9 +56,6 @@
 - Hell hounds will no longer attack Striders or Zoglins
 - Reduced Hell Hound spawn rate
 - Fixed a bug where Leafy Liberator could not use Mangrove Leaves
-
-# Full list of fixes over the past few weeks
-
 - Fixed a bug that caused flowers to not drop
 - Fixed the visuals of ore blocks
 - Fixed an issue where some mobs had no sounds
