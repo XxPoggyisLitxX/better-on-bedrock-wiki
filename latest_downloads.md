@@ -8,6 +8,8 @@
 
 ## [Download Here!!](https://www.mediafire.com/file/xasrol1igyzacwm/bob_1.21.0-V1.1.5.5.mcaddon/file)
 
+# DO NOT ENABLE "HOLIDAY CREATOR FEATURES" EXPERIMENT!! It will break the Add-On due to HCF conflicts with Custom Components. ONLY ENABLE BETA-API EXPERIMENT!!!
+
 ## Changelog
 
 ### Fixes
