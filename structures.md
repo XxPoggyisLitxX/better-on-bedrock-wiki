@@ -129,9 +129,9 @@ Are you willing to take your chances?
 ![image](./assets/structures/unknown_alter.png)
 Can you find what this alter is for?
 
-## Voided Ruins
-![image](./assets/structures/voided_ruins.png)
-I didn't know the void can do such things.
+## Voided Statue
+![image](./assets/structures/voided_statue.png)
+I wonder who created such thing.
 
 ## Floating End Portal
 ![image](./assets/structures/floating_end_portal.png)
@@ -139,5 +139,9 @@ Huh A way back to the overworld. Cool!
 
 ## Vacant Hideout
 ![image](./assets/structures/vacant_hideout.png)
-
 huh, I wonder why they left..
+
+## Voided Ruins
+![image](./assets/structures/voided_ruins.png)
+How could someone live like this...
+
