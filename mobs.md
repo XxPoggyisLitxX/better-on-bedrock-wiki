@@ -55,7 +55,7 @@ The Withered Samurai is located inside a Blacstone Caslte found in the Nether.
 
 
 
-### Boss Stats
+## Boss Stats
 | **Boss**               | **Health** | **Attack Num** | **Drops**             |
 |------------------------|------------|----------------|-----------------------|
 | **Willager**           | 250        | 4              | - Willager Hat        |
