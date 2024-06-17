@@ -17,8 +17,9 @@
 ![Alt Text](/assets/recipes/corstinite_boots.png)
 
 ## Stardust Armor
+
 ![Alt Text](/assets/recipes/stardust_helmet.png)
-![Alt Text](/assets/recipes/stardust_chestplatwe.png)
+![Alt Text](/assets/recipes/stardust_chestplate.png)
 ![Alt Text](/assets/recipes/stardust_leggings.png)
 ![Alt Text](/assets/recipes/stardust_boots.png)
 
