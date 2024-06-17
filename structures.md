@@ -126,7 +126,7 @@ A Home to the fungi.
 Are you willing to take your chances?
 
 ## Unkown Alter
-![image](./assets/structures/unknown_alter.png)
+![image](./assets/structures/unkown_alter.png)
 Can you find what this alter is for?
 
 ## Voided Statue
@@ -134,7 +134,7 @@ Can you find what this alter is for?
 I wonder who created such thing.
 
 ## Floating End Portal
-![image](./assets/structures/floating_end_portal.png)
+![image](./assets/structures/end_portal_ruins.png)
 Huh A way back to the overworld. Cool!
 
 ## Vacant Hideout
