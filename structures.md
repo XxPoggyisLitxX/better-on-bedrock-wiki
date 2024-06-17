@@ -139,4 +139,5 @@ Huh A way back to the overworld. Cool!
 
 ## Vacant Hideout
 ![image](./assets/structures/vacant_hideout.png)
+
 huh, I wonder why they left..
