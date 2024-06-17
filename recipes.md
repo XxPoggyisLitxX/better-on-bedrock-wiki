@@ -19,8 +19,11 @@
 ## Stardust Armor
 
 ![Alt Text](/assets/recipes/stardust_helmet.png)
+
 ![Alt Text](/assets/recipes/stardust_chestplate.png)
+
 ![Alt Text](/assets/recipes/stardust_leggings.png)
+
 ![Alt Text](/assets/recipes/stardust_boots.png)
 
 ## Fixed Ghost Necklace
