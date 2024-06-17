@@ -29,7 +29,7 @@ To teleport between waystones, you need to interact on the block with an empty h
 ### How to find
 This block is found inside a Waystone Tower or Crafting.
 
-## Forger [No Longer Works]
+## Forger
 <div style="display: flex; align-items: center;">
   <img src="./assets/forge_table.png" alt="Example Image" width="64">
 </div>
@@ -41,7 +41,7 @@ The Forger is a block that serves as a secondary Smithing Table. This block allo
 To use the Forger, hold the armor item mentioned above and interact on the block. This will open a UI with instructions to follow.
 
 ### How to find
-This block is found via Crafting
+This block is found via Crafting but you can also find this block within structures in the end dimension
 
 ## Miner Bench
 <div style="display: flex; align-items: center;">
