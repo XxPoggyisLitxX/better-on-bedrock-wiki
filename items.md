@@ -6,9 +6,11 @@ Need help with how to use an item or how to find them along with their uses? Thi
 # Enchantments
 Better on Bedrock adds 4 new utility enchantments to the game. They are:
 - Vein Miner
+- Ore Smelter
 - Tree Capitator
 - Leafy Libirator
 - Harvet Touch
+
 
 Each enchantments only has one level
 ## How can I obtain?
@@ -18,12 +20,15 @@ These enchantments are found in loot chests within a wide range of structures, b
 ## What do each enchantment do?
 ### Vein Miner
 Vein Miner can only be added to pickaxes. This enchantment will break any ore that is connected to the same type within an instant. Each broken ore in that vein will take 1 durability off your tool.
+### Ore Smelter
+Ore Smelter can only be added to pickaxes. This enchantment will allow you to instantly smelt ores that you mine within the minecraft world!
 ### Tree Capitator
 Tree Capitator can only be added to axes. This enchantment will break any log that is connected to the same type within an instant. Each broken ore in that vein will take 1 durability off your tool.
 ### Leafy Libirator
 Leafy Libirator can only be added to shears.This enchantment will break leaf blocks within an instant. It has a per-use-cap to avoid crashes on low-end devices.
 ### Harvest Touch
 Harvest Touch can only be added to hoes. This is a special enchantment. For startes, it will let you break any crops within a 3x3 range when you break them with your hoe. Hoe's will be able to vein mine tallgrass and hay bales in an instant.
+
 
 ### How do I add to my tools?
 Refer to [this page](https://xxpoggyislitxx.github.io/better-on-bedrock-wiki/blocks.html#miner-bench)
@@ -114,6 +119,10 @@ Magic Staffs are found by trading with a Lonely Wizard. This mob spawns in a hou
   <img src="./assets/magic_scroll_mine.png" alt="Example Image" width="64">
     <img src="./assets/protection_rune.png" alt="Example Image" width="64">
 </div>
+
+### Info
+The process to find is what you need to do to get active runes!
+### Where to find
 You first need to find inactive runes. These can be found by killing bosses or chest loot. Once you have your inactive rune, you then need to craft a Magic Scroll. After you crafted your scroll, you need to find a Corrupted Villager. Once found, you need to cure it with a golden apple and wait 30 seconds. Once cured you can trade with the Cured Villager. This way you can activate your runes.
 
 
@@ -312,7 +321,7 @@ This carrot type is found by planting Wild Carrots
 | Lava Stew | 3                    | None         | No
 
 
-
+## Item Table
 <table>
   <tr>
     <th>Icon</th>
@@ -372,7 +381,7 @@ This carrot type is found by planting Wild Carrots
                   <tr>
     <td> <img src="./assets/items/enderite_ingot.png" alt="Example Image" width="64"></td>
     <td>Enderite Ingot</td>
-    <td> No Info</td>
+    <td> Can craft items using it</td>
   </tr>
                     <tr>
     <td> <img src="./assets/items/enderium.png" alt="Example Image" width="64"></td>

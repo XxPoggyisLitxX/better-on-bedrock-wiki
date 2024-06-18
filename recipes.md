@@ -1,5 +1,5 @@
 # Better on Bedrock
-## Recipe Wiki
+### Recipe Wiki
 # Items
 
 ## Backpacks
@@ -15,6 +15,16 @@
 ![Alt Text](/assets/recipes/corstinite_chestplate.png)
 ![Alt Text](/assets/recipes/corstinite_leggings.png)
 ![Alt Text](/assets/recipes/corstinite_boots.png)
+
+## Stardust Armor
+
+![Alt Text](/assets/recipes/stardust_helmet.png)
+
+![Alt Text](/assets/recipes/stardust_chestplate.png)
+
+![Alt Text](/assets/recipes/stardust_leggings.png)
+
+![Alt Text](/assets/recipes/stardust_boots.png)
 
 ## Fixed Ghost Necklace
 ![Alt Text](/assets/recipes/fixed_ghost_necklace.png)

@@ -14,7 +14,7 @@ Android 12+ will not recognize Minecraft for `.mcaddon` files. Download Third-Pa
 :::
 
 ### Adding to your world
-Create a new world. Configure the world how you like, and enable EVERY experimental toggle. Add the resource pack and behavior pack to your world and load your world.
+Create a new world. Configure the world how you like, and enable ONLY beta-api experimental toggle Add the resource pack and behavior pack to your world and load your world.
 <div style="display: flex; align-items: center;">
   <img src="./assets/rp.png" alt="Example Image">
 </div>

@@ -116,3 +116,32 @@ A very tall tower. Holds a Waystone way at the top. You have to figure out how t
 - Birch Forest
 - Savanna
 - Taiga
+
+## Fungal Tower
+![image](./assets/structures/fungal_tower.png)
+A Home to the fungi.
+
+## Seeker Arena
+![image](./assets/structures/seeker_arena.png)
+Are you willing to take your chances?
+
+## Unkown Alter
+![image](./assets/structures/unkown_alter.png)
+Can you find what this alter is for?
+
+## Voided Statue
+![image](./assets/structures/voided_statue.png)
+I wonder who created such thing.
+
+## Floating End Portal
+![image](./assets/structures/end_portal_ruins.png)
+Huh A way back to the overworld. Cool!
+
+## Vacant Hideout
+![image](./assets/structures/vacant_hideout.png)
+huh, I wonder why they left..
+
+## Voided Ruins
+![image](./assets/structures/voided_ruins.png)
+How could someone live like this...
+
