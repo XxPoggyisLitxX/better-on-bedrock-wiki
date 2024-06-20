@@ -6,13 +6,24 @@
   <img src="./assets/bob-rebrand.png" alt="Example Image">
 </div>
 
-## [Download Here!!](https://www.mediafire.com/file/xasrol1igyzacwm/bob_1.21.0-V1.1.5.5.mcaddon/file)
+## [Download Here!!](https://www.mediafire.com/file/adjf5d13j1yarw5/bob_1.21.0-V1.1.5.6.mcaddon/file)
 
 [![IMAGE ALT TEXT](https://img.youtube.com/vi/lNyMunOoyyc/0.jpg)](https://www.youtube.com/watch?v=lNyMunOoyyc "Video Title")
 
 ## Changelog
 
 ### Fixes
+
+- Fixed a bug that prevented logs to be stripped from some axes
+- Updated Pillager loot to 1.21.0
+- Updated the Void Totem to only work within the end
+- Updated the Nether Waystone structure to include a Waystone instead of a "?" block for new chunks
+- Updated Iron Golems to 1.21.0
+- Fixed an issue that prevented deers from spawning
+- Removed Duplicate Tuff blocks that were added in BoB v1.0.1
+- Updated 1.21.0 loot tables to replace vanilla tools with BoB's vanilla tools
+
+# Full list of fixes over the past few weeks
 
 - Updated the Add-On to work properly in 1.21.0
 - Fixed an issue where any item with durability would take damage when player attacked mobs or broke blocks while holding thes items
@@ -42,9 +53,6 @@
 - Updated end logs to behave like vanilla logs
 - Updated some food/seed items to work with composters. More will be added in the future!
   - Anenome Flower, Baguette, Baked Eggplant, Barley Seeds, Barley Straw, Bluegrod Flower, Cabbage Seeds, Grape Pie, Healthy Carrot
-
-# Full list of fixes over the past few weeks
-
 - Fixed a bug that caused Zombie Varients to hold items incorrectly
 - Fixed a bug that prevented shovels from being used with effeciency
 - Increased the drop rate of Gunpowder
