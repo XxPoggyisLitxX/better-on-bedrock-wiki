@@ -1,3 +1,4 @@
+
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
@@ -9,22 +10,19 @@ hero:
   actions:
     - theme: alt
       text: Items
-      link: /items
+      link: /Main/Wiki/items
     - theme: alt
       text: Blocks
-      link: /blocks
+      link: /Main/Wiki/blocks
     - theme: alt
       text: Mobs
-      link: /mobs
+      link: /Main/Wiki/mobs
     - theme: alt
       text: Recipes
-      link: /recipes
+      link: /Main/Wiki/recipes
     - theme: alt
       text: Structures
-      link: /structures
-    - theme: alt
-      text: Changelogs
-      link: /changelog
+      link: /Main/Wiki/structures
 features:
   - title: Wiki
     details: Learn everyhting about anything that exists in the Add-On

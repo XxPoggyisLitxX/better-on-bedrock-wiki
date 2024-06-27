@@ -11,13 +11,13 @@ hero:
   actions:
     - theme: brand
       text: Begginers Guide
-      link: /beginner-guide
+      link: /Main/BeginnersGuide/how-to-install
     - theme: alt
       text: Main Wiki
-      link: /wiki-main
+      link: /Main/main
     - theme: alt
       text: Changelogs
-      link: /changelog-ender_depths
+      link: /Main/Changelogs/Updates/v1.0.0
 
 features:
   - title: Wiki
