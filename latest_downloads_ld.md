@@ -1,7 +1,7 @@
 # Luminous Dreams' Changelog
 
 <div style="display: flex; align-items: center;">
-  <img src="./assets/luminous_dreams.png" alt="Example Image">
+  <img src="/Main/assets/luminous_dreams.png" alt="Example Image">
 </div>
 
 ## [Download Here](https://www.mediafire.com/file/kfttn74sfnmltl9/Poggy%2527sLum_color_grading-beta-5.mcpack/file)
