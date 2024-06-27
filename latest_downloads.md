@@ -3,7 +3,7 @@
 # 1.21.0 Support!!
 
 <div style="display: flex; align-items: center;">
-  <img src="./assets/bob-rebrand.png" alt="Example Image">
+  <img src="/Main/assets/bob-rebrand.png" alt="Example Image">
 </div>
 
 ## [Download Here!!](https://www.mediafire.com/file/adjf5d13j1yarw5/bob_1.21.0-V1.1.5.6.mcaddon/file)
