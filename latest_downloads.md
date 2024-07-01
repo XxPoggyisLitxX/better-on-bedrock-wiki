@@ -6,7 +6,7 @@
   <img src="/Main/assets/bob-rebrand.png" alt="Example Image">
 </div>
 
-**Due to some unexpected events, the download link will temporarily use Boostellar, which is an ad site and will generate me some wage to sort out these events. I am sorry.**
+<span style="color: red; font-size:3vw" >**Due to some unexpected events, the download link will temporarily use Boostellar, which is an ad site and will generate me some wage to sort out these events. I am sorry.**</span>
 
 - Donate to my Ko-Fi: https://ko-fi.com/poggythefoxxo
 
