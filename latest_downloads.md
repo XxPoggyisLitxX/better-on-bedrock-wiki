@@ -8,6 +8,8 @@
 
 **Due to some unexpected events, the download link will temporarily use Boostellar, which is an ad site and will generate me some wage to sort out these events. I am sorry.**
 
+- Donate to my Ko-Fi: https://ko-fi.com/poggythefoxxo
+
 ## [Download Here!!](https://bstlar.com/i0/better-on-bedrock)
 
 ## Changelog
