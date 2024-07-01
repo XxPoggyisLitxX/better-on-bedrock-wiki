@@ -6,7 +6,7 @@
   <img src="/Main/assets/bob-rebrand.png" alt="Example Image">
 </div>
 
-\*\*Due to some unexpected events, the download link will temporarily use Boostellar, which is an ad site and will generate me some wage to sort out these events. I am sorry.
+**Due to some unexpected events, the download link will temporarily use Boostellar, which is an ad site and will generate me some wage to sort out these events. I am sorry.**
 
 ## [Download Here!!](https://bstlar.com/i0/better-on-bedrock)
 
