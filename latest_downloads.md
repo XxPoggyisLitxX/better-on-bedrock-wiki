@@ -6,9 +6,9 @@
   <img src="/Main/assets/bob-rebrand.png" alt="Example Image">
 </div>
 
-## [Download Here!!](https://www.mediafire.com/file/adjf5d13j1yarw5/bob_1.21.0-V1.1.5.6.mcaddon/file)
+\*\*Due to some unexpected events, the download link will temporarily use Boostellar, which is an ad site and will generate me some wage to sort out these events. I am sorry.
 
-[![IMAGE ALT TEXT](https://img.youtube.com/vi/lNyMunOoyyc/0.jpg)](https://www.youtube.com/watch?v=lNyMunOoyyc "Video Title")
+## [Download Here!!](https://bstlar.com/i0/better-on-bedrock)
 
 ## Changelog
 
