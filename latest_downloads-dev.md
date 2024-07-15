@@ -1,6 +1,6 @@
 # Better on Bedrock v1.2.0 Changelog
 
-# 1.21.0 Support!!
+# 1.21.20 Stable Support!!
 
 <div style="display: flex; align-items: center;">
   <img src="/Main/assets/bob-rebrand.png" alt="Example Image">
