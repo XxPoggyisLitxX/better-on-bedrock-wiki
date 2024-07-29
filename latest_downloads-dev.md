@@ -43,6 +43,11 @@
 - Overhauled the Forest and Jungle biome
 - Added a few new structures to some biomes
 - Updated The End to have some ambient sounds based on the biome
+- Updated the Cherry Grove to include Pandas, Ponds, Lavenders and Pink Hydrangeas
+  - These ponds can sometime spawn with coral and sea grass
+- Updated foliage of the Birch Forest to be orange
+- Added a few new flowers to some biomes
+- Re-added the Battle Tower from Better on Bedrock v1.0.2
 
 ## Reworks
 
@@ -63,6 +68,7 @@
 - Updated the Flender to break blocks it flies through
 - Vanilla ores have been given a new "placement system" meaning some ores are more common in some biomes than others
 - Updated the Congig menu to have some values enabled by default
+- Nerfed the stardust ingot recipe to be easier to obtain for the new smithing recipe changes
 
 ## Bug Fixes
 
