@@ -81,7 +81,7 @@
 ## Bug Fixes
 
 - Fixed an issue that caused baby deer to follow the player
-- Fixed a ton of grammer mistakes
+- Fixed a ton of grammar mistakes
 - Fixed a bug that caused Stardust to not stack
 - Fixed a bug that caused the Flender to get stuck in certain scenarios
 - Fixed the broken chorus block texture
@@ -111,7 +111,7 @@
 - Updated 1.21.0 loot tables to replace vanilla tools with BoB's vanilla tools
 
 - Updated the Add-On to work properly in 1.21.0
-- Fixed an issue where any item with durability would take damage when player attacked mobs or broke blocks while holding thes items
+- Fixed an issue where any item with durability would take damage when player attacked mobs or broke blocks while holding these items
 - Fixed a bug that caused unbreaking to not work on tools
 - Updated tools added by the Add-On to use custom components
 - Fixed a bug that caused the coconut to randomly flood player inventories
@@ -121,14 +121,14 @@
 - Full amethyst armor now grants its bonus effect [Bug]
 - Fixed a bug that prevented Player Corpse to work properly
 - Fixed up librarian villager trades
-  - The chance to get a bought quest or any of the new enchantent is much lower
+  - The chance to get a bought quest or any of the new enchantment is much lower
 - Resolved some issues with the Waystone Key
 - Fixed an issue that caused the pedestal to randomly loose items
 - Fixed a bug that caused the Willager chest to not summon the Willager
-- Fixed a bug that caused Amethys Armor to play sounds to all players
+- Fixed a bug that caused Amethyst Armor to play sounds to all players
 - Fixed a bug that allowed players to obtain loads of wool from the Dotted Sheep
 - Fixed sounds for all end wood types
-- Fixed the "?" block that appeared wihtin a structure
+- Fixed the "?" block that appeared within a structure
 - Fixed a bug that allowed players to obtain a waystone block when using Silk Touch
   - This also fixed a duplication bug
 - Updated Grape and Berry bushes to match vanilla generation
@@ -138,14 +138,14 @@
 - Updated end logs to behave like vanilla logs
 - Updated some food/seed items to work with composters. More will be added in the future!
   - Anenome Flower, Baguette, Baked Eggplant, Barley Seeds, Barley Straw, Bluegrod Flower, Cabbage Seeds, Grape Pie, Healthy Carrot
-- Fixed a bug that caused Zombie Varients to hold items incorrectly
-- Fixed a bug that prevented shovels from being used with effeciency
+- Fixed a bug that caused Zombie variants to hold items incorrectly
+- Fixed a bug that prevented shovels from being used with efficiency
 - Increased the drop rate of Gunpowder
 - Fixed the problem where End fog stayed when player entered a different dimension
 - Fixed a bug where End Fog didn't work as expected
 - Commands such as /locate will now show in chat
 - Fixed the following issues with the Friendly Quetzacaw
-  - Once tamed, it will freely walk randomy
+  - Once tamed, it will freely walk randomly
   - Once tamed, it can attack other hostile entities
   - Once tamed, it can **only be controlled with a Carrot On A Stick**
 - Hell hounds will no longer attack Striders or Zoglins
