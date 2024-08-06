@@ -43,11 +43,15 @@
 - Overhauled the Forest and Jungle biome
 - Added a few new structures to some biomes
 - Updated The End to have some ambient sounds based on the biome
-- Updated the Cherry Grove to include Pandas, Ponds, Lavenders and Pink Hydrangeas
+- Updated the Cherry Grove to include Pandas, Lavenders, and a new structure
   - These ponds can sometime spawn with coral and sea grass
 - Updated foliage of the Birch Forest to be orange
 - Added a few new flowers to some biomes
 - Re-added the Battle Tower from Better on Bedrock v1.0.2
+- Added new music to the Add-On
+- Each boss will have increased health and damage based on the world's difficulty
+- Added unique sounds to the Ghost Necklace and Waystone
+- Added a new music disc: Stardust
 
 ## Reworks
 
@@ -70,8 +74,21 @@
 - Updated the Congig menu to have some values enabled by default
 - Nerfed the stardust ingot recipe to be easier to obtain for the new smithing recipe changes
 
+## Removes
+
+- Removed all stardust recipes related to armor and tools
+
 ## Bug Fixes
 
+- Fixed an issue that caused baby deer to follow the player
+- Fixed a ton of grammer mistakes
+- Fixed a bug that caused Stardust to not stack
+- Fixed a bug that caused the Flender to get stuck in certain scenarios
+- Fixed the broken chorus block texture
+- Fixed an issue where backpacks could dupe entities
+- Fixed an issue that caused capes and persona items to not work with the Add-On
+- Updated item tags for the smithing table to fix potential smithing bugs
+- Made some tweaks to some entities and their spawn rates
 - Fixed a bug that prevents Illager Captains from dropping Ominous Bottles
 - Fixed a bug that caused the Old Waystone to not work correctly
 - Fixed a duplication bug with the Old Waystone
