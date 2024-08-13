@@ -7,6 +7,7 @@
 </div>
 
 - Donate to my Ko-Fi: https://ko-fi.com/poggythefoxxo
+- [Download](https://www.mediafire.com/file/8j61616ejjvxdix/bob_overhauled.mcaddon/file)
 
 ## Changelog
 
@@ -55,6 +56,7 @@
 
 ## Reworks
 
+- Updated the Ghost Necklace to require souls in the player's off-hand
 - Updated the Waystone to no longer require the player to sneak to open a UI
 - Updated Shielded Pyroclast with a brand new attack "Fireball Rain"
 - Updated the seeker to now weaken the player on the "Beam Charged" attack.
