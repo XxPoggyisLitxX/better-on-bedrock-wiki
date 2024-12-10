@@ -50,4 +50,3 @@ This table provides every keyframe in deferred from sunrise to sunrise.
 | 0.671    | 3:30 AM             | 21500            |
 | 0.694    | 4:00 AM             | 22000            |
 | 0.718    | 4:30 AM             | 22500            |
-
