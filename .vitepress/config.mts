@@ -49,7 +49,7 @@ const beginnerGuide = [{text: 'Beginners Guides',
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/better-on-bedrock-wiki/",
+  base: "/",
   title: "Better on Bedrock",
   description: "Official Wiki",
   head: [['link', { rel: 'icon', href: '/facicon.ico' }]],
