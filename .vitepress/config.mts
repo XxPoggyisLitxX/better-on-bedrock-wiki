@@ -52,16 +52,16 @@ export default defineConfig({
   base: "/",
   title: "Better on Bedrock",
   description: "Official Wiki",
-  head: [['link', { rel: 'icon', href: '/facicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/Main/assets/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/index' }
     ],
-    logo: '/title_small.png',
+    logo: '/Main/assets/title_small.png',
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2022-present XxPoggyisLitxX'
+      copyright: 'Copyright © 2024-present Poggy'
     },
     search: {
       provider: 'local'

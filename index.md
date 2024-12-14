@@ -6,11 +6,11 @@ hero:
   name: "Better on Bedrock Wiki"
   text: "You place for support"
   image:
-    src: ./title.png
+    src: /Main/assets/title.png
     alt: VitePress
   actions:
     - theme: brand
-      text: Begginers Guide
+      text: Beginners Guide
       link: /Main/BeginnersGuide/how-to-install
     - theme: alt
       text: Main Wiki
