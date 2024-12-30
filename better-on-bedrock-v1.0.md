@@ -9,7 +9,7 @@
   * New Resin Blocks
   * New flowers
 - Added thin logs for Cherry, Mangrove and Pale logs
-- Added Crafting Tables for Cherry, Mangrove, Pale Oak, Vacamt, Voiding, and Chorus
+- Added Crafting Tables for Cherry, Mangrove, Pale Oak, VacaNt, Voiding, and Chorus
 
 ## Changes
 - Made the wawla UI slightly smaller.
