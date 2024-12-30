@@ -6,7 +6,7 @@
 New update for Better on Bedrock is with us, with tons of exciting bug fixes, changes and new content.
 
 We require you read the changelog to understand what to expect, but here is the download!!
-## [Download](<https://www.mediafire.com/file/Z7djqlqo4n8g2xdv/Better-on-Bedrock-v1.0.mcaddon/file>)
+## [Download](<https://www.mediafire.com/file/7djqlqo4n8g2xdv/Better-on-Bedrock-v1.0.mcaddon/file>)
 
 ## New Content
 - Updated the Pale Garden
