@@ -1,12 +1,12 @@
 
-# Better on Bedrock v1.0
+# Better on Bedrock v1.0 - Release!!
 
 ![image](/Main/assets/bob-rebrand.png)
 
 New update for Better on Bedrock is with us, with tons of exciting bug fixes, changes and new content.
 
 We require you read the changelog to understand what to expect, but here is the download!!
-## [Download](<https://www.mediafire.com/file/7djqlqo4n8g2xdv/Better-on-Bedrock-v1.0.mcaddon/file>)
+## [Download](<https://www.mediafire.com/file/ndq2zdm1xf2w5ki/Better-on-Bedrock-v1.0-r.mcaddon/file>)
 
 ## New Content
 - Updated the Pale Garden
@@ -54,6 +54,13 @@ We require you read the changelog to understand what to expect, but here is the 
 - Removed Gilded Netherite Armor
 - Removed the Helmet of the lost Gaurdian
 
+## UI Changes
+- Updated the UI of BoB to now work with /title
+  * title and actionbar now works with BoB
+- Updated the Goal, Quest and Bounty toasts to be able to stack
+  * They no longer use /title
+- Updated the UI of BoB to work with other UI Add-Ons
+
 ## Breaking Changes
 - Rewrote the entire quest and bounty system.
   * This change forces everyone to play this update on new worlds.
@@ -63,6 +70,12 @@ We require you read the changelog to understand what to expect, but here is the 
 - Updated the end generation. New worlds are required for this change
 
 ## Bug fixes
+- Fixed a bug where most end blocks had incorrect placing sounds
+- Fixed a bug where only the top part of waystones broke faster with Pickaxes
+- Fixed a bug where some quests had old item IDs
+- Fixed some cases of Z-fighting
+- Fixed a bug where mobs didn't spawn in the End
+- Fixed a bug where the seeker boss structure had "?"
 - Fixed a bug where the dough recipe consumed buckets
 - Fixed some blocks having lighting issues.
 - Fixed some blocks having incorrect breaking/placing sounds.
