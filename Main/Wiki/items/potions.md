@@ -22,7 +22,7 @@ This item is a new potion. This potion when drank will give you Resistance for 6
   <img src="/Main/assets/smeared_pearl.png" alt="Example Image" width="64">
   <img src="/Main/assets/blackstone_crumb.png" alt="Example Image" width="64">
 </div>
-Below are screenshots showing the brewing recipe. They will be labled with what ingredients are needed.
+Below are screenshots showing the brewing recipe. They will be labelled with what ingredients are needed.
 
 This potion will be harder to obtain, since Better on Bedrock update 1.0.3.2 changed the way you obtain Blackstone Crumbs.
 <div style="display: flex; align-items: center;">

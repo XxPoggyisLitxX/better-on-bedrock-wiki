@@ -23,7 +23,7 @@ Tree Capitator can only be added to axes. This enchantment will break any log th
 ### Leafy Libirator
 Leafy Libirator can only be added to shears.This enchantment will break leaf blocks within an instant. It has a per-use-cap to avoid crashes on low-end devices.
 ### Harvest Touch
-Harvest Touch can only be added to hoes. This is a special enchantment. For startes, it will let you break any crops within a 3x3 range when you break them with your hoe. Hoe's will be able to vein mine tallgrass and hay bales in an instant.
+Harvest Touch can only be added to hoes. This is a special enchantment. It will let you break any crops within a 3x3 range when you break them with your hoe. Hoe's will be able to vein mine tallgrass and hay bales in an instant.
 
 
 ### How do I add to my tools?

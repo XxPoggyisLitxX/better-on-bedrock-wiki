@@ -8,4 +8,4 @@
 </div>
 Progression to the end has changed. Players are required to defeat 3 bosses in the overworld, like the Willager, Enchantaegis, and Flender, and 2 bosses in the Nether, being the Shielded Pyroclast (Inferior) or the Withered Samurai.
 
-Each boss drops an eye upon defeat, and the player uses these eyes to craft eyes of ender. They will recieve 12 Eyes of Ender.
+Each boss drops an eye upon defeat, and the player uses these eyes to craft eyes of ender. They will receive 12 Eyes of Ender.

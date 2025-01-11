@@ -19,10 +19,10 @@ Backpacks can be shared to other player. When your backpack has 32 stone, and yo
   <img src="/Main/assets/deer_hide.png" alt="Example Image" width="32">
 </div>
 
-Deer Hide is an item dropped from Deers
+Deer Hide is an item dropped from Deer
 
 ### Where to find
-This item is found by killing Deers
+This item is found by killing Deer
 
 
 ## Stronger String

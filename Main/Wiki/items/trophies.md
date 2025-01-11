@@ -7,7 +7,7 @@
 This item wields the power of the nether. Any mob that you hit with this sword, will be set on fire.
 
 ::: info
-This item does 12 attack Damage, and has 1243 durability. This item can be repeared with a Fiery Ingot, which can be crafted.
+This item does 12 attack Damage, and has 1243 durability. This item can be repaired with a Fiery Ingot, which can be crafted.
 :::
 
 ### Where to find
@@ -19,7 +19,7 @@ This item is found by killing the Shielded Pyroclast.
 </div>
 
 ### Info
-This item requires 3 stones to fucntion. You don't need all 3, and you can add them in any order.
+This item requires 3 stones to function. You don't need all 3, and you can add them in any order.
 
 ### Where to find
 This item is found by killing a Withered Samurai.
