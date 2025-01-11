@@ -8,9 +8,9 @@ Need help with how to find mobs or what they do? This wiki has your back. Select
 </div>
 
 ### Info
-The Willager is part of the Illager Family. He is the ruler amongs them.
+The Willager is part of the Illager Family. He is the ruler amongst them.
 ### Location
-The Willager is found at a ruined structures. The structure contains pillars and one chest in the centre. Open the chest to summon the Willager.
+The Willager is found at a ruined structures. The structure contains pillars and one chest in the center. Open the chest to summon the Willager.
 
 ## Enchantaegis
 <div style="display: flex; align-items: center;">
@@ -18,13 +18,13 @@ The Willager is found at a ruined structures. The structure contains pillars and
 </div>
 
 ### Info
-The Enchantaegis is part of the Illager Family. He is the one that gave them power.
+The Enchantaegis is part of the Illager Family. He is the one that gave them power. He can not be damaged while he is enchanted.
 ### Location
 The Enchantaegis is found at a ruined pyramid. The structure contains a secret room and kidnapped villager that were tested on by the Enchantaegis.
 
 ## Flender
 <div style="display: flex; align-items: center;">
-  <img src="/Main/assets/flender.png" alt="Example Image" width="129">
+  <img src="/Main/assets/flender.png" alt="Example Image" width="128">
 </div>
 
 ### Info
@@ -34,7 +34,7 @@ The Flender is located on top of a quarts tower. To summon the Flender, simply w
 
 ## Shielded Pyroclast
 <div style="display: flex; align-items: center;">
-  <img src="/Main/assets/inferior.png" alt="Example Image" width="64">
+  <img src="/Main/assets/inferior.png" alt="Example Image" width="128">
 </div>
 
 ### Info
@@ -44,7 +44,7 @@ The Shielded Pyroclast is located in a battle arena found in the Nether.
 
 ## Withered Samurai
 <div style="display: flex; align-items: center;">
-  <img src="/Main/assets/withered_samurai.png" alt="Example Image" width="64">
+  <img src="/Main/assets/withered_samurai.png" alt="Example Image" width="128">
 </div>
 
 ### Info
@@ -154,21 +154,9 @@ This mob has a 10% to spawn.
   <img src="/Main/assets/trade-table-3.png" alt="Example Image" width="129">
 </div>
 
-## Corrupted Villager
-<div style="display: flex; align-items: center;">
-  <img src="/Main/assets/corrupted_villager.png" alt="Example Image" width="64">
-</div>
-
-### Info
-The Corrupted Villager is a Villager Type that is full of anger. This Mob can be cured with a Golden Apple. Once Cured, he has a trade table
-### Trades
-He trades Magic Scrolls and Inactive Runes for Activated Runes.
-### Where to find
-This mob is found within forest biomes inside a spruce house.
-
 ## Lonely Wizard
 <div style="display: flex; align-items: center;">
-  <img src="/Main/assets/lonely_wizard.png" alt="Example Image" width="64">
+  <img src="/Main/assets/mobs/lonely_wizard.png" alt="Example Image" width="64">
 </div>
 
 ### Info
@@ -443,20 +431,6 @@ The Mush is a new ambient creature for the end dimension. Their species are surp
 |---------------|---|-------|
 | **Vacant Dusk** | Schroom Hat | 0.1   |
 
-
-## Poggy         
-
-<div style="display: flex; align-items: center;">
-  <img src="/Main/assets/mobs/poggy.png" alt="Example Image" width="128">
-</div>
-
-### Info
-The Pog is a new boss for the end dimension. Representing the final destination of your journey. The culmination of a long tale, which could then create a new one, who knows?
-
-### Extra Info 
-| **Spawns**  | **Drops**     | **%** |
-|---------------|---|-------|
-| **err** | err | err   |
 
 ## Seeker          
 

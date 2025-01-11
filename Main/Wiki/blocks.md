@@ -15,7 +15,7 @@ Need help with how to use a block or how to find them along with their uses? Thi
 
 ### Info
 
-The Bounty Board is a block that is provides a Bounty Scroll. This block can not be mined or obtained.
+The Bounty Board is a block that is provides a Bounty Scroll. This block can not be mined or obtained. This block is found inside of a trader outpost, which is a rare structure in the overworld.
 
 ## Waystone
 
@@ -25,13 +25,17 @@ The Bounty Board is a block that is provides a Bounty Scroll. This block can not
 
 ### Info
 
-The Waystone is a utility block which is used to teleport between saved waystones, across dimensions.
+Waystones are a neat way for players to travel from point A to point B. It costs XP to travel from one Waystone to another, and extra XP if you travel across dimensions.
 
 ### How to use
 
-To save a waystone, you need to sneak and interact on the block with an empty hand. This will prompt a UI with instructions to follow.
+Waystones can be toggled to either be global or private. Global means if Waystone A was saved with "Global" being enabled, anyone in that world will see the Waystone, and they would be able to teleport to it, which is honestly pretty great for multiplayer worlds!
 
-To teleport between waystones, you need to interact on the block with an empty hand. This will prompt a UI with a list of waystones you have saved
+<div style="display: flex; align-items: center;">
+  <img src="/Main/assets/waypoint_marker.png" alt="Example Image" width="64">
+</div>
+
+The Waystone Key can also be used to access the Waystone menu from any location in the world.
 
 ### How to find
 
@@ -40,12 +44,12 @@ This block is found inside a Waystone Tower or Crafting.
 ## Miner Bench
 
 <div style="display: flex; align-items: center;">
-  <img src="/Main/assets/enchant_table.png" alt="Example Image" width="64">
+  <img src="/Main/assets/blocks/enchant_table.png" alt="Example Image" width="128">
 </div>
 
 ### Info
 
-The Miner Bench is a block that allows you to add custom enchantments to your tools. Each enchanted book is labled the tool it can be added to.
+The Miner Bench is a block that allows you to add custom enchantments to your tools. Each enchanted book is labelled the tool it can be added to.
 
 ### How to use
 

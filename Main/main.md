@@ -17,14 +17,11 @@ hero:
       text: Mobs
       link: /Main/Wiki/mobs
     - theme: alt
-      text: Recipes
-      link: /Main/Wiki/recipes
-    - theme: alt
       text: Structures
       link: /Main/Wiki/structures
 features:
   - title: Wiki
-    details: Learn everyhting about anything that exists in the Add-On
+    details: Learn everything about anything that exists in the Add-On
   - title: Very Detailed
     details: You will learn so much about everything
   - title: Contribute?
