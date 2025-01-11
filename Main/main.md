@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: alt
       text: Items
-      link: /Main/Wiki/items
+      link: /Main/Wiki/items/main
     - theme: alt
       text: Blocks
       link: /Main/Wiki/blocks
