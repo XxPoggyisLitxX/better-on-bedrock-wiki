@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as s}from"./chunks/framework.a7175731.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"Main/Wiki/quests/quests.md","filePath":"Main/Wiki/quests/quests.md"}'),a={name:"Main/Wiki/quests/quests.md"};function i(n,r,o,c,p,u){return t(),s("div")}const m=e(a,[["render",i]]);export{d as __pageData,m as default};

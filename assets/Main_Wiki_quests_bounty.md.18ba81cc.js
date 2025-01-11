@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as a}from"./chunks/framework.a7175731.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"Main/Wiki/quests/bounty.md","filePath":"Main/Wiki/quests/bounty.md"}'),n={name:"Main/Wiki/quests/bounty.md"};function s(o,i,r,c,p,u){return e(),a("div")}const m=t(n,[["render",s]]);export{d as __pageData,m as default};
