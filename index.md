@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Better on Bedrock Wiki"
-  text: "You place for support"
+  text: "Your place for support"
   image:
     src: /Main/assets/title.png
     alt: VitePress
