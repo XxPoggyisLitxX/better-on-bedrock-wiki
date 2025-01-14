@@ -6,7 +6,7 @@ hero:
   name: "Better on Bedrock Wiki"
   text: "Your place for support"
   image:
-    src: https://github.com/XxPoggyisLitxX/better-on-bedrock-wiki/blob/main/Main/assets/title.png'
+    src: https://github.com/XxPoggyisLitxX/better-on-bedrock-wiki/raw/refs/heads/main/Main/assets/title.png
     alt: VitePress
   actions:
     - theme: brand
