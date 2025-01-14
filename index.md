@@ -17,7 +17,7 @@ hero:
       link: /Main/main
     - theme: alt
       text: Changelogs
-      link: /Main/better-on-bedrock-v1.0
+      link: /better-on-bedrock-v1.0
 
 features:
   - title: Wiki
