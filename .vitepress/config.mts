@@ -57,7 +57,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/index' }
     ],
-    logo: 'https://github.com/XxPoggyisLitxX/better-on-bedrock-wiki/raw/refs/heads/main/Main/assets/title.png',
+    logo: 'https://github.com/XxPoggyisLitxX/better-on-bedrock-wiki/blob/main/Main/assets/title.png',
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2024-present Poggy'
