@@ -21,7 +21,7 @@ hero:
 
 features:
   - title: Wiki
-    details: Learn everyhting about anything that exists in the Add-On
+    details: Learn everything about anything that exists in the Add-On
   - title: Found Issues?
     details: Make an issue request or submit a bug report in the discord server!
   - title: Contribute?
