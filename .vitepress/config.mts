@@ -37,6 +37,19 @@ const mainWiki = [{text: 'Topics',
     {text: 'Back To Home', link:'/'}
   ]}]
 
+  const itemWiki = [{text: 'Topics',
+    items:[
+     {text: 'Food', link:'/Main/Wiki/items/food'},
+     {text: 'Tools & Armor', link:'/Main/Wiki/items/tools_armor'},
+     {text: 'Trophies', link:'/Main/Wiki/items/trophies'},
+     {text: 'Enchantments', link:'/Main/Wiki/items/enchantments'},
+     {text: 'Eyes', link:'/Main/Wiki/items/eyes'},
+     {text: 'Potions', link:'/Main/Wiki/items/potions'},
+     {text: 'Backpacks', link:'/Main/Wiki/items/backpacks'},
+     {text: 'Staffs', link:'/Main/Wiki/items/staffs'},
+     {text: 'Back To Home', link:'/'}
+   ]}]
+
 const beginnerGuide = [{text: 'Beginners Guides',
   items:[
     {text: 'How to install', link: '/Main/BeginnersGuide/how-to-install'},
@@ -68,7 +81,8 @@ export default defineConfig({
     sidebar: {
       '/Main/better-on-bedrock-v1.0': versionUpdates,
       '/Main/Wiki': mainWiki,
-      '/Main/BeginnersGuide': beginnerGuide
+      '/Main/BeginnersGuide': beginnerGuide,
+      '/Main/items/': itemWiki
     },
 
     socialLinks: [
