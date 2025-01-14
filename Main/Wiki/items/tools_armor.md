@@ -16,7 +16,7 @@
 ### Info
 Stardust is a new armor and tool tier for Better on Bedrock, and it is better than Netherite.
 ### How to obtain
-Getting stardust is pretty easy. All you do is mine the stardust ore which will drop a stardust nugget. You smelt this nugget to get stardust. You use starust to craft a stardust ingot.
+Getting stardust is pretty easy. All you do is mine the stardust ore which will drop a stardust nugget. You smelt this nugget to get stardust. You use stardust to craft a stardust ingot.
 <div style="display: flex; align-items: center;">
     <img src="/Main/assets/recipes/stardust_ingot.png" alt="Example Image">
 </div>
