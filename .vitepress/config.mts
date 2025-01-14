@@ -66,7 +66,7 @@ export default defineConfig({
       provider: 'local'
     },
     sidebar: {
-      '/Main/Changelogs/Updates': versionUpdates,
+      '/Main/better-on-bedrock-v1.0': versionUpdates,
       '/Main/Wiki': mainWiki,
       '/Main/BeginnersGuide': beginnerGuide
     },
