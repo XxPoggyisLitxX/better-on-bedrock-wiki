@@ -82,7 +82,14 @@ export default defineConfig({
       '/Main/better-on-bedrock-v1.0': versionUpdates,
       '/Main/Wiki': mainWiki,
       '/Main/BeginnersGuide': beginnerGuide,
-      '/Main/items/food': itemWiki
+      '/Main/Wiki/items/food': itemWiki,
+      '/Main/Wiki/items/tools_armor': itemWiki,
+      '/Main/Wiki/items/trophies': itemWiki,
+      '/Main/Wiki/items/enchantments': itemWiki,
+      '/Main/Wiki/items/eyes': itemWiki,
+      '/Main/Wiki/items/potions': itemWiki,
+      '/Main/Wiki/items/backpacks': itemWiki,
+      '/Main/Wiki/items/staffs': itemWiki
     },
 
     socialLinks: [
