@@ -51,13 +51,13 @@ export default defineConfig({
   base: "/",
   title: "Better on Bedrock",
   description: "Official Wiki",
-  head: [['link', { rel: 'icon', href: '/Main/assets/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: 'https://github.com/XxPoggyisLitxX/better-on-bedrock-wiki/raw/refs/heads/main/Main/assets/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/index' }
     ],
-    logo: '/Main/assets/title_small.png',
+    logo: 'https://github.com/XxPoggyisLitxX/better-on-bedrock-wiki/raw/refs/heads/main/Main/assets/title.png',
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2024-present Poggy'
