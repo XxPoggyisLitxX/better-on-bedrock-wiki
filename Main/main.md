@@ -19,6 +19,9 @@ hero:
     - theme: alt
       text: Structures
       link: /Main/Wiki/structures
+    - theme: alt
+      text: Music
+      link: /Main/Wiki/music/main
 features:
   - title: Wiki
     details: Learn everything about anything that exists in the Add-On

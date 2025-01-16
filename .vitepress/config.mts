@@ -34,6 +34,7 @@ const mainWiki = [{text: 'Topics',
     {text: 'Blocks', link:'/Main/Wiki/blocks'},
     {text: 'Mobs', link:'/Main/Wiki/mobs'},
     {text: 'Structures', link:'/Main/Wiki/structures'},
+    {text: 'Music', link:'/Main/Wiki/music/main'},
     {text: 'Back To Home', link:'/'}
   ]}]
 
