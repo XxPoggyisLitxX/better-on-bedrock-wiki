@@ -37,3 +37,14 @@
 | <img src="/Main/assets/voidberry_pie.png" alt="Example Image" width="32">Voidberry Pie | 7                    | None         | No
 | <img src="/Main/assets/end_cookie.png" alt="Example Image" width="32">End Cookie | 5                    | None         | No
 | <img src="/Main/assets/ender_stew.png" alt="Example Image" width="32">Ender Stew | 8                    | None         | No
+
+::: info
+Lava Salad can be used to tame a Friendly Quetzacaw.
+:::
+
+## Crops
+| Food            | Location |
+|-----------------|---------|
+| <img src="/Main/assets/cabbage_seeds.png" alt="Example Image" width="32">Cabbage Seeds         | Found inside of chests. Structures: Waystone Tower, Swamp Cabin, Adventure Camp |
+| <img src="/Main/assets/eggplant_seeds.png" alt="Example Image" width="32">Eggplant Seeds         | Found inside of chests. Structures: Waystone Tower, Swamp Cabin, Adventure Camp |
+| <img src="/Main/assets/barley_seeds.png" alt="Example Image" width="32">Barely Seeds         | Found inside of chests. Structures: Waystone Tower, Swamp Cabin, Adventure Camp |

@@ -184,6 +184,8 @@ This Mob can be bred with any seed
 
 ### Info
 The Quetzacaw is a hostile mob, found in the Nether. It is a bird. This mob can be made friendly by placing and hatching a `Quetzacaw Egg`.
+
+Once it is hatched from the egg, you feed it lava salad to tame it, which would allow you to ride it.
 ### Drops
 | **Drop**      | **%** |
 |---------------|-------|
