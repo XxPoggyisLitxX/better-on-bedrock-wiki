@@ -31,6 +31,12 @@ Upgrading your diamond tools and armor to stardust requires a smithing table and
     <img src="/Main/assets/recipes/smithing.png" alt="Example Image">
 </div>
 
+::: info
+The reason we chose diamond equipment instead of netherite, is because smithing recipes in Minecraft Bedrock is really limiting. The recipes are based on item tags. While netherite armor can be upgraded to stardust, netherite tools can not because they lack the `"minecraft:transformable_items"` item tag.
+
+We are also forced to use netherite ingots inside the `addition` slot, because the netherite ingot is the only item allowed in that slot. While we can make it so other ingots can go in that slot via tags, the recipe will fail because the only item allowed for smithing to work is in fact, the netherite ingot.
+:::
+
 A full set of Stardust Armor will grant you with Health Boost II and Resistance II
 
 ## Corstinite
