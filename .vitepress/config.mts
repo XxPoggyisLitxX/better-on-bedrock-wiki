@@ -30,7 +30,7 @@ const versionUpdates = [{text: 'Changelog Version' ,
 
 const mainWiki = [{text: 'Topics',
    items:[
-    {text: 'Items', link:'/Main/Wiki/items'},
+    {text: 'Items', link:'/Main/Wiki/items/main'},
     {text: 'Blocks', link:'/Main/Wiki/blocks'},
     {text: 'Mobs', link:'/Main/Wiki/mobs'},
     {text: 'Structures', link:'/Main/Wiki/structures'},

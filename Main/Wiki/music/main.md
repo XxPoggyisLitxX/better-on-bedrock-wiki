@@ -1,6 +1,10 @@
 # Music
 Better on Bedrock comes with its own soundtrack! This page is dedicated to give you an idea of all the music currently which is currently in use, as well as music that never made it, and music that got changed!
 
+[J.Rivers](<https://www.youtube.com/@J.Rivers>)
+
+[Patchy (da_sleepyfox)](<https://www.youtube.com/@da_sleepyfox>)
+
 ## Music Composed by J. Rivers (Used)
 
 ### Travels
