@@ -66,7 +66,7 @@ The Seventh track made for Better on Bedrock for the "Reworked v2" update. This 
 </audio>
 
 ### Wandering Souls v1
-The Eigth track made for Better on Bedrock for the "Reworked v2" update. This track was composed by Patchy (da_sleepyfox)
+The Eighth track made for Better on Bedrock for the "Reworked v2" update. This track was composed by Patchy (da_sleepyfox)
 
 <audio controls>
   <source src="/Main/assets/music/wandering_souls.ogg" type="audio/mpeg">
@@ -82,6 +82,14 @@ The Ninth track made for Better on Bedrock for the "Reworked v2" update as part 
 </audio>
 
 ## Unused Tracks
+
+### Travels v1
+This song was made for Better on Bedrock's "Beyond the Overworld" update. This track was composed by J. Rivers, and was their first iteration of Travels.
+
+<audio controls>
+  <source src="/Main/assets/music/travels_beta.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ### Deeds Demo v1
 This song was made for Better on Bedrock's "Beyond the Overworld" update. This track was composed by J. Rivers, and was their first iteration of this song.
@@ -146,7 +154,7 @@ This song was made for Better on Bedrock's "Beyond the Overworld" update. It was
 </audio>
 
 ### Fox 
-This song was made for Better on Bedrock's "Reworked" update. It was a version of For Fur, but was later added as a music disc. This track was composed by Patchy (da_sleepyfox).
+This song was made for Better on Bedrock's "Reworked" update. It was a version of Fox Fur, but was later added as a music disc. This track was composed by Patchy (da_sleepyfox).
 
 <audio controls>
   <source src="/Main/assets/music/fox_disc.ogg" type="audio/mpeg">
