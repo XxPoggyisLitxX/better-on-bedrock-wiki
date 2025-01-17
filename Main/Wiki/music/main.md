@@ -61,7 +61,7 @@ The Sixth track made for Better on Bedrock for the "Reworked v2" update.  This t
 The Seventh track made for Better on Bedrock for the "Reworked v2" update. This track was made as a reminder to the composer of their pet, who they've lost. This track was composed by Patchy (da_sleepyfox)
 
 <audio controls>
-  <source src="/Main/assets/music/acceptance.ogg" type="audio/mpeg">
+  <source src="/Main/assets/music/shelby.ogg" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
