@@ -81,6 +81,16 @@ The Ninth track made for Better on Bedrock for the "Reworked v2" update as part 
   Your browser does not support the audio element.
 </audio>
 
+
+### Garden
+The Tenth track made for Better on Bedrock. This track was composed by Patchy (da_sleepyfox)
+
+<audio controls>
+  <source src="/Main/assets/music/garden.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+
 ## Unused Tracks
 
 ### Travels v1
