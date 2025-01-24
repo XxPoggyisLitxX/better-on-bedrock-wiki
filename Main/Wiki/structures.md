@@ -134,10 +134,6 @@ A Home to the fungi.
 ![image](/Main/assets/structures/seeker_arena.png)
 Are you willing to take your chances?
 
-## Unkown Alter
-![image](/Main/assets/structures/unkown_alter.png)
-Can you find what this alter is for?
-
 ## Voided Statue
 ![image](/Main/assets/structures/voided_statue.png)
 I wonder who created such thing.
