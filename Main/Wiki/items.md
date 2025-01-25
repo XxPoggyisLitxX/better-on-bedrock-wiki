@@ -255,11 +255,7 @@ This item is found by killing Enderman.
     <td>Schroom Hat</td>
     <td>Just a nice hat</td>
   </tr>
-                                  <tr>
-    <td> <img src="/Main/assets/items/the_ardent_crystal.png" alt="Example Image" width="64"></td>
-    <td>The Ardent Crystal</td>
-    <td>Used to summon Poggy at a special Podium</td>
-  </tr>
+                                  <tr
                                     <tr>
     <td> <img src="/Main/assets/items/void_totem.png" alt="Example Image" width="64"></td>
     <td>Void Totem</td>
