@@ -1,4 +1,6 @@
 # Better on Bedrock Structure Wiki
+### This wiki is a work-in-progress. More info/updates coming soon!
+
 Curious as to how they look and where to find them?
 Look no further as this page shows you the player! all of the current structures you can find within the Add-On
 ![image](/Main/assets/bob-rebrand.png)

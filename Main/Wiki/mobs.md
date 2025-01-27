@@ -1,4 +1,7 @@
 # Better on Bedrock Mob Wiki
+### This wiki is a work-in-progress. More info/updates coming soon!
+
+
 Need help with how to find mobs or what they do? This wiki has your back. Select the topic you want from the sidebar or search the block name!
 ![image](/Main/assets/bob-rebrand.png)
 # Bosses
