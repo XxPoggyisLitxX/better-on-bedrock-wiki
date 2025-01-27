@@ -40,6 +40,12 @@
 
 ::: info
 Lava Salad can be used to tame a Friendly Quetzacaw.
+
+The foods in the above table are found in the following structures:
+- Waystone Tower
+- Adventure House (All Types)
+- Adventure Camp
+- Swamp Cabin
 :::
 
 ## Crops
