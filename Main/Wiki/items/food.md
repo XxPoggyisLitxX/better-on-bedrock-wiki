@@ -54,3 +54,4 @@ The foods in the above table are found in the following structures:
 | <img src="/Main/assets/cabbage_seeds.png" alt="Example Image" width="32">Cabbage Seeds         | Found inside of chests. Structures: Waystone Tower, Swamp Cabin, Adventure Camp |
 | <img src="/Main/assets/eggplant_seeds.png" alt="Example Image" width="32">Eggplant Seeds         | Found inside of chests. Structures: Waystone Tower, Swamp Cabin, Adventure Camp |
 | <img src="/Main/assets/barley_seeds.png" alt="Example Image" width="32">Barely Seeds         | Found inside of chests. Structures: Waystone Tower, Swamp Cabin, Adventure Camp |
+| <img src="/Main/assets/healthy_carrot.png" alt="Example Image" width="32">Wild Carrot        | Found in the Plains biome. Plants Healthy Carrots. |
