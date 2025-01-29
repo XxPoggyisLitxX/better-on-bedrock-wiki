@@ -15,7 +15,7 @@ Make sure you have the up to date Better on Bedrock Resource pack added to your 
   <img src="/Main/assets/rp.png" alt="Example Image">
 </div>
 
-### Behabiour Pack
+### Behaviour Pack
 
 The behaviour pack within any Add-On is the main purpose of why the Add-On actually works! Not having this within your world doesnt allow any of the Add-On to preform how its supposed to preform for you! 
 <div style="display: flex; align-items: center;">

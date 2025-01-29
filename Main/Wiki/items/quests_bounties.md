@@ -21,6 +21,8 @@ There are a few quest tiers, and each tier has a list of quests that follows the
 <div style="display: flex; align-items: center;">
   <img src="/Main/assets/bought_quest.png" alt="Example Image" width="64">
 </div>
+
+### Info
 There aren't only pre-unlocked quests. There are also quests that players can buy!
 
 Players can buy quests from Librarian Villagers for emeralds, and once they consume the item, they will unlock a random quest in the "Acquired Quests" section. They follow the same formula as base quests.
@@ -47,6 +49,7 @@ If you happen to buy a quest that tries to unlock a quest that you own, it'll gr
   <img src="/Main/assets/bounty_scroll_open.png" alt="Example Image" width="64">
 </div>
 
+### Info
 Bounties work the same as quests, but can be found inside a Trader outpost which can spawn anywhere in the Overworld. It gives players a type of quest that requires them to hunt down mobs for rewards.
 
 Refer to [this page](https://poggy.org/Main/Wiki/blocks.html#bounty-board) to learn how to obtain a Bounty Scroll.
