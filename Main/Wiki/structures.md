@@ -1,12 +1,14 @@
 # Better on Bedrock Structure Wiki
-### This wiki is a work-in-progress. More info/updates coming soon!
+:::info
+This wiki is a work-in-progress. More info/updates coming soon!
+:::
 
 Curious as to how they look and where to find them?
 Look no further as this page shows you the player! all of the current structures you can find within the Add-On
 ![image](/Main/assets/bob-rebrand.png)
 ## Adventurer Camp
 ![image](/Main/assets/structures/adventure_camp.png)
-This structrue is home to one lost traveler. It was set up at random places in a world. It was his way to write a story.
+This structure is home to one lost traveler. It was set up at random places in a world. It was his way to write a story.
 
 #### Biomes:
 - Savanna
@@ -23,7 +25,7 @@ This was the permanent home to the lost traveler.
 
 ## Enchant Tower
 ![image](/Main/assets/structures/enchant_tower.png)
-This is where the withces gathered when they wanted to learn new enchantments.
+This is where the Witches gathered when they wanted to learn new enchantments.
 ### Biomes:
 - Plains
 - Forests

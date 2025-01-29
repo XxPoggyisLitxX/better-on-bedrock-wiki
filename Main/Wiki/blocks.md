@@ -1,5 +1,7 @@
 # Better on Bedrock Block Wiki
-### This wiki is a work-in-progress. More info/updates coming soon!
+:::info
+This wiki is a work-in-progress. More info/updates coming soon!
+:::
 
 Need help with how to use a block or how to find them along with their uses? This wiki has your back. Select the topic you want from the sidebar or search the block name!
 
@@ -19,6 +21,8 @@ Need help with how to use a block or how to find them along with their uses? Thi
 The Bounty Board is a block that is provides a Bounty Scroll. This block can not be mined or obtained. This block is found inside of a Trader Outpost, which is a rare structure in the overworld.
 
 This block is intractable. Once the player interacts on the block, it will drop a Bounty Scroll!
+
+Refer to [this page](https://poggy.org/Main/Wiki/items/quests_bounties.html#bounties) to learn more about the Bounty Scroll.
 
 ## Waystone
 

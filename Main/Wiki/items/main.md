@@ -14,6 +14,9 @@ hero:
       text: Tools & Armor
       link: /Main/Wiki/items/tools_armor
     - theme: alt
+      text: Quests & Bounties
+      link: /Main/Wiki/items/quests_bounties
+    - theme: alt
       text: Trophies
       link: /Main/Wiki/items/trophies
     - theme: alt
