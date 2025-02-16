@@ -1,3 +1,19 @@
+# Better on Bedrock: Tools
+This page will go over tools in the Add-On, and each tool tier.
+
+## Tool & Armor Tiers
+Better on Bedrock adds a few new tiers of tools and armor. We will list them in order, from weakest to strongest.
+- Leather
+- Wooden Tools
+- Stone Tools
+- Copper Armor & Tools
+- Iron Armor & Tools
+- Corstinite Armor & Tools
+- Diamond Armor & Tools
+- Netherite Armor & Tools
+- Endrite Tools
+- Starust Armor & Tools
+
 ## Stardust
 <div style="display: flex; align-items: center;">
     <img src="/Main/assets/stardust_ingot.png" alt="Example Image" width="64">

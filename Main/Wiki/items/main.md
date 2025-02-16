@@ -36,7 +36,7 @@ hero:
       link: /Main/Wiki/items/staffs
 features:
   - title: Wiki
-    details: Learn everyhting about anything that exists in the Add-On
+    details: Learn everything about anything that exists in the Add-On
   - title: Very Detailed
     details: You will learn so much about everything
   - title: Contribute?

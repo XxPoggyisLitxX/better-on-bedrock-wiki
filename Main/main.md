@@ -12,7 +12,7 @@ hero:
       link: /Main/Wiki/items/main
     - theme: alt
       text: Blocks
-      link: /Main/Wiki/blocks
+      link: /Main/Wiki/blocks/main
     - theme: alt
       text: Mobs
       link: /Main/Wiki/mobs
