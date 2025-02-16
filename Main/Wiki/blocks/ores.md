@@ -36,7 +36,7 @@ This page is dedicated to help you understand the ores in Better on Bedrock. It 
 </ul>
 
 ## Stardust Ore
-Stardust uses the `triangle` distribution type, which is used for all ores in 1.18.
+Stardust uses the `triangle` distribution type, which is used for all ores in Minecraft 1.18 and above.
 - Y Level: Between Y= -64 and Y= 78
 - Best Y Level: between Y= -7 and Y= 16
 <ul>
