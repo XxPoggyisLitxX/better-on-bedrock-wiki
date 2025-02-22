@@ -14,7 +14,6 @@ import Trading from '../../components/Trading.vue'
 export default {
     extends: DefaultTheme,
   enhanceApp({ app }) {
-    console.log('Enhance app called')
     app.component('CraftingTable', CraftingTable)
     app.component('SmithingTable', SmithingTable)
     app.component('ShufflingCraftingTable', ShufflingCraftingTable)
