@@ -95,7 +95,6 @@ const burningFrames = [
     '/Main/assets/UI/burn_progress_10.png',
     '/Main/assets/UI/burn_progress_11.png',
     '/Main/assets/UI/burn_progress_12.png',
-    '/Main/assets/UI/burn_progress_13.png',
 ];
 
 
