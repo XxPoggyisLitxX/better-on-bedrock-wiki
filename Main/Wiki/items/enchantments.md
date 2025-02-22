@@ -2,14 +2,20 @@
 Images used for enchanted tool and enchanted tools come from the Minecraft wiki: https://minecraft.wiki/
 :::
 
-
 ## Enchantments
 Better on Bedrock adds 4 new utility enchantments to the game. They are:
 <ul>
   <li>
     <span style="display: inline-flex; align-items: center;">
       Vein Miner: 
-      <img src="https://minecraft.wiki/images/thumb/Enchanted_Diamond_Pickaxe.gif/120px-Enchanted_Diamond_Pickaxe.gif?c7aaa" alt="Stone Pickaxe" width="32" style="margin-left: 4px;">
+       <EnchantedItem
+    itemImage="/Main/assets/UI/diamond_pickaxe.png"
+    glintImage="/Main/assets/UI/enchanted_glint_item.png"  
+    :width="32"
+    :height="32"
+    :glintSpeed="0.75"
+    :glintAngle= -45
+  />
     </span>
   </li>
   <li>

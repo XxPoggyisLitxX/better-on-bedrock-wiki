@@ -144,20 +144,78 @@ The Goblin Trader is a Passive Mob. This mob has a rare chance to spawn. This li
 This mob has a 10% to spawn.
 :::
 
-::: info
-<img src="/Main/assets/empty_armor_slot_shield.png" alt="Example Image" width="64"> This icon refers to a custom item.
-:::
-
 ### Trades
-<div style="display: flex; align-items: center;">
-  <img src="/Main/assets/trade-table-1.png" alt="Example Image" width="129">
-</div>
-<div style="display: flex; align-items: center;">
-  <img src="/Main/assets/trade-table-2.png" alt="Example Image" width="129">
-</div>
-<div style="display: flex; align-items: center;">
-  <img src="/Main/assets/trade-table-3.png" alt="Example Image" width="129">
-</div>
+<Trading :tiers="[
+  {
+    label: 'Level 1 - Novice',
+    buttons: [
+      {
+        inputItems: [{ image: '/Main/assets/item/emerald.png', quantity: 4, toolTip: 'Emerald' }],
+        outputItem: { image: '/Main/assets/item/golden_apple.png', quanity: 3, toolTip: 'Golden Apple' },
+      },
+      {
+        inputItems: [{ image: '/Main/assets/item/gold_ingot.png', quantity: 6, toolTip: 'Gold Ingot' }],
+        outputItem: { image: 'https://minecraft.wiki/images/Enchanted_Book.gif?b21c4', toolTip: 'Enchanted Book\nVein Miner I' },
+      },
+      {
+        inputItems: [{ image: '/Main/assets/item/gold_ingot.png', quantity: 6, toolTip: 'Gold Ingot' }],
+        outputItem: { image: 'https://minecraft.wiki/images/Enchanted_Book.gif?b21c4', toolTip: 'Enchanted Book\nTree Capitator I' },
+      },
+      {
+        inputItems: [{ image: 'https://minecraft.wiki/images/thumb/Ancient_Debris_JE1_BE1.png/150px-Ancient_Debris_JE1_BE1.png?571c1', toolTip: 'Ancient Debris' }],
+        outputItem: { image: '/Main/assets/item/netherite_scrap.png', quantity: 2, toolTip: 'Ancient Debris' },
+      },
+      {
+        inputItems: [{ image: '/Main/assets/item/diamond.png', quantity: 9, toolTip: 'Diamond' }, { image: 'https://minecraft.wiki/images/thumb/Block_of_Gold_JE6_BE3.png/150px-Block_of_Gold_JE6_BE3.png?09478', quantity: 2, toolTip: 'Gold Block' }],
+        outputItem: { image: '/Main/assets/item/netherite_ingot.png', quantity: 2, toolTip: 'Netherite Ingot' },
+      },
+      {
+        inputItems: [{ image: '/Main/assets/item/copper_ingot.png', quantity: 4, toolTip: 'Copper Ingot' }, { image: '/Main/assets/item/gold_nugget.png', quantity: 4, toolTip: 'Gold Nugget' }],
+        outputItem: { image: '/Main/assets/item/gold_ingot.png', quantity: 4, toolTip: 'Golden Ingot' },
+      },
+      {
+        inputItems: [{ image: '/Main/assets/item/iron_ingot.png', quantity: 4, toolTip: 'Iron Ingot' }],
+        outputItem: { image: 'https://minecraft.wiki/images/thumb/Enchanted_Iron_Pickaxe.gif/120px-Enchanted_Iron_Pickaxe.gif?97b48', quantity: 1, toolTip: 'Iron Pickaxe' },
+      },
+      {
+        inputItems: [{ image: '/Main/assets/item/diamond.png', quantity: 12, toolTip: 'Diamond' }],
+        outputItem: { image: '/Main/assets/item/golden_apple.png', quantity: 12, toolTip: 'Golden Apple' },
+      },
+      {
+        inputItems: [{ image: '/Main/assets/item/carrot.png', quantity: 12, toolTip: 'Carrot' }],
+        outputItem: { image: '/Main/assets/item/golden_carrot.png', quantity: 6, toolTip: 'Golden Carrots' },
+      },
+      {
+        inputItems: [{ image: '/Main/assets/item/emerald.png', toolTip: 'Emerald' }],
+        outputItem: { image: '/Main/assets/item/name_tag.png', quantity: 2, toolTip: 'Name Tag' },
+      },
+      {
+        inputItems: [{ image: '/Main/assets/item/gold_ingot.png', quantity: 3, toolTip: 'Gold Ingot' }],
+        outputItem: { image: '/Main/assets/item/iron_ingot.png', quantity: 5, toolTip: 'Iron Ingot' },
+      },
+      {
+        inputItems: [{ image: '/Main/assets/item/coal.png', quantity: 32, toolTip: 'Coal' }, { image: '/Main/assets/item/charcoal.png', quantity: 32, toolTip: 'Charcoal' }],
+        outputItem: { image: '/Main/assets/item/diamond.png', quantity: 2, toolTip: 'Diamond' },
+      },
+      {
+        inputItems: [{ image: '/Main/assets/item/bread.png', quantity: 4, toolTip: 'Bread' }],
+        outputItem: { image: '/Main/assets/item/cooked_beef.png', quantity: 4, toolTip: 'Steak' },
+      },
+      {
+        inputItems: [{ image: '/Main/assets/item/netherite_hoe.png', toolTip: 'Netherite Hoe' }],
+        outputItem: { image: '/Main/assets/item/lapis_lazuli.png', quantity: 32, toolTip: 'Lapis Lazuli' },
+      },
+      {
+        inputItems: [{ image: '/Main/assets/item/copper_ingot.png', quantity: 12, toolTip: 'Copper Ingot' }],
+        outputItem: { image: '/Main/assets/item/emerald.png', quantity: 12, toolTip: 'Emerald' },
+      },
+      {
+        inputItems: [{ image: 'https://minecraft.wiki/images/thumb/Furnace_%28S%29_JE4.png/150px-Furnace_%28S%29_JE4.png?93891', toolTip: 'Furnace' }, { image: '/Main/assets/item/iron_ingot.png', toolTip: 'Iron Ingot'} ],
+        outputItem: { image: 'https://minecraft.wiki/images/thumb/Blast_Furnace_%28S%29_JE1.png/150px-Blast_Furnace_%28S%29_JE1.png?f1920', toolTip: 'Blast Furnace' },
+      },
+    ],
+  },
+]" />
 
 ## Lonely Wizard
 <div style="display: flex; align-items: center;">

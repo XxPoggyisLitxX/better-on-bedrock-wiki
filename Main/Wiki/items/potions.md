@@ -25,16 +25,57 @@ This item is a new potion. This potion when drank will give you Resistance for 6
 Below are screenshots showing the brewing recipe. They will be labelled with what ingredients are needed.
 
 This potion will be harder to obtain, since Better on Bedrock update 1.0.3.2 changed the way you obtain Blackstone Crumbs.
-<div style="display: flex; align-items: center;">
-  <img src="/Main/assets/recipes/2.png" alt="Example Image">
-</div>
+
+<BrewingStand
+   input="/Main/assets/smeared_pearl.png"
+  :outputs="[
+    '/Main/assets/potion_bottle_corrupt.png',
+    '/Main/assets/potion_bottle_corrupt.png',
+    '/Main/assets/potion_bottle_corrupt.png'
+  ]"
+  :inputTooltips="['Smeared Pearl']"
+  fuel="https://minecraft.wiki/images/Blaze_Powder_JE2_BE1.png?b5dec"
+  :fuelTooltip="'Blaze Powder'"
+  :outputTooltips="[
+  `<span class='tooltip-title'>Corrupted Potion</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>No Effects</span>`, 
+  `<span class='tooltip-title'>Corrupted Potion</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>No Effects</span>`, 
+  `<span class='tooltip-title'>Corrupted Potion</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>No Effects</span>`]"
+>
+</BrewingStand>
+
 
 Items Needed: 
 - Awkward Potion
 - Smeared Pearl
-<div style="display: flex; align-items: center;">
-  <img src="/Main/assets/recipes/1.png" alt="Example Image">
-</div>
+
+<BrewingStand
+  :outputs="[
+    '/Main/assets/potion_bottle_resistance.png',
+    '/Main/assets/potion_bottle_resistance.png',
+    '/Main/assets/potion_bottle_resistance.png'
+  ]"
+  :inputTooltips="['Combined Elements']"
+  fuel="https://minecraft.wiki/images/Blaze_Powder_JE2_BE1.png?b5dec"
+  :fuelTooltip="'Blaze Powder'"
+  :outputTooltips="[
+  `<span class='tooltip-title'>Potion Of Resistance</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>No Effects</span>`, 
+  `<span class='tooltip-title'>Potion Of Resistance</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>No Effects</span>`, 
+  `<span class='tooltip-title'>Potion Of Resistance</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>No Effects</span>`]"
+>
+ <template #input="{ input, showTooltip, moveTooltip, hideTooltip, tooltip }">
+    <EnchantedItem
+      itemImage="/Main/assets/combined_elements.png"
+      glintImage="/Main/assets/UI/enchanted_item_glint.png"  
+      :width="50"
+      :height="50"
+      :glintSpeed="0.75"
+      :glintAngle= -45
+      @mouseover="showTooltip(tooltip, $event, 'input')"
+      @mousemove="moveTooltip($event)"
+      @mouseleave="hideTooltip('input')"
+    />
+  </template>
+</BrewingStand>
 
 Items Needed: 
 - Corrupted Potion
@@ -57,6 +98,19 @@ To get a potion of rage, you need to brew them. The ingredients are:
 - Awkward Potion
 - Schroom Sample (These are found in the end)
 
-<div style="display: flex; align-items: center;">
-  <img src="/Main/assets/recipes/rage.png" alt="Example Image">
-</div>
+<BrewingStand
+  input="/Main/assets/schroom_sample.png"
+  :outputs="[
+    '/Main/assets/rage_potion.png',
+    '/Main/assets/rage_potion.png',
+    '/Main/assets/rage_potion.png'
+  ]"
+  :inputTooltips="['Schroom Sample']"
+  fuel="https://minecraft.wiki/images/Blaze_Powder_JE2_BE1.png?b5dec"
+  :fuelTooltip="'Blaze Powder'"
+  :outputTooltips="[
+  `<span class='tooltip-title'>Potion Of Resistance</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>No Effects</span>`, 
+  `<span class='tooltip-title'>Potion Of Resistance</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>No Effects</span>`, 
+  `<span class='tooltip-title'>Potion Of Resistance</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>No Effects</span>`]"
+>
+</BrewingStand>

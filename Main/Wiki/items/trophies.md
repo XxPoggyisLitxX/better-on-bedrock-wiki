@@ -42,4 +42,68 @@ This does not work in Hardcore mode!
 :::
 
 ### Where to find
-This item is found by killing the Flender, which is an overworld boss.
+This item can be crafting with the recipe below:
+<CraftingTable
+  background="/Main/assets/UI/crafting_ui.png"
+  arrow="/Main/assets/UI/crafting_output_arrow.png"
+  gridSlot="/Main/assets/UI/crafting_grid_texture.png"
+  :grid="[
+    {  image: '/Main/assets/ghost_necklace_fragment.png' },
+    {  image: '/Main/assets/ghost_necklace_fragment.png' },
+    {  image: null },
+    {  image: '/Main/assets/ghost_necklace_fragment.png' },
+    {  image: '/Main/assets/ghost_necklace_fragment.png' },
+    {  image: null },
+    {  image: null },
+    {  image: null },
+    {  image: null }
+  ]"
+  :inputTooltips="[
+    `<span class='tooltip-title'>Ghost Necklace Fragment</span>`,
+    `<span class='tooltip-title'>Ghost Necklace Fragment</span>`,
+    null,
+    `<span class='tooltip-title'>Ghost Necklace Fragment</span>`,
+    `<span class='tooltip-title'>Ghost Necklace Fragment</span>`,
+    null,
+    null,
+    null,
+    null
+  ]"
+  output="/Main/assets/fixed_ghost_necklace.png"
+  outputSlot="/Main/assets/UI/crafting_output_slot.png"
+  outputText=""
+  outputSlotText="Ghost Necklace"
+/>
+
+The item can also be repaired when broken.
+<CraftingTable
+  background="/Main/assets/UI/crafting_ui.png"
+  arrow="/Main/assets/UI/crafting_output_arrow.png"
+  gridSlot="/Main/assets/UI/crafting_grid_texture.png"
+  :grid="[
+    {  image: null },
+    {  image: 'https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6' },
+    {  image: null },
+    {  image: 'https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6' },
+    {  image: '/Main/assets/borken_ghost_necklace.png' },
+    {  image: 'https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6' },
+    {  image: null },
+    {  image: 'https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6' },
+    {  image: null }
+  ]"
+  :inputTooltips="[
+    null,
+    `<span class='tooltip-title'>Gold Ingot</span>`,
+    null,
+    `<span class='tooltip-title'>Gold Ingot</span>`,
+    `<span class='tooltip-title'>Broken Ghost Necklace</span>`,
+    `<span class='tooltip-title'>Gold Ingot</span>`,
+    null,
+    `<span class='tooltip-title'>Gold Ingot</span>`,
+    null
+  ]"
+  output="/Main/assets/fixed_ghost_necklace.png"
+  outputSlot="/Main/assets/UI/crafting_output_slot.png"
+  outputText=""
+  outputSlotText="Ghost Necklace"
+/>
