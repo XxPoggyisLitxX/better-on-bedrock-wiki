@@ -33,8 +33,8 @@ Once you have your runes, you can buy a magic staff from the Lonely Wizard.
     label: 'Level 1 - Novice',
     buttons: [
       {
-        inputItems: [{ image: '/Main/assets/rune.png', quantity: 3, toolTip: 'Basic Rune' }],
-        outputItem: { image: '/Main/assets/staff.png', toolTip: 'Staff' },
+        inputItems: [{ image: 'rune', quantity: 3, toolTip: 'Basic Rune' }],
+        outputItem: { image: 'staff', toolTip: 'Staff' },
       },
     ],
   },
@@ -42,8 +42,8 @@ Once you have your runes, you can buy a magic staff from the Lonely Wizard.
     label: 'Level 2 - Apprentice',
     buttons: [
       {
-        inputItems: [{ image: '/Main/assets/rune.png', quantity: 2, toolTip: 'Basic Rune' }, { image: '/Main/assets/upgraded_ice_rune.png', toolTip: 'Ice Rune' }],
-        outputItem: { image: '/Main/assets/ice_staff.png', toolTip: 'Staff' },
+        inputItems: [{ image: 'rune', quantity: 2, toolTip: 'Basic Rune' }, { image: 'upgraded_ice_rune', toolTip: 'Ice Rune' }],
+        outputItem: { image: 'ice_staff', toolTip: 'Staff' },
       },
     ],
   },
@@ -51,8 +51,8 @@ Once you have your runes, you can buy a magic staff from the Lonely Wizard.
     label: 'Level 3 - Journeyman',
     buttons: [
       {
-        inputItems: [{ image: '/Main/assets/rune.png', quantity: 2, toolTip: 'Basic Rune' }, { image: '/Main/assets/upgraded_flame_rune.png', toolTip: 'Flame Rune' }],
-        outputItem: { image: '/Main/assets/flame_staff.png', toolTip: 'Staff' },
+        inputItems: [{ image: 'rune', quantity: 2, toolTip: 'Basic Rune' }, { image: 'upgraded_flame_rune', toolTip: 'Flame Rune' }],
+        outputItem: { image: 'flame_staff', toolTip: 'Staff' },
       },
     ],
   },
@@ -60,8 +60,8 @@ Once you have your runes, you can buy a magic staff from the Lonely Wizard.
     label: 'Level 4 - Expert',
     buttons: [
       {
-        inputItems: [{ image: '/Main/assets/rune.png', quantity: 3, toolTip: 'Basic Rune' }, { image: '/Main/assets/protection_rune.png', toolTip: 'Flender Rune' }],
-        outputItem: { image: '/Main/assets/flender_staff.png', toolTip: 'Staff' },
+        inputItems: [{ image: 'rune', quantity: 3, toolTip: 'Basic Rune' }, { image: 'protection_rune', toolTip: 'Flender Rune' }],
+        outputItem: { image: 'flender_staff', toolTip: 'Staff' },
       },
     ],
   },
@@ -71,20 +71,16 @@ Once you have your runes, you can buy a magic staff from the Lonely Wizard.
 ## Mana
 Staffs have mana, and it lets you use your staff! Mana is the durability on your staff, can they can be filled up using an anvil and some soul!
 <Anvil
-  background="/Main/assets/UI/smithing_background.png"
   :inputItems="[
-    ['/Main/assets/staff.png', '/Main/assets/ice_staff.png', '/Main/assets/flender_staff.png', '/Main/assets/flame_staff.png'],
-    ['/Main/assets/soul_star.png']
+    ['staff', 'ice_staff', 'flender_staff', 'flame_staff'],
+    ['soul_star']
   ]"
   :inputTooltips="[
     `Staff`,
     `Soul Star`
   ]"
-  :outputItems="['/Main/assets/staff.png', '/Main/assets/ice_staff.png', '/Main/assets/flender_staff.png', '/Main/assets/flame_staff.png']"
+  :outputItems="['staff', 'ice_staff', 'flender_staff', 'flame_staff']"
   :outputTooltip="`Staff`"
   imageBetweenInputs="/Main/assets/UI/anvil_addition.png"
-  arrow="/Main/assets/UI/crafting_output_arrow.png"
-  inputSlot="/Main/assets/UI/crafting_grid_texture.png"
-  outputSlot="/Main/assets/UI/crafting_grid_texture.png"
   :cycleInterval="1500"
 />

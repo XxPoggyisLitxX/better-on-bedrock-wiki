@@ -1,32 +1,32 @@
 <template>
     <div class="container" style="position: relative;">
         <div class="furnace-container" ref="furnace">
-            <div class="furnace" :style="{ backgroundImage: `url(/Main/assets/UI/furnace_background.png)` }">
+            <div class="furnace" :style="{ backgroundImage: `url(${background})` }">
                 <div class="center-container">
                     <div class="input-fuel-container">
                         <div class="input-slot"
-                            :style="{ backgroundImage: `url(/Main/assets/UI/crafting_grid_texture.png)` }"
+                            :style="{ backgroundImage: `url(${slot})` }"
                             @mouseover="showTooltip(input, $event, 'input')" @mousemove="moveTooltip($event)"
                             @mouseleave="hideTooltip('input')" :class="{ 'overlayed': inputOverlay }">
-                            <div v-if="input" class="input-item" :style="{ backgroundImage: `url(${input})` }"></div>
+                            <div v-if="input" class="input-item" :style="{ backgroundImage: `url(${inputImage})` }"></div>
                         </div>
-                        <div class="burning-sprite-container" :style="{ backgroundImage: `url(/Main/assets/UI/burn_empty.png)` }">
+                        <div class="burning-sprite-container" :style="{ backgroundImage: `url(${burnEmpty})` }">
                             <div class="burning-sprite" :style="{ backgroundImage: `url(${currentBurningFrame})` }"></div>
                         </div>
                         <div class="fuel-slot"
-                            :style="{ backgroundImage: `url(/Main/assets/UI/crafting_grid_texture.png)` }"
+                            :style="{ backgroundImage: `url(${slot})` }"
                             @mouseover="showTooltip(fuel, $event, 'fuel')" @mousemove="moveTooltip($event)"
                             @mouseleave="hideTooltip('fuel')" :class="{ 'overlayed': fuelOverlay }">
                             <div v-if="fuel" class="fuel-item" :style="{ backgroundImage: `url(${fuel})` }"></div>
                         </div>
                     </div>
-                    <div class="arrow" :style="{ backgroundImage: `url(/Main/assets/UI/crafting_output_arrow.png)` }">
+                    <div class="arrow" :style="{ backgroundImage: `url(${outputArrow})` }">
                     </div>
                     <div class="output-slot"
-                        :style="{ backgroundImage: `url(/Main/assets/UI/crafting_grid_texture.png)` }"
+                        :style="{ backgroundImage: `url(${slot})` }"
                         @mouseover="showTooltip(output, $event, 'output')" @mousemove="moveTooltip($event)"
                         @mouseleave="hideTooltip('output')" :class="{ 'overlayed': outputOverlay }">
-                        <div v-if="output" class="output-item" :style="{ backgroundImage: `url(${output})` }"></div>
+                        <div v-if="output" class="output-item" :style="{ backgroundImage: `url(${outputImage})` }"></div>
                         <div v-if="outputText" class="output-text">{{ outputText }}</div>
                     </div>
                 </div>
@@ -71,6 +71,13 @@ const props = defineProps({
     },
 });
 
+const background = new URL('/Main/assets/UI/furnace_background.png', import.meta.url).href;
+const inputImage = computed(() => props.input ? new URL(`/Main/assets/${props.input}.png`, import.meta.url).href : null);
+const slot = new URL('/Main/assets/UI/crafting_grid_texture.png', import.meta.url).href;
+const outputImage = computed(() => props.output ? new URL(`/Main/assets/${props.output}.png`, import.meta.url).href : null);
+const outputArrow = new URL('/Main/assets/UI/crafting_output_arrow.png', import.meta.url).href;
+const burnEmpty = new URL('/Main/assets/UI/burn_empty.png', import.meta.url).href;
+
 const tooltipText = ref('');
 const tooltipVisible = ref(false);
 const tooltipX = ref(0);
@@ -83,23 +90,22 @@ const fuelOverlay = ref(false);
 const outputOverlay = ref(false);
 
 const burningFrames = [
-    '/Main/assets/UI/burn_progress_1.png',
-    '/Main/assets/UI/burn_progress_2.png',
-    '/Main/assets/UI/burn_progress_3.png',
-    '/Main/assets/UI/burn_progress_4.png',
-    '/Main/assets/UI/burn_progress_5.png',
-    '/Main/assets/UI/burn_progress_6.png',
-    '/Main/assets/UI/burn_progress_7.png',
-    '/Main/assets/UI/burn_progress_8.png',
-    '/Main/assets/UI/burn_progress_9.png',
-    '/Main/assets/UI/burn_progress_10.png',
-    '/Main/assets/UI/burn_progress_11.png',
-    '/Main/assets/UI/burn_progress_12.png',
+    'burn_progress_1',
+    'burn_progress_2',
+    'burn_progress_3',
+    'burn_progress_4',
+    'burn_progress_5',
+    'burn_progress_6',
+    'burn_progress_7',
+    'burn_progress_8',
+    'burn_progress_9',
+    'burn_progress_10',
+    'burn_progress_11',
+    'burn_progress_12',
 ];
 
-
 const currentFrameIndex = ref(0);
-const currentBurningFrame = computed(() => burningFrames[currentFrameIndex.value]);
+const currentBurningFrame = computed(() => new URL(`/Main/assets/UI/${burningFrames[currentFrameIndex.value]}.png`, import.meta.url).href);
 
 const showTooltip = (item, event, index) => {
     if (index === 'input') {
@@ -169,7 +175,7 @@ const startAnimation = (speed) => {
 
 const stopAnimation = () => {
     if (animationFrameId) {
-        clearTimeout(animationFrameId);
+        cancelAnimationFrame(animationFrameId);
         animationFrameId = null;
     }
 };

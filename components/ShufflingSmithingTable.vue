@@ -1,26 +1,26 @@
 <template>
   <div class="smithing-table-wrapper" ref="smithingTable">
     <div class="smithing-table-container">
-      <div class="smithing-table" :style="{ backgroundImage: `url(${background})` }">
+      <div class="smithing-table" :style="{ backgroundImage: `url(${backgroundImageUrl})` }">
         <div class="input-slots">
           <div v-for="(slot, index) in inputSlots" :key="index" class="input-slot" 
-               :style="{ backgroundImage: `url(${inputSlot})`, left: (inputLeft * 1.7) + (index * 59.84) + 'px', top: (inputTop * 1.7) + 'px' }"
+               :style="{ backgroundImage: `url(${inputSlotImageUrl})`, left: (inputLeft * 1.7) + (index * 59.84) + 'px', top: (inputTop * 1.7) + 'px' }"
                @mouseover="showTooltip(index, $event)" 
                @mousemove="moveTooltip(index, $event)" 
                @mouseleave="hideTooltip(index)">
-            <div v-if="slot.currentItem" class="input-item" :style="{ backgroundImage: `url(${slot.currentItem})` }"></div>
+            <div v-if="slot.currentItem" class="input-item" :style="{ backgroundImage: `url(${inputImageUrls[index]})` }"></div>
              <div v-if="overlays[index].visible" class="overlay"></div>
           </div>
-          <div class="output-arrow" :style="{ backgroundImage: `url(${arrow})`, left: (inputLeft * 1.7) + 36 * 2.8 * 1.7 + 18.7 + 'px', top: (inputTop * 1.7) + 'px' }"></div>
+          <div class="output-arrow" :style="{ backgroundImage: `url(${arrowImageUrl})`, left: (inputLeft * 1.7) + 36 * 2.8 * 1.7 + 18.7 + 'px', top: (inputTop * 1.7) + 'px' }"></div>
         </div>
-        <div class="output-slot" :style="{ left: (outputLeft * 1.7) + 'px', top: (outputTop * 1.7) + 'px', backgroundImage: `url(${outputSlot})` }"
+        <div class="output-slot" :style="{ left: (outputLeft * 1.7) + 'px', top: (outputTop * 1.7) + 'px', backgroundImage: `url(${outputSlotImageUrl})` }"
              @mouseover="showOutputTooltip($event)" 
              @mousemove="moveOutputTooltip($event)" 
              @mouseleave="hideOutputTooltip()">
-          <div v-if="currentOutput" class="output-item" :style="{ backgroundImage: `url(${currentOutput})` }"></div>
+          <div v-if="currentOutput" class="output-item" :style="{ backgroundImage: `url(${currentOutputImageUrl})` }"></div>
            <div v-if="outputOverlay.visible" class="overlay"></div>
         </div>
-        <div class="hammer" :style="{ backgroundImage: `url(${hammer})`, left: (hammerLeft * 1.7) + 'px', top: (hammerTop * 1.7) + 'px' }"></div>
+        <div class="hammer" :style="{ backgroundImage: `url(${hammerImageUrl})`, left: (hammerLeft * 1.7) + 'px', top: (hammerTop * 1.7) + 'px' }"></div>
       </div>
     </div>
     <ToolTip v-for="(tooltip, index) in inputTooltips" :key="index" :text="tooltip" :visible="tooltips[index].visible" :x="tooltips[index].x" :y="tooltips[index].y" />
@@ -29,17 +29,13 @@
 </template>
 
 <script setup>
-import { ref, onMounted, reactive, computed } from 'vue';
+import { ref, onMounted, reactive, computed, watch } from 'vue';
 import ToolTip from './ToolTip.vue';
 
 const props = defineProps({
   background: { type: String, required: true },
   inputItems: { type: Array, default: () => Array(3).fill(null) },
   outputItems: { type: Array, default: () => [] },
-  hammer: { type: String, required: true },
-  inputSlot: { type: String, required: true },
-  outputSlot: { type: String, required: true },
-  arrow: { type: String, required: true },
   inputLeft: { type: Number, default: 22 },
   inputTop: { type: Number, default: 85.8 },
   outputLeft: { type: Number, default: 209 },
@@ -126,7 +122,7 @@ const updateTooltipPosition = (tooltip, event) => {
   tooltip.y = event.clientY - smithingTableRect.top - 20;
 };
 
-const inputSlots = reactive(Array(3).fill(null).map(() => ({ currentItem: null, itemIndex: 0 })));
+const inputSlots = reactive(Array(3).fill(null).map(() => ({ currentItem: null, itemIndex: 0, items: [] })));
 const outputIndex = ref(0);
 
 const currentOutput = computed(() => {
@@ -136,15 +132,32 @@ const currentOutput = computed(() => {
   return null;
 });
 
-onMounted(() => {
-  initializeInputSlots();
-  startInputShuffling();
-  startOutputCycling();
+const currentOutputImageUrl = computed(() => {
+  const item = currentOutput.value;
+  if (item) {
+    return item.startsWith('http') ? item : new URL(`/Main/assets/${item}.png`, import.meta.url).href;
+  }
+  return '';
 });
+
+const backgroundImageUrl = computed(() => new URL(`/Main/assets/UI/crafting_ui.png`, import.meta.url).href);
+const hammerImageUrl = computed(() => new URL(`/Main/assets/UI/smithing_hammer.png`, import.meta.url).href);
+const inputSlotImageUrl = computed(() => new URL(`/Main/assets/UI/crafting_grid_texture.png`, import.meta.url).href);
+const outputSlotImageUrl = computed(() => new URL(`/Main/assets/UI/crafting_grid_texture.png`, import.meta.url).href);
+const arrowImageUrl = computed(() => new URL(`/Main/assets/UI/crafting_output_arrow.png`, import.meta.url).href);
+
+const inputImageUrls = computed(() => inputSlots.map(slot => {
+  const item = slot.currentItem;
+  if (item) {
+    return item.startsWith('http') ? item : new URL(`/Main/assets/${item}.png`, import.meta.url).href;
+  }
+  return '';
+}));
 
 const initializeInputSlots = () => {
   props.inputItems.forEach((items, index) => {
     if (items && items.length > 0) {
+      inputSlots[index].items = items;
       inputSlots[index].currentItem = items[0];
     }
   });
@@ -152,10 +165,10 @@ const initializeInputSlots = () => {
 
 const startInputShuffling = () => {
   setInterval(() => {
-    props.inputItems.forEach((items, index) => {
-      if (items && items.length > 1) {
-        inputSlots[index].itemIndex = (inputSlots[index].itemIndex + 1) % items.length;
-        inputSlots[index].currentItem = items[inputSlots[index].itemIndex];
+    inputSlots.forEach((slot, index) => {
+      if (slot.items && slot.items.length > 1) {
+        slot.itemIndex = (slot.itemIndex + 1) % slot.items.length;
+        slot.currentItem = slot.items[slot.itemIndex];
       }
     });
   }, props.cycleInterval);
@@ -168,6 +181,12 @@ const startOutputCycling = () => {
     }, props.cycleInterval);
   }
 };
+
+onMounted(() => {
+  initializeInputSlots();
+  startInputShuffling();
+  startOutputCycling();
+});
 </script>
 
 <style scoped>

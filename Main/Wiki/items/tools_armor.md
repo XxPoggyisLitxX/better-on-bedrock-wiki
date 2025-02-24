@@ -17,17 +17,17 @@ Better on Bedrock adds a few new tiers of tools and armor. We will list them in 
 ## Stardust
 <ImageShuffler
   :images="[
-    '/Main/assets/stardust_ingot.png',
-    '/Main/assets/stardust_nugget.png',
-    '/Main/assets/stardust_helmet.png',
-    '/Main/assets/stardust_chestplate.png',
-    '/Main/assets/stardust_leggings.png',
-    '/Main/assets/stardust_boots.png',
-    '/Main/assets/stardust_sword.png',
-    '/Main/assets/stardust_pickaxe.png',
-    '/Main/assets/stardust_axe.png',
-    '/Main/assets/stardust_shovel.png',
-    '/Main/assets/stardust_hoe.png'
+    'stardust_ingot',
+    'stardust_nugget',
+    'stardust_helmet',
+    'stardust_chestplate',
+    'stardust_leggings',
+    'stardust_boots',
+    'stardust_sword',
+    'stardust_pickaxe',
+    'stardust_axe',
+    'stardust_shovel',
+    'stardust_hoe'
   ]"
 />
 
@@ -38,9 +38,9 @@ Stardust is a new armor and tool tier for Better on Bedrock, and it is better th
 Getting stardust is pretty easy. All you do is mine the stardust ore which will drop a stardust nugget. You smelt this nugget to get stardust. You use stardust to craft a stardust ingot.
 
 <Furnace
-  input="/Main/assets/stardust_nugget.png"
+  input="stardust_nugget"
   fuel="https://minecraft.wiki/images/Coal_JE4_BE3.png?165e9"
-  output="/Main/assets/star_dust.png"
+  output="star_dust"
   outputText=""
   :inputTooltips="['Stardust Nugget']"
   :fuelTooltips="['Fuel']"
@@ -48,19 +48,16 @@ Getting stardust is pretty easy. All you do is mine the stardust ore which will 
 />
 
 <CraftingTable
-  background="/Main/assets/UI/crafting_ui.png"
-  arrow="/Main/assets/UI/crafting_output_arrow.png"
-  gridSlot="/Main/assets/UI/crafting_grid_texture.png"
   :grid="[
     {  image: 'https://minecraft.wiki/images/Diamond_JE3_BE3.png?99d00' },
     {  image: 'https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6' },
     {  image: 'https://minecraft.wiki/images/Diamond_JE3_BE3.png?99d00' },
-    {  image: '/Main/assets/star_dust.png' },
+    {  image: 'star_dust' },
     {  image: 'https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6' },
-    {  image: '/Main/assets/star_dust.png' },
-    {  image: '/Main/assets/star_dust.png' },
-    {  image: '/Main/assets/star_dust.png' },
-    {  image: '/Main/assets/star_dust.png' }
+    {  image: 'star_dust' },
+    {  image: 'star_dust' },
+    {  image: 'star_dust' },
+    {  image: 'star_dust' }
   ]"
   :inputTooltips="[
     `<span class='tooltip-title'>Diamond</span>`,
@@ -73,8 +70,7 @@ Getting stardust is pretty easy. All you do is mine the stardust ore which will 
     `<span class='tooltip-title'>Stardust</span>`,
     `<span class='tooltip-title'>Stardust</span>`
   ]"
-  output="/Main/assets/stardust_ingot.png"
-  outputSlot="/Main/assets/UI/crafting_output_slot.png"
+  output="stardust_ingot"
   outputText="4"
   outputSlotText="Stardust Ingot"
 />
@@ -82,15 +78,12 @@ Getting stardust is pretty easy. All you do is mine the stardust ore which will 
 We're not done yet! You are then required to find a stardust upgrade template, which you can find in bastion treasure chests. You can duplicate these templates!
 
 <CraftingTable
-  background="/Main/assets/UI/crafting_ui.png"
-  arrow="/Main/assets/UI/crafting_output_arrow.png"
-  gridSlot="/Main/assets/UI/crafting_grid_texture.png"
   :grid="[
     { image: 'https://minecraft.wiki/images/thumb/Deepslate_%28UD%29_JE3.png/120px-Deepslate_%28UD%29_JE3.png?7635f' },
-    { image: '/Main/assets/stardust_upgrade.png' },
+    { image: 'stardust_upgrade' },
     { image: 'https://minecraft.wiki/images/thumb/Deepslate_%28UD%29_JE3.png/120px-Deepslate_%28UD%29_JE3.png?7635f' },
     { image: 'https://minecraft.wiki/images/thumb/Deepslate_%28UD%29_JE3.png/120px-Deepslate_%28UD%29_JE3.png?7635f' },
-    { image: '/Main/assets/stardust_ingot.png' },
+    { image: 'stardust_ingot' },
     { image: 'https://minecraft.wiki/images/thumb/Deepslate_%28UD%29_JE3.png/120px-Deepslate_%28UD%29_JE3.png?7635f' },
     { image: 'https://minecraft.wiki/images/thumb/Deepslate_%28UD%29_JE3.png/120px-Deepslate_%28UD%29_JE3.png?7635f' },
     { image: 'https://minecraft.wiki/images/thumb/Deepslate_%28UD%29_JE3.png/120px-Deepslate_%28UD%29_JE3.png?7635f' },
@@ -98,7 +91,7 @@ We're not done yet! You are then required to find a stardust upgrade template, w
   ]"
   :inputTooltips="[
     `<span class='tooltip-title'>Deepslate</span>`,
-    `<span class='tooltip-title' style='color: yellow; text-shadow: 4px 4px 2px #3e3e15;'>Stardust Upgrade</span><br><br><span class='tooltip-property' style='color: lightgrey; text-shadow: 4px 4px 2px #292929;'>Applies to:</span><br><span class='tooltip-value' style='color: #5454fc; text-shadow: 4px 4px 2px #15153e;'>‎‎ Diamond Equipment</span><br><span class='tooltip-property' style='color: lightgrey; text-shadow: 4px 4px 2px #292929;'>Ingredients:</span><br><span class='tooltip-value' style='color: #5454fc; text-shadow: 4px 4px 2px #15153e;'>‎‎ Netherite Ingot</span>`,
+    `<span class='tooltip-title' style='color: yellow; text-shadow: 3px 3px 0px #3e3e15;'>Stardust Upgrade</span><br><br><span class='tooltip-property' style='color: lightgrey; text-shadow: 3px 3px 0px #292929;'>Applies to:</span><br><span class='tooltip-value' style='color: #5454fc; text-shadow: 3px 3px 0px #15153e;'>‎‎ Diamond Equipment</span><br><span class='tooltip-property' style='color: lightgrey; text-shadow: 3px 3px 0px #292929;'>Ingredients:</span><br><span class='tooltip-value' style='color: #5454fc; text-shadow: 3px 3px 0px #15153e;'>‎‎ Netherite Ingot</span>`,
     `<span class='tooltip-title'>Deepslate</span>`,
     `<span class='tooltip-title'>Deepslate</span>`,
     `<span class='tooltip-title'>Stardust Ingot</span>`,
@@ -107,34 +100,29 @@ We're not done yet! You are then required to find a stardust upgrade template, w
     `<span class='tooltip-title'>Deepslate</span>`,
     `<span class='tooltip-title'>Deepslate</span>`
   ]"
-  output="/Main/assets/stardust_upgrade.png"
-  outputSlot="/Main/assets/UI/crafting_output_slot.png"
+  output="stardust_upgrade"
   outputText="2"
   outputSlotText="Stardust Upgrade Template"
   :outputTooltips="[
-     `<span class='tooltip-title' style='color: yellow; text-shadow: 4px 4px 2px #3e3e15;'>Stardust Upgrade</span><br><br><span class='tooltip-property' style='color: lightgrey; text-shadow: 4px 4px 2px #292929;'>Applies to:</span><br><span class='tooltip-value' style='color: #5454fc; text-shadow: 4px 4px 2px #15153e;'>‎‎ Diamond Equipment</span><br><span class='tooltip-property' style='color: lightgrey; text-shadow: 4px 4px 2px #292929;'>Ingredients:</span><br><span class='tooltip-value' style='color: #5454fc; text-shadow: 4px 4px 2px #15153e;'>‎‎ Netherite Ingot</span>`,
+     `<span class='tooltip-title' style='color: yellow; text-shadow: 3px 3px 0px #3e3e15;'>Stardust Upgrade</span><br><br><span class='tooltip-property' style='color: lightgrey; text-shadow: 3px 3px 0px #292929;'>Applies to:</span><br><span class='tooltip-value' style='color: #5454fc; text-shadow: 3px 3px 0px #15153e;'>‎‎ Diamond Equipment</span><br><span class='tooltip-property' style='color: lightgrey; text-shadow: 3px 3px 0px #292929;'>Ingredients:</span><br><span class='tooltip-value' style='color: #5454fc; text-shadow: 3px 3px 0px #15153e;'>‎‎ Netherite Ingot</span>`,
   ]"
 />
 
 Upgrading your diamond tools and armor to stardust requires a smithing table and a netherite ingot.
 <ShufflingSmithingTable
-  background="/Main/assets/UI/smithing_background.png"
+  background="UI/smithing_background"
   :inputItems="[
-    ['/Main/assets/stardust_upgrade.png'],
-    ['/Main/assets/UI/diamond_sword.png', '/Main/assets/UI/diamond_pickaxe.png', '/Main/assets/UI/diamond_axe.png', '/Main/assets/UI/diamond_shovel.png', '/Main/assets/UI/diamond_hoe.png', '/Main/assets/UI/diamond_helmet.png', '/Main/assets/UI/diamond_chestplate.png', '/Main/assets/UI/diamond_leggings.png', '/Main/assets/UI/diamond_boots.png'],
-    ['https://minecraft.wiki/images/Netherite_Ingot_JE1_BE2.png?79364']
+    ['stardust_upgrade'],
+    ['diamond_sword', 'diamond_pickaxe', 'diamond_axe', 'diamond_shovel', 'diamond_hoe', 'diamond_helmet', 'diamond_chestplate', 'diamond_leggings', 'diamond_boots'],
+    ['netherite_ingot']
   ]"
   :inputTooltips="[
-`<span class='tooltip-title' style='color: yellow; text-shadow: 4px 4px 2px #3e3e15;'>Stardust Upgrade</span><br><br><span class='tooltip-property' style='color: lightgrey; text-shadow: 4px 4px 2px #292929;'>Applies to:</span><br><span class='tooltip-value' style='color: #5454fc; text-shadow: 4px 4px 2px #15153e;'>‎‎ Diamond Equipment</span><br><span class='tooltip-property' style='color: lightgrey; text-shadow: 4px 4px 2px #292929;'>Ingredients:</span><br><span class='tooltip-value' style='color: #5454fc; text-shadow: 4px 4px 2px #15153e;'>‎‎ Netherite Ingot</span>`,
+`<span class='tooltip-title' style='color: yellow; text-shadow: 3px 3px 0px #3e3e15;'>Stardust Upgrade</span><br><br><span class='tooltip-property' style='color: lightgrey; text-shadow: 3px 3px 0px #292929;'>Applies to:</span><br><span class='tooltip-value' style='color: #5454fc; text-shadow: 3px 3px 0px #15153e;'>‎‎ Diamond Equipment</span><br><span class='tooltip-property' style='color: lightgrey; text-shadow: 3px 3px 0px #292929;'>Ingredients:</span><br><span class='tooltip-value' style='color: #5454fc; text-shadow: 3px 3px 0px #15153e;'>‎‎ Netherite Ingot</span>`,
     `<span class='tooltip-title'>Diamond Equipment</span>`,
     `<span class='tooltip-title'>Netherite Ingot</span>`
   ]"
-  :outputItems="['/Main/assets/stardust_sword.png', '/Main/assets/stardust_pickaxe.png', '/Main/assets/stardust_axe.png', '/Main/assets/stardust_shovel.png', '/Main/assets/stardust_hoe.png', '/Main/assets/stardust_helmet.png', '/Main/assets/stardust_chestplate.png', '/Main/assets/stardust_leggings.png', '/Main/assets/stardust_boots.png']"
+  :outputItems="['stardust_sword', 'stardust_pickaxe', 'stardust_axe', 'stardust_shovel', 'stardust_hoe', 'stardust_helmet', 'stardust_chestplate', 'stardust_leggings', 'stardust_boots']"
   :outputTooltip="`<span>Stardust Equipment</span>`"
-  hammer="/Main/assets/UI/smithing_hammer.png"
-  arrow="/Main/assets/UI/crafting_output_arrow.png"
-  inputSlot="/Main/assets/UI/crafting_grid_texture.png"
-  outputSlot="/Main/assets/UI/crafting_grid_texture.png"
   :cycleInterval="1500"
 />
 

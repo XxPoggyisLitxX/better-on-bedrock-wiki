@@ -16,18 +16,22 @@
                   @mouseleave="hideTooltip"
                 >
                   <img
-                    :src="item.image"
+                    :src="getImageURL(item.image)"
                     alt="Item"
                     class="item-image"
                   />
                   <span class="item-quantity" v-if="item.quantity">{{ item.quantity }}</span>
                 </div>
               </div>
-              <div class="arrow">
-                <img src="/Main/assets/UI/crafting_output_arrow.png" alt="Arrow" class="arrow-image" />
-              </div>
-              <div class="output-item" @mouseover="showTooltip(button.outputItem.toolTip, $event)" @mousemove="moveTooltip($event)" @mouseleave="hideTooltip">
-                <img :src="button.outputItem.image" alt="Output Item" class="item-image" />
+              <div class="arrow"></div>
+              <div
+                class="output-item"
+                @mouseover="showTooltip(button.outputItem.toolTip, $event)"
+                @mousemove="moveTooltip($event)"
+                @mouseleave="hideTooltip"
+                :style="{ backgroundImage: `url(${getImageURL(button.outputItem.image)})`, backgroundSize: 'cover' }"
+              >
+                <img :src="getImageURL(button.outputItem.image)" alt="Output Item" class="item-image" />
               </div>
             </div>
           </button>
@@ -35,13 +39,15 @@
       </div>
     </div>
     <ToolTip :text="tooltip.text" :visible="tooltip.visible" :x="tooltip.x" :y="tooltip.y" />
-    <audio ref="buttonSound" src="/Main/assets/music/minecraft_click.mp3"></audio>
+    <audio ref="buttonSound" :src="buttonSoundSrc"></audio>
   </div>
 </template>
 
 <script setup>
-import { reactive, ref } from 'vue';
+import { reactive, ref, computed } from 'vue';
 import ToolTip from './ToolTip.vue';
+
+const assets = import.meta.glob('/Main/assets/**/*', { eager: true });
 
 const props = defineProps({
   tiers: {
@@ -52,6 +58,18 @@ const props = defineProps({
 
 const tooltip = reactive({ visible: false, text: '', x: 0, y: 0 });
 const buttonSound = ref(null);
+
+const outputArrow = new URL('/Main/assets/UI/crafting_output_arrow.png', import.meta.url).href;
+const buttonSoundSrc = new URL('/Main/assets/music/minecraft_click.mp3', import.meta.url).href;
+
+const getImageURL = (imagePath) => {
+  if (!imagePath) return null;
+  if (imagePath.startsWith("https://")) {
+    return imagePath;
+  }
+  const assetPath = imagePath.startsWith('/Main/assets/item/') ? imagePath : `/Main/assets/${imagePath}.png`;
+  return assets[assetPath] ? assets[assetPath].default : null;
+};
 
 const showTooltip = (text, event) => {
   tooltip.text = text;
@@ -153,7 +171,7 @@ const playSound = () => {
   align-items: center;
   justify-content: center;
   background-image: url('/Main/assets/UI/trading_button.png');
-  background-size:contain;
+  background-size: contain;
   padding: 10px;
   width: 90%;
   height: 57px;
@@ -213,6 +231,11 @@ const playSound = () => {
   margin: 0 15px;
   display: flex;
   align-items: center;
+  width: 45px;
+  height: 30px;
+  background-image: url('/Main/assets/UI/crafting_output_arrow.png');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .arrow-image {

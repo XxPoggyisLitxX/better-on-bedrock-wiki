@@ -1,32 +1,32 @@
 <template>
   <div class="container" style="position: relative;">
     <div class="crafting-table-container" ref="craftingTable">
-      <div class="crafting-table" :style="{ backgroundImage: `url(/Main/assets/UI/crafting_ui.png)` }">
+      <div class="crafting-table" :style="{ backgroundImage: `url(${craftingTableImage})` }">
         <div class="center-container">
           <div class="grid">
             <div
               v-for="(slot, index) in gridSlots"
               :key="index"
               class="grid-item"
-              :style="{ backgroundImage: `url(/Main/assets/UI/crafting_grid_texture.png)`, 'background-size': 'cover' }"
+              :style="{ backgroundImage: `url(${gridTextureImage})`, 'background-size': 'cover' }"
               @mouseover="showTooltip(slot.currentItem, $event, index)"
               @mousemove="moveTooltip($event)"
               @mouseleave="hideTooltip(index)"
               :class="{ 'overlayed': gridOverlays[index] }"
             >
-              <div v-if="slot.currentItem" class="item-image" :style="{ backgroundImage: `url(${slot.currentItem.image})` }"></div>
+              <div v-if="slot.currentItem" class="item-image" :style="{ backgroundImage: `url(${imageUrls.grid[index]})` }"></div>
             </div>
           </div>
-          <div class="arrow" :style="{ backgroundImage: `url(/Main/assets/UI/crafting_output_arrow.png)` }"></div>
+          <div class="arrow" :style="{ backgroundImage: `url(${arrowImage})` }"></div>
           <div
             class="output-slot"
-            :style="{ backgroundImage: `url(/Main/assets/UI/crafting_output_slot.png)` }"
+            :style="{ backgroundImage: `url(${outputSlotImage})` }"
             @mouseover="showTooltip(currentOutput, $event, 'output')"
             @mousemove="moveTooltip($event)"
             @mouseleave="hideTooltip('output')"
             :class="{ 'overlayed': outputOverlay }"
           >
-            <div v-if="currentOutput" class="output-item" :style="{ backgroundImage: `url(${currentOutput.image})` }"></div>
+            <div v-if="currentOutput" class="output-item" :style="{ backgroundImage: `url(${imageUrls.output})` }"></div>
             <div v-if="outputText" class="output-text">{{ outputText }}</div>
           </div>
         </div>
@@ -37,8 +37,13 @@
 </template>
 
 <script setup>
-import { ref, onMounted, reactive, computed } from 'vue';
+import { ref, onMounted, reactive, computed, watch } from 'vue';
 import ToolTip from './ToolTip.vue';
+
+import craftingTableImage from '/Main/assets/UI/crafting_ui.png';
+import gridTextureImage from '/Main/assets/UI/crafting_grid_texture.png';
+import arrowImage from '/Main/assets/UI/crafting_output_arrow.png';
+import outputSlotImage from '/Main/assets/UI/crafting_output_slot.png';
 
 const props = defineProps({
   gridItems: {
@@ -68,11 +73,27 @@ const props = defineProps({
 });
 
 const gridSlots = reactive([]);
+const outputIndex = ref(0);
 
-onMounted(() => {
-  initializeGridSlots();
-  startShuffling();
-  startOutputCycling();
+const tooltipText = ref('');
+const tooltipVisible = ref(false);
+const tooltipX = ref(0);
+const tooltipY = ref(0);
+const craftingTable = ref(null);
+
+const gridOverlays = reactive(Array(9).fill(false));
+const outputOverlay = ref(false);
+
+const imageUrls = reactive({
+  grid: Array(9).fill(''),
+  output: '',
+});
+
+const currentOutput = computed(() => {
+  if (props.outputItems && props.outputItems.length > 0) {
+    return props.outputItems[outputIndex.value];
+  }
+  return null;
 });
 
 const initializeGridSlots = () => {
@@ -96,33 +117,17 @@ const startShuffling = () => {
       if (items && items.length > 1) {
         gridSlots[index].itemIndex = (gridSlots[index].itemIndex + 1) % items.length;
         gridSlots[index].currentItem = items[gridSlots[index].itemIndex];
+        imageUrls.grid[index] = getItemImage(gridSlots[index].currentItem);
       }
     });
   }, props.cycleInterval);
 };
 
-const outputIndex = ref(0);
-
-const tooltipText = ref('');
-const tooltipVisible = ref(false);
-const tooltipX = ref(0);
-const tooltipY = ref(0);
-const craftingTable = ref(null);
-
-const gridOverlays = reactive(Array(9).fill(false));
-const outputOverlay = ref(false);
-
-const currentOutput = computed(() => {
-  if (props.outputItems && props.outputItems.length > 0) {
-    return props.outputItems[outputIndex.value];
-  }
-  return null;
-});
-
 const startOutputCycling = () => {
   if (props.outputItems && props.outputItems.length > 1) {
     setInterval(() => {
       outputIndex.value = (outputIndex.value + 1) % props.outputItems.length;
+      imageUrls.output = getOutputImage(props.outputItems[outputIndex.value]);
     }, props.cycleInterval);
   }
 };
@@ -173,6 +178,60 @@ const moveTooltip = (event) => {
     updateTooltipPosition(event);
   }
 };
+
+const getItemImage = (item) => {
+  if (!item || !item.image) {
+    return '';
+  }
+  if (item.image.startsWith('http')) {
+    return item.image;
+  }
+  return new URL(`/Main/assets/${item.image}.png`, import.meta.url).href;
+};
+
+const getOutputImage = (output) => {
+  if (!output) {
+    return '';
+  }
+  if (typeof output === 'object' && output.image) {
+    output = output.image;
+  }
+  return new URL(`/Main/assets/${output}.png`, import.meta.url).href;
+};
+
+watch(() => props.gridItems, (newGridItems) => {
+  newGridItems.forEach((items, index) => {
+    if (Array.isArray(items) && items.length > 0) {
+      imageUrls.grid[index] = getItemImage(items[0]);
+    } else if (items) {
+      imageUrls.grid[index] = getItemImage(items);
+    }
+  });
+}, { deep: true });
+
+watch(() => props.outputItems, (newOutputItems) => {
+  if (newOutputItems && newOutputItems.length > 0) {
+    imageUrls.output = getOutputImage(newOutputItems[0]);
+  }
+});
+
+onMounted(() => {
+  initializeGridSlots();
+  startShuffling();
+  startOutputCycling();
+
+  props.gridItems.forEach((items, index) => {
+    if (Array.isArray(items) && items.length > 0) {
+      imageUrls.grid[index] = getItemImage(items[0]);
+    } else if (items) {
+      imageUrls.grid[index] = getItemImage(items);
+    }
+  });
+
+  if (props.outputItems && props.outputItems.length > 0) {
+    imageUrls.output = getOutputImage(props.outputItems[0]);
+  }
+});
 </script>
 
 <style scoped>

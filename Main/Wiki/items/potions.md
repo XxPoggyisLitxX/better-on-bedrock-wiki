@@ -27,14 +27,14 @@ Below are screenshots showing the brewing recipe. They will be labelled with wha
 This potion will be harder to obtain, since Better on Bedrock update 1.0.3.2 changed the way you obtain Blackstone Crumbs.
 
 <BrewingStand
-   input="/Main/assets/smeared_pearl.png"
+   input="smeared_pearl"
   :outputs="[
-    '/Main/assets/potion_bottle_corrupt.png',
-    '/Main/assets/potion_bottle_corrupt.png',
-    '/Main/assets/potion_bottle_corrupt.png'
+    'potion_bottle_corrupt',
+    'potion_bottle_corrupt',
+    'potion_bottle_corrupt'
   ]"
   :inputTooltips="['Smeared Pearl']"
-  fuel="https://minecraft.wiki/images/Blaze_Powder_JE2_BE1.png?b5dec"
+  fuel="blaze_powder"
   :fuelTooltip="'Blaze Powder'"
   :outputTooltips="[
   `<span class='tooltip-title'>Corrupted Potion</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>No Effects</span>`, 
@@ -50,12 +50,12 @@ Items Needed:
 
 <BrewingStand
   :outputs="[
-    '/Main/assets/potion_bottle_resistance.png',
-    '/Main/assets/potion_bottle_resistance.png',
-    '/Main/assets/potion_bottle_resistance.png'
+    'potion_bottle_resistance',
+    'potion_bottle_resistance',
+    'potion_bottle_resistance'
   ]"
   :inputTooltips="['Combined Elements']"
-  fuel="https://minecraft.wiki/images/Blaze_Powder_JE2_BE1.png?b5dec"
+  fuel="blaze_powder"
   :fuelTooltip="'Blaze Powder'"
   :outputTooltips="[
   `<span class='tooltip-title'>Potion Of Resistance</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>No Effects</span>`, 
@@ -64,8 +64,7 @@ Items Needed:
 >
  <template #input="{ input, showTooltip, moveTooltip, hideTooltip, tooltip }">
     <EnchantedItem
-      itemImage="/Main/assets/combined_elements.png"
-      glintImage="/Main/assets/UI/enchanted_item_glint.png"  
+      itemImage="combined_elements"
       :width="50"
       :height="50"
       :glintSpeed="0.75"
@@ -99,14 +98,14 @@ To get a potion of rage, you need to brew them. The ingredients are:
 - Schroom Sample (These are found in the end)
 
 <BrewingStand
-  input="/Main/assets/schroom_sample.png"
+  input="schroom_sample"
   :outputs="[
-    '/Main/assets/rage_potion.png',
-    '/Main/assets/rage_potion.png',
-    '/Main/assets/rage_potion.png'
+    'rage_potion',
+    'rage_potion',
+    'rage_potion'
   ]"
   :inputTooltips="['Schroom Sample']"
-  fuel="https://minecraft.wiki/images/Blaze_Powder_JE2_BE1.png?b5dec"
+  fuel="blaze_powder"
   :fuelTooltip="'Blaze Powder'"
   :outputTooltips="[
   `<span class='tooltip-title'>Potion Of Resistance</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>No Effects</span>`, 

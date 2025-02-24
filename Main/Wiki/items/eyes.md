@@ -13,16 +13,13 @@ Each boss drops an eye upon defeat, and the player uses these eyes to craft eyes
 ## Crafting Recipe:
 
 <CraftingTable
-  background="/Main/assets/UI/crafting_ui.png"
-  arrow="/Main/assets/UI/crafting_output_arrow.png"
-  gridSlot="/Main/assets/UI/crafting_grid_texture.png"
   :grid="[
-    {  image: '/Main/assets/item/ender_pearl.png' },
-    {  image: '/Main/assets/willager_eye.png' },
-    {  image: '/Main/assets/enchanter_eye.png' },
-    {  image: '/Main/assets/lich_eye.png' },
-    {  image: '/Main/assets/inferno_eye.png' },
-    {  image: '/Main/assets/samurai_eye.png' },
+    {  image: 'ender_pearl' },
+    {  image: 'willager_eye' },
+    {  image: 'enchanter_eye' },
+    {  image: 'lich_eye' },
+    {  image: 'inferno_eye' },
+    {  image: 'samurai_eye' },
     {  image: null },
     {  image: null },
     {  image: null }
@@ -35,8 +32,7 @@ Each boss drops an eye upon defeat, and the player uses these eyes to craft eyes
     `<span class='tooltip-title'>Inferior Eye</span>`,
     `<span class='tooltip-title'>Samurai Eye</span>`
   ]"
-  output="https://minecraft.wiki/images/thumb/Eye_of_Ender_JE2_BE2.png/150px-Eye_of_Ender_JE2_BE2.png?3e29b"
-  outputSlot="/Main/assets/UI/crafting_output_slot.png"
+  output="ender_eye"
   outputText="16"
   outputSlotText="Eyes Of Ender"
   :outputTooltips="[

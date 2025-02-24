@@ -194,7 +194,7 @@ This mob has a 10% to spawn.
         outputItem: { image: '/Main/assets/item/iron_ingot.png', quantity: 5, toolTip: 'Iron Ingot' },
       },
       {
-        inputItems: [{ image: '/Main/assets/item/coal.png', quantity: 32, toolTip: 'Coal' }, { image: '/Main/assets/item/charcoal.png', quantity: 32, toolTip: 'Charcoal' }],
+        inputItems: [{ image: 'coal', quantity: 32, toolTip: 'Coal' }, { image: '/Main/assets/item/charcoal.png', quantity: 32, toolTip: 'Charcoal' }],
         outputItem: { image: '/Main/assets/item/diamond.png', quantity: 2, toolTip: 'Diamond' },
       },
       {

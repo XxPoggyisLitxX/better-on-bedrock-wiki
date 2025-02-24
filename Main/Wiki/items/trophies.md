@@ -44,15 +44,12 @@ This does not work in Hardcore mode!
 ### Where to find
 This item can be crafting with the recipe below:
 <CraftingTable
-  background="/Main/assets/UI/crafting_ui.png"
-  arrow="/Main/assets/UI/crafting_output_arrow.png"
-  gridSlot="/Main/assets/UI/crafting_grid_texture.png"
   :grid="[
-    {  image: '/Main/assets/ghost_necklace_fragment.png' },
-    {  image: '/Main/assets/ghost_necklace_fragment.png' },
+    {  image: 'ghost_necklace_fragment' },
+    {  image: 'ghost_necklace_fragment' },
     {  image: null },
-    {  image: '/Main/assets/ghost_necklace_fragment.png' },
-    {  image: '/Main/assets/ghost_necklace_fragment.png' },
+    {  image: 'ghost_necklace_fragment' },
+    {  image: 'ghost_necklace_fragment' },
     {  image: null },
     {  image: null },
     {  image: null },
@@ -69,23 +66,19 @@ This item can be crafting with the recipe below:
     null,
     null
   ]"
-  output="/Main/assets/fixed_ghost_necklace.png"
-  outputSlot="/Main/assets/UI/crafting_output_slot.png"
+  output="fixed_ghost_necklace"
   outputText=""
   outputSlotText="Ghost Necklace"
 />
 
 The item can also be repaired when broken.
 <CraftingTable
-  background="/Main/assets/UI/crafting_ui.png"
-  arrow="/Main/assets/UI/crafting_output_arrow.png"
-  gridSlot="/Main/assets/UI/crafting_grid_texture.png"
   :grid="[
     {  image: null },
     {  image: 'https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6' },
     {  image: null },
     {  image: 'https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6' },
-    {  image: '/Main/assets/borken_ghost_necklace.png' },
+    {  image: 'borken_ghost_necklace' },
     {  image: 'https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6' },
     {  image: null },
     {  image: 'https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6' },
@@ -102,8 +95,7 @@ The item can also be repaired when broken.
     `<span class='tooltip-title'>Gold Ingot</span>`,
     null
   ]"
-  output="/Main/assets/fixed_ghost_necklace.png"
-  outputSlot="/Main/assets/UI/crafting_output_slot.png"
+  output="fixed_ghost_necklace"
   outputText=""
   outputSlotText="Ghost Necklace"
 />

@@ -12,33 +12,29 @@ Backpacks can be crafted. There are 3 sized of backpacks: `small`, `medium` and 
 
 
 <ShufflingCraftingTable
-  background="/Main/assets/UI/crafting_ui.png"
-  arrow="/Main/assets/UI/crafting_output_arrow.png"
-  gridSlot="/Main/assets/UI/crafting_grid_texture.png"
-  outputSlot="/Main/assets/UI/crafting_output_slot.png"
   :gridItems="[
-    [{ image: '/Main/assets/deer_hide.png', name: 'Deer Hide' }], // Item objects with name property
-    [{ image: '/Main/assets/string_belt.png', name: 'String Belt' }],
+    [{ image: 'deer_hide', name: 'Deer Hide' }], // Item objects with name property
+    [{ image: 'string_belt', name: 'String Belt' }],
     [
       { image: 'https://minecraft.wiki/images/Copper_Ingot_JE2_BE1.png?0d410', name: 'Copper Ingot' },
       { image: 'https://minecraft.wiki/images/Diamond_JE3_BE3.png?99d00', name: 'Diamond' },
       { image: 'https://minecraft.wiki/images/Netherite_Ingot_JE1_BE2.png?79364', name: 'Netherite Ingot' }
     ],
-    [{ image: '/Main/assets/string_belt.png', name: 'String Belt' }],
-    [{ image: '/Main/assets/UI/chest.png', name: 'Chest' }],
-    [{ image: '/Main/assets/string_belt.png', name: 'String Belt' }],
+    [{ image: 'string_belt', name: 'String Belt' }],
+    [{ image: 'chest', name: 'Chest' }],
+    [{ image: 'string_belt', name: 'String Belt' }],
     [
       { image: 'https://minecraft.wiki/images/Copper_Ingot_JE2_BE1.png?0d410', name: 'Copper Ingot' },
       { image: 'https://minecraft.wiki/images/Diamond_JE3_BE3.png?99d00', name: 'Diamond' },
       { image: 'https://minecraft.wiki/images/Netherite_Ingot_JE1_BE2.png?79364', name: 'Netherite Ingot' }
     ],
-    [{ image: '/Main/assets/string_belt.png', name: 'String Belt' }],
-    [{ image: '/Main/assets/deer_hide.png', name: 'Deer Hide' }]
+    [{ image: 'string_belt', name: 'String Belt' }],
+    [{ image: 'deer_hide', name: 'Deer Hide' }]
   ]"
   :outputItems="[
-    { image: '/Main/assets/backpack.png', name: 'Backpack' },
-    { image: '/Main/assets/backpack_uncommon.png', name: 'Uncommon Backpack' },
-    { image: '/Main/assets/backpack_large.png', name: 'Large Backpack' }
+    { image: 'backpack', name: 'Backpack' },
+    { image: 'backpack_uncommon', name: 'Uncommon Backpack' },
+    { image: 'backpack_large', name: 'Large Backpack' }
   ]"
   :outputTooltips="[
     `<span class='tooltip-title'>Backpack</span>`,
@@ -46,7 +42,7 @@ Backpacks can be crafted. There are 3 sized of backpacks: `small`, `medium` and 
     `<span class='tooltip-title'>Large Backpack</span>`
   ]"
   outputText=""
-  :cycleInterval=1500
+  :cycleInterval="1500"
 />
 
 Backpacks can be shared to other player. When your backpack has 32 stone, and you give that backpacks to another player, they will see the 32 stone. You can hold more than one of the same backpack type.
@@ -77,18 +73,15 @@ This item is found by killing Deer
 ### Info
 This item is used to craft backpacks
 <CraftingTable
-  background="/Main/assets/UI/crafting_ui.png"
-  arrow="/Main/assets/UI/crafting_output_arrow.png"
-  gridSlot="/Main/assets/UI/crafting_grid_texture.png"
   :grid="[
     {  image: 'https://minecraft.wiki/images/thumb/String_JE2_BE2.png/150px-String_JE2_BE2.png?25d69' },
-    {  image: '/Main/assets/deer_hide.png' },
+    {  image: 'deer_hide' },
     {  image: 'https://minecraft.wiki/images/thumb/String_JE2_BE2.png/150px-String_JE2_BE2.png?25d69' },
-    {  image: '/Main/assets/deer_hide.png' },
+    {  image: 'deer_hide' },
     {  image: 'https://minecraft.wiki/images/thumb/String_JE2_BE2.png/150px-String_JE2_BE2.png?25d69' },
-    {  image: '/Main/assets/deer_hide.png' },
+    {  image: 'deer_hide' },
     {  image: 'https://minecraft.wiki/images/thumb/String_JE2_BE2.png/150px-String_JE2_BE2.png?25d69' },
-    {  image: '/Main/assets/deer_hide.png' },
+    {  image: 'deer_hide' },
     {  image: 'https://minecraft.wiki/images/thumb/String_JE2_BE2.png/150px-String_JE2_BE2.png?25d69' }
   ]"
   :inputTooltips="[
@@ -102,8 +95,7 @@ This item is used to craft backpacks
     `<span class='tooltip-title'>Deer Hide</span>`,
     `<span class='tooltip-title'>String</span>`
   ]"
-  output="/Main/assets/string_belt.png"
-  outputSlot="/Main/assets/UI/crafting_output_slot.png"
+  output="string_belt"
   outputText="4"
   outputSlotText="Stronger String"
 />

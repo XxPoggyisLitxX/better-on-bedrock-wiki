@@ -2,10 +2,10 @@
   <div class="anvil-wrapper" ref="anvil">
     <input type="text" v-model="outputTooltipText" placeholder="Enter Text" class="tooltip-textbox" />
     <div class="anvil-container">
-      <div class="anvil" :style="{ backgroundImage: `url(/Main/assets/UI/smithing_background.png)` }">
+      <div class="anvil" :style="{ backgroundImage: `url(${background})` }">
         <div class="input-slots">
           <div v-for="(slot, index) in inputSlots" :key="index" class="input-slot"
-            :style="{ backgroundImage: `url(/Main/assets/UI/crafting_grid_texture.png)`, left: (inputLeft * 1.7) + (index * 130) + 10 + 'px', top: (inputTop * 1.7) - 20 + 'px' }"
+            :style="{ backgroundImage: `url(${craftingGridTexture})`, left: (inputLeft * 1.7) + (index * 130) + 10 + 'px', top: (inputTop * 1.7) - 20 + 'px' }"
             @mouseover="showTooltip(index, $event)" @mousemove="moveTooltip(index, $event)"
             @mouseleave="hideTooltip(index)">
             <div v-if="slot.currentItem" class="input-item" :style="{ backgroundImage: `url(${slot.currentItem})` }">
@@ -17,17 +17,17 @@
             <div v-if="overlays[index].visible" class="overlay"></div>
           </div>
           <div class="image-between-inputs"
-            :style="{ backgroundImage: `url(/Main/assets/UI/anvil_addition.png)`, left: (inputLeft * 1.7) + 80 + 'px', top: (inputTop * 1.75) - 20 + 'px' }">
+            :style="{ backgroundImage: `url(${anvilAddition})`, left: (inputLeft * 1.7) + 80 + 'px', top: (inputTop * 1.75) - 20 + 'px' }">
           </div>
           <div class="anvil-hammer"
-            :style="{ backgroundImage: `url(/Main/assets/UI/anvil_hammer.png)`, left: (inputLeft * 1.7) + 0 + 'px', top: (inputTop * 1.1) - 80 + 'px' }">
+            :style="{ backgroundImage: `url(${anvilHammer})`, left: (inputLeft * 1.7) + 0 + 'px', top: (inputTop * 1.1) - 80 + 'px' }">
           </div>
           <div class="output-arrow"
-            :style="{ backgroundImage: `url(/Main/assets/UI/crafting_output_arrow.png)`, left: (inputLeft * 1) + 250 + 'px', top: (inputTop * 1.7) - 20 + 'px' }">
+            :style="{ backgroundImage: `url(${craftingOutputArrow})`, left: (inputLeft * 1) + 250 + 'px', top: (inputTop * 1.7) - 20 + 'px' }">
           </div>
         </div>
         <div class="output-slot"
-          :style="{ left: (outputLeft * 1.25) + 10 + 'px', top: (outputTop * 1.7) - 20 + 'px', backgroundImage: `url(/Main/assets/UI/crafting_grid_texture.png)` }"
+          :style="{ left: (outputLeft * 1.25) + 10 + 'px', top: (outputTop * 1.7) - 20 + 'px', backgroundImage: `url(${craftingGridTexture})` }"
           @mouseover="showOutputTooltip($event)" @mousemove="moveOutputTooltip($event)"
           @mouseleave="hideOutputTooltip()">
           <div v-if="currentOutput" class="output-item" :style="{ backgroundImage: `url(${currentOutput})` }"></div>
@@ -90,7 +90,6 @@ const tooltips = reactive(Array(2).fill(null).map(() => ({ visible: false, text:
 const outputTooltip = reactive({ visible: false, text: '', x: 0, y: 0 });
 const outputTooltipText = ref('Staff');
 
-
 const showTooltip = (index, event) => {
   const slot = inputSlots[index];
   if (slot && slot.currentItem) {
@@ -145,11 +144,11 @@ const inputDurabilityStyle = (index) => {
   const durability = inputDurability[index].value;
   let backgroundImage;
   if (durability > 0.5) {
-    backgroundImage = 'url(/Main/assets/UI/durability.png)';
+    backgroundImage = durabilityImage;
   } else if (durability > 0.2) {
-    backgroundImage = 'url(/Main/assets/UI/durability_medium.png)';
+    backgroundImage = durabilityMediumImage;
   } else {
-    backgroundImage = 'url(/Main/assets/UI/durability_low.png)';
+    backgroundImage = durabilityLowImage;
   }
   return {
     width: `${durability * 52}px`,
@@ -161,11 +160,11 @@ const outputDurabilityStyle = computed(() => {
   const durability = outputDurability.value;
   let backgroundImage;
   if (durability > 0.5) {
-    backgroundImage = 'url(/Main/assets/UI/durability.png)';
+    backgroundImage = durabilityImage;
   } else if (durability > 0.2) {
-    backgroundImage = 'url(/Main/assets/UI/durability_medium.png)';
+    backgroundImage = durabilityMediumImage;
   } else {
-    backgroundImage = 'url(/Main/assets/UI/durability_low.png)';
+    backgroundImage = durabilityLowImage;
   }
   return {
     width: `${durability * 52}px`,
@@ -178,10 +177,26 @@ const outputIndex = ref(0);
 
 const currentOutput = computed(() => {
   if (props.outputItems && props.outputItems.length > 0) {
-    return props.outputItems[outputIndex.value];
+    return getItemImage(props.outputItems[outputIndex.value]);
   }
   return null;
 });
+
+const background = new URL('/Main/assets/UI/smithing_background.png', import.meta.url).href;
+const craftingGridTexture = new URL('/Main/assets/UI/crafting_grid_texture.png', import.meta.url).href;
+const anvilAddition = new URL('/Main/assets/UI/anvil_addition.png', import.meta.url).href;
+const anvilHammer = new URL('/Main/assets/UI/anvil_hammer.png', import.meta.url).href;
+const craftingOutputArrow = new URL('/Main/assets/UI/crafting_output_arrow.png', import.meta.url).href;
+const durabilityImage = new URL('/Main/assets/UI/durability.png', import.meta.url).href;
+const durabilityMediumImage = new URL('/Main/assets/UI/durability_medium.png', import.meta.url).href;
+const durabilityLowImage = new URL('/Main/assets/UI/durability_low.png', import.meta.url).href;
+
+const getItemImage = (item) => {
+  if (item.startsWith('http')) {
+    return item;
+  }
+  return new URL(`/Main/assets/${item}.png`, import.meta.url).href;
+};
 
 onMounted(() => {
   initializeInputSlots();
@@ -192,7 +207,7 @@ onMounted(() => {
 const initializeInputSlots = () => {
   props.inputItems.forEach((items, index) => {
     if (items && items.length > 0) {
-      inputSlots[index].currentItem = items[0];
+      inputSlots[index].currentItem = getItemImage(items[0]);
     }
   });
 };
@@ -202,7 +217,7 @@ const startInputShuffling = () => {
     props.inputItems.forEach((items, index) => {
       if (items && items.length > 1) {
         inputSlots[index].itemIndex = (inputSlots[index].itemIndex + 1) % items.length;
-        inputSlots[index].currentItem = items[inputSlots[index].itemIndex];
+        inputSlots[index].currentItem = getItemImage(items[inputSlots[index].itemIndex]);
       }
     });
   }, props.cycleInterval);

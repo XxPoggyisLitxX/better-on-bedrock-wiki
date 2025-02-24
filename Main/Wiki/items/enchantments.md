@@ -9,8 +9,7 @@ Better on Bedrock adds 4 new utility enchantments to the game. They are:
     <span style="display: inline-flex; align-items: center;">
       Vein Miner: 
        <EnchantedItem
-    itemImage="/Main/assets/UI/diamond_pickaxe.png"
-    glintImage="/Main/assets/UI/enchanted_glint_item.png"  
+    itemImage="diamond_pickaxe" 
     :width="32"
     :height="32"
     :glintSpeed="0.75"

@@ -1,4 +1,5 @@
 # Better on Bedrock Block Wiki
+
 :::info
 This wiki is a work-in-progress. More info/updates coming soon!
 :::
@@ -44,19 +45,16 @@ Waystones can be toggled to either be global or private. Global means if Wayston
 
 ### Recipe for the Waystone Key
 <CraftingTable
-  background="/Main/assets/UI/crafting_ui.png"
-  arrow="/Main/assets/UI/crafting_output_arrow.png"
-  gridSlot="/Main/assets/UI/crafting_grid_texture.png"
   :grid="[
-    {  image: '/Main/assets/ender_tear.png' },
+    {  image: 'ender_tear' },
     {  image: 'https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6' },
-    {  image: '/Main/assets/ender_tear.png' },
+    {  image: 'ender_tear' },
     {  image: 'https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6' },
     {  image: 'https://minecraft.wiki/images/thumb/Ender_Pearl_JE3_BE2.png/150px-Ender_Pearl_JE3_BE2.png?829a7' },
     {  image: 'https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6' },
-    {  image: '/Main/assets/ender_tear.png' },
+    {  image: 'ender_tear' },
     {  image: 'https://minecraft.wiki/images/Gold_Ingot_JE4_BE2.png?80cd6' },
-    {  image: '/Main/assets/ender_tear.png' }
+    {  image: 'ender_tear' }
   ]"
   :inputTooltips="[
     `<span class='tooltip-title'>Ender Tear</span>`,
@@ -69,8 +67,7 @@ Waystones can be toggled to either be global or private. Global means if Wayston
     `<span class='tooltip-title'>Gold Ingot</span>`,
     `<span class='tooltip-title'>Ender Tear</span>`
   ]"
-  output="/Main/assets/waypoint_marker.png"
-  outputSlot="/Main/assets/UI/crafting_output_slot.png"
+  output="waypoint_marker"
   outputText=""
   outputSlotText="Waystone Key"
 />
@@ -83,15 +80,12 @@ This block is found inside a Waystone Tower or Crafting.
 ### Recipe:
 
 <CraftingTable
-  background="/Main/assets/UI/crafting_ui.png"
-  arrow="/Main/assets/UI/crafting_output_arrow.png"
-  gridSlot="/Main/assets/UI/crafting_grid_texture.png"
   :grid="[
     {  image: 'https://minecraft.wiki/images/Iron_Ingot_JE3_BE2.png?849cb' },
     {  image: 'https://minecraft.wiki/images/thumb/Ender_Pearl_JE3_BE2.png/150px-Ender_Pearl_JE3_BE2.png?829a7' },
     {  image: 'https://minecraft.wiki/images/Iron_Ingot_JE3_BE2.png?849cb' },
     {  image: null },
-    {  image: '/Main/assets/ender_tear.png' },
+    {  image: 'ender_tear' },
     {  image: null },
     {  image: 'https://minecraft.wiki/images/Iron_Ingot_JE3_BE2.png?849cb' },
     {  image: 'https://minecraft.wiki/images/Iron_Ingot_JE3_BE2.png?849cb' },
@@ -108,8 +102,7 @@ This block is found inside a Waystone Tower or Crafting.
     `<span class='tooltip-title'>Iron Ingot</span>`,
     `<span class='tooltip-title'>Iron Ingot</span>`
   ]"
-  output="/Main/assets/waystone.png"
-  outputSlot="/Main/assets/UI/crafting_output_slot.png"
+  output="waystone"
   outputText="2"
   outputSlotText="Waystone"
 />
@@ -121,16 +114,13 @@ This block is found inside a Waystone Tower or Crafting.
 </div>
 
 <CraftingTable
-  background="/Main/assets/UI/crafting_ui.png"
-  arrow="/Main/assets/UI/crafting_output_arrow.png"
-  gridSlot="/Main/assets/UI/crafting_grid_texture.png"
   :grid="[
     { image: null },
     { image: null },
     { image: null },
-    { image: '/Main/assets/tin_ingot.png' },
-    { image: '/Main/assets/item/book.png' },
-    { image: '/Main/assets/tin_ingot.png' },
+    { image: 'tin_ingot' },
+    { image: 'item/book' },
+    { image: 'tin_ingot' },
     { image: 'https://minecraft.wiki/images/thumb/Oak_Planks.png/150px-Oak_Planks.png?d9efa' },
     { image: 'https://minecraft.wiki/images/thumb/Oak_Planks.png/150px-Oak_Planks.png?d9efa' },
     { image: 'https://minecraft.wiki/images/thumb/Oak_Planks.png/150px-Oak_Planks.png?d9efa' }
@@ -146,8 +136,7 @@ This block is found inside a Waystone Tower or Crafting.
     `Planks`,
     `Planks`
   ]"
-  output="/Main/assets/blocks/enchant_table.png"
-  outputSlot="/Main/assets/UI/crafting_output_slot.png"
+  output="enchant_table"
   outputText=""
   outputSlotText="Stardust Upgrade Template"
   :outputTooltips="[

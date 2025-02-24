@@ -1,33 +1,32 @@
-
 <template>
   <div class="container" style="position: relative;">
     <div class="crafting-table-container" ref="craftingTable">
-      <div class="crafting-table" :style="{ backgroundImage: `url(/Main/assets/UI/crafting_ui.png)` }">
+      <div class="crafting-table" :style="{ backgroundImage: `url(${craftingTableImage})` }">
         <div class="center-container">
           <div class="grid">
             <div
               v-for="(item, index) in grid"
               :key="index"
               class="grid-item"
-              :style="{ backgroundImage: `url(/Main/assets/UI/crafting_grid_texture.png)`, 'background-size': 'cover' }"
+              :style="{ backgroundImage: `url(${gridTextureImage})`, 'background-size': 'cover' }"
               @mouseover="showTooltip(item, $event, index)"
               @mousemove="moveTooltip($event)"
               @mouseleave="hideTooltip(index)"
               :class="{ 'overlayed': gridOverlays[index] }"
             >
-              <div v-if="item && item.image" class="item-image" :style="{ backgroundImage: `url(${item.image})` }"></div>
+              <div v-if="item && item.image" class="item-image" :style="{ backgroundImage: `url(${imageUrls.grid[index]})` }"></div>
             </div>
           </div>
-          <div class="arrow" :style="{ backgroundImage: `url(/Main/assets/UI/crafting_output_arrow.png)` }"></div>
+          <div class="arrow" :style="{ backgroundImage: `url(${arrowImage})` }"></div>
           <div
             class="output-slot"
-            :style="{ backgroundImage: `url(/Main/assets/UI/crafting_output_slot.png)` }"
+            :style="{ backgroundImage: `url(${outputSlotImage})` }"
             @mouseover="showTooltip(output, $event, 'output')"
             @mousemove="moveTooltip($event)"
             @mouseleave="hideTooltip('output')"
             :class="{ 'overlayed': outputOverlay }"
           >
-            <div v-if="output" class="output-item" :style="{ backgroundImage: `url(${output})` }"></div>
+            <div v-if="output" class="output-item" :style="{ backgroundImage: `url(${imageUrls.output})` }"></div>
             <div v-if="outputText" class="output-text">{{ outputText }}</div>
           </div>
         </div>
@@ -38,8 +37,13 @@
 </template>
 
 <script setup>
-import { ref, reactive } from 'vue';
+import { ref, reactive, watch, onMounted } from 'vue';
 import ToolTip from './ToolTip.vue';
+
+import craftingTableImage from '/Main/assets/UI/crafting_ui.png';
+import gridTextureImage from '/Main/assets/UI/crafting_grid_texture.png';
+import arrowImage from '/Main/assets/UI/crafting_output_arrow.png';
+import outputSlotImage from '/Main/assets/UI/crafting_output_slot.png';
 
 const props = defineProps({
   grid: {
@@ -78,6 +82,11 @@ const craftingTable = ref(null);
 const gridOverlays = reactive(Array(9).fill(false));
 const outputOverlay = ref(false);
 
+const imageUrls = reactive({
+  grid: Array(9).fill(''),
+  output: '',
+});
+
 const showTooltip = (item, event, index) => {
   if (typeof index === 'number') {
     gridOverlays[index] = true;
@@ -109,7 +118,6 @@ const hideTooltip = (index) => {
   }
 };
 
-
 const updateTooltipPosition = (event) => { 
   if (!craftingTable.value) return;
 
@@ -129,6 +137,49 @@ const moveTooltip = (event) => {
     updateTooltipPosition(event);
   }
 };
+
+const getItemImage = (item) => {
+  if (!item || !item.image) {
+    return '';
+  }
+  if (item.image.startsWith('http')) {
+    return item.image;
+  }
+  return item && item.image ? (item.image.startsWith('http') ? item.image : new URL(`/Main/assets/${item.image}.png`, import.meta.url).href) : '';
+};
+
+const getOutputImage = (output) => {
+  if (!output) {
+    return '';
+  }
+  return new URL(`/Main/assets/${output}.png`, import.meta.url).href;
+};
+
+watch(() => props.grid, (newGrid) => {
+  newGrid.forEach((item, index) => {
+    if (item && item.image) {
+      imageUrls.grid[index] = getItemImage(item);
+    }
+  });
+}, { deep: true });
+
+watch(() => props.output, (newOutput) => {
+  if (newOutput) {
+    imageUrls.output = getOutputImage(newOutput);
+  }
+});
+
+onMounted(() => {
+  props.grid.forEach((item, index) => {
+    if (item && item.image) {
+      imageUrls.grid[index] = getItemImage(item);
+    }
+  });
+
+  if (props.output) {
+    imageUrls.output = getOutputImage(props.output);
+  }
+});
 </script>
 
 <style scoped>
@@ -157,7 +208,7 @@ const moveTooltip = (event) => {
 
 .center-container {
   position: relative;
-   width: 628px;
+  width: 628px;
   height: 261px;
   display: flex;
   align-items: center;
