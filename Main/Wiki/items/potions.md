@@ -108,8 +108,8 @@ To get a potion of rage, you need to brew them. The ingredients are:
   fuel="blaze_powder"
   :fuelTooltip="'Blaze Powder'"
   :outputTooltips="[
-  `<span class='tooltip-title'>Potion Of Resistance</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>No Effects</span>`, 
-  `<span class='tooltip-title'>Potion Of Resistance</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>No Effects</span>`, 
-  `<span class='tooltip-title'>Potion Of Resistance</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>No Effects</span>`]"
+  `<span class='tooltip-title'>Potion Of Resistance</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>Speed II (0:30)</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>Haste IV (0:30)</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>Strength III (0:30)</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>Absorption IV (0:30)</span>`, 
+  `<span class='tooltip-title'>Potion Of Resistance</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>Speed II (0:30)</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>Haste IV (0:30)</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>Strength III (0:30)</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>Absorption IV (0:30)</span>`, 
+  `<span class='tooltip-title'>Potion Of Resistance</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>Speed II (0:30)</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>Haste IV (0:30)</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>Strength III (0:30)</span><br><span class='tooltip-property' style='color: grey; text-shadow: 3px 3px 0px #292929;'>Absorption IV (0:30)</span>`]"
 >
 </BrewingStand>

@@ -57,7 +57,6 @@ const dynamicStyles = computed(() => {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: none;
   text-rendering: optimizeSpeed;
-  margin-top: 5px;
 }
 
 .tooltip-border {
