@@ -24,8 +24,8 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 16
-          cache: ${{ steps.detect-package-manager.outputs.manager }}
+          node-version: 18
+          cache: npm
       - name: Install & Build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
