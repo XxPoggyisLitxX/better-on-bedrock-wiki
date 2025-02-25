@@ -119,7 +119,7 @@ This block is found inside a Waystone Tower or Crafting.
     { image: null },
     { image: null },
     { image: 'tin_ingot' },
-    { image: 'item/book' },
+    { image: 'book' },
     { image: 'tin_ingot' },
     { image: 'https://minecraft.wiki/images/thumb/Oak_Planks.png/150px-Oak_Planks.png?d9efa' },
     { image: 'https://minecraft.wiki/images/thumb/Oak_Planks.png/150px-Oak_Planks.png?d9efa' },

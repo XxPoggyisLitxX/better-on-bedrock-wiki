@@ -207,7 +207,7 @@ onMounted(() => {
 }
 
 .smithing-table-container {
-  width: 504.9px;
+  width: 545.9px;
   height: 269.28px;
   position: relative;
 }
