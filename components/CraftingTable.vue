@@ -190,8 +190,10 @@ onMounted(() => {
 
 .crafting-table-container {
   position: relative;
-  width: 528px;
-  height: 261px;
+  width: 100%;
+  max-width: 528px;
+  height: auto;
+  aspect-ratio: 528 / 261;
 }
 
 .crafting-table {
@@ -208,8 +210,10 @@ onMounted(() => {
 
 .center-container {
   position: relative;
-  width: 628px;
-  height: 261px;
+  width: 100%;
+  max-width: 628px;
+  height: auto;
+  aspect-ratio: 628 / 261;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -219,10 +223,11 @@ onMounted(() => {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0px;
-  width: 180px;
-  height: 180px;
+  width: 34%;
+  height: auto;
+  aspect-ratio: 1 / 1;
   image-rendering: pixelated;
-  margin-right: 42px;
+  margin-right: 5%;
 }
 
 .grid-item {
@@ -245,19 +250,21 @@ onMounted(() => {
 }
 
 .arrow {
-  width: 67.5px;
-  height: 45px;
+  width: 12.5%;
+  height: auto;
+  aspect-ratio: 67.5 / 45;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   image-rendering: pixelated;
   margin-left: 1.5px;
-  margin-right: 42px;
+  margin-right: 5%;
 }
 
 .output-slot {
-  width: 78px;
-  height: 78px;
+  width: 15%;
+  height: auto;
+  aspect-ratio: 1 / 1;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -286,6 +293,7 @@ onMounted(() => {
   white-space: nowrap;
   text-shadow: 3px 3px 0 #424242;
 }
+
 .overlayed {
   position: relative;
 }
@@ -299,5 +307,53 @@ onMounted(() => {
   height: 100%;
   background-color: rgba(255, 255, 255, 0.14);
   pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .crafting-table-container {
+    width: 90%;
+  }
+
+  .center-container {
+    width: 100%;
+  }
+
+  .grid {
+    width: 40%;
+    margin-right: 3%;
+  }
+
+  .arrow {
+    width: 15%;
+    margin-right: 3%;
+  }
+
+  .output-slot {
+    width: 20%;
+  }
+}
+
+@media (max-width: 480px) {
+  .crafting-table-container {
+    width: 100%;
+  }
+
+  .center-container {
+    width: 100%;
+  }
+
+  .grid {
+    width: 45%;
+    margin-right: 2%;
+  }
+
+  .arrow {
+    width: 20%;
+    margin-right: 2%;
+  }
+
+  .output-slot {
+    width: 25%;
+  }
 }
 </style>
