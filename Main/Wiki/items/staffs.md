@@ -70,6 +70,7 @@ Once you have your runes, you can buy a magic staff from the Lonely Wizard.
 
 ## Mana
 Staffs have mana, and it lets you use your staff! Mana is the durability on your staff, can they can be filled up using an anvil and some soul!
+Souls are obtained by killing Zombies, and they have a chance to drop soul.
 <Anvil
   :inputItems="[
     ['staff', 'ice_staff', 'flender_staff', 'flame_staff'],
