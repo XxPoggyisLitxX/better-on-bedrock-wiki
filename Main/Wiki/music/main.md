@@ -7,6 +7,14 @@ Better on Bedrock comes with its own soundtrack! This page is dedicated to give 
 
 ## Music Composed by J. Rivers (Used)
 
+### Travels - Trailer Version
+This is a remix of Travels, and was used in Better on Bedrock's Marketplace trailer
+
+<audio controls>
+  <source src="/Main/assets/music/travels_trailer.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 ### Travels
 One of the first tracks made for Better on Bedrock for the "Beyond the Overworld" update. This track acts as the main theme for Better on Bedrock. This track was composed by J. Rivers
 
