@@ -13,7 +13,7 @@
 <script>
 export default {
   props: {
-    trackName: {
+    audioSrc: {
       type: String,
       required: true
     }
@@ -31,7 +31,7 @@ export default {
   },
   computed: {
     audioUrl() {
-      return `Main/assets/music/${this.trackName}`;
+      return `/Main/assets/music/${this.audioSrc}`;
     }
   },
   mounted() {
