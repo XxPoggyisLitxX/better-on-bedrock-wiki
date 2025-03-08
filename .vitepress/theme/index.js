@@ -10,6 +10,7 @@ import Furnace from '../../components/Furnace.vue'
 import BrewingStand from '../../components/BrewingStand.vue'
 import Anvil from '../../components/Anvil.vue'
 import Trading from '../../components/Trading.vue'
+import AudioPlayer from '../../components/AudioPlayer.vue'
 
 export default {
     extends: DefaultTheme,
@@ -25,5 +26,6 @@ export default {
     app.component('BrewingStand', BrewingStand)
     app.component('Anvil', Anvil)
     app.component('Trading', Trading)
+    app.component('AudioPlayer', AudioPlayer)
   }
 }

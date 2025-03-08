@@ -10,93 +10,60 @@ Better on Bedrock comes with its own soundtrack! This page is dedicated to give 
 ### Travels - Trailer Version
 This is a remix of Travels, and was used in Better on Bedrock's Marketplace trailer
 
-<audio controls>
-  <source src="/Main/assets/music/travels_trailer.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+<AudioPlayer audioSrc="/Main/assets/music/travels_trailer.mp3" />
 
 ### Travels
 One of the first tracks made for Better on Bedrock for the "Beyond the Overworld" update. This track acts as the main theme for Better on Bedrock. This track was composed by J. Rivers
 
-<audio controls>
-  <source src="/Main/assets/music/travels.ogg" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+<AudioPlayer audioSrc="/Main/assets/music/travels.mp3" />
 
 ### Dawn Prelude
 The second track made for Better on Bedrock for the "Beyond the Overworld" update. This track was composed by J. Rivers
 
-<audio controls>
-  <source src="/Main/assets/music/prelude.ogg" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+<AudioPlayer audioSrc="/Main/assets/music/dawn_prelude.mp3" />
 
 ### Cozy Palms
 The Third track made for Better on Bedrock for the "Beyond the Overworld" update. This track was composed by J. Rivers
 
-<audio controls>
-  <source src="/Main/assets/music/cozy_palms.ogg" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+<AudioPlayer audioSrc="/Main/assets/music/cozy_palms.mp3" />
 
 ### Reverie
 The Fourth track made for Better on Bedrock for the "Reworked" update. This track was mostly born from a sample used from Travels. This track was composed by J. Rivers
 
-<audio controls>
-  <source src="/Main/assets/music/reverie.ogg" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+<AudioPlayer audioSrc="/Main/assets/music/reverie.mp3" />
 
 ## Music Composed by Patchy (da_sleepyfox)
 
 ### Acceptance
 The Fifth track made for Better on Bedrock for the "Reworked v2" update. This track was made because the composer of the song had to accept the loss of their beloved pet. This track was composed by Patchy (da_sleepyfox)
 
-<audio controls>
-  <source src="/Main/assets/music/acceptance.ogg" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+<AudioPlayer audioSrc="/Main/assets/music/acceptance.ogg" />
 
 ### Fox Fur
 The Sixth track made for Better on Bedrock for the "Reworked v2" update.  This track was composed by Patchy (da_sleepyfox)
 
-<audio controls>
-  <source src="/Main/assets/music/fox_fur.ogg" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+<AudioPlayer audioSrc="/Main/assets/music/fox_fur.ogg" />
 
 ### Shelby
 The Seventh track made for Better on Bedrock for the "Reworked v2" update. This track was made as a reminder to the composer of their pet, who they've lost. This track was composed by Patchy (da_sleepyfox)
 
-<audio controls>
-  <source src="/Main/assets/music/shelby.ogg" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+<AudioPlayer audioSrc="/Main/assets/music/shelby.ogg" />
 
 ### Wandering Souls v1
 The Eighth track made for Better on Bedrock for the "Reworked v2" update. This track was composed by Patchy (da_sleepyfox)
 
-<audio controls>
-  <source src="/Main/assets/music/wandering_souls.ogg" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+<AudioPlayer audioSrc="/Main/assets/music/wandering_souls.ogg" />
 
 ### Bloopers
 The Ninth track made for Better on Bedrock for the "Reworked v2" update as part of an end song. This track was composed by Patchy (da_sleepyfox)
 
-<audio controls>
-  <source src="/Main/assets/music/bloopers.ogg" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+<AudioPlayer audioSrc="/Main/assets/music/bloopers.ogg" />
 
 
 ### Garden
 The Tenth track made for Better on Bedrock. This track was composed by Patchy (da_sleepyfox)
 
-<audio controls>
-  <source src="/Main/assets/music/garden.wav" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+<AudioPlayer audioSrc="/Main/assets/music/garden.wav" />
 
 
 ## Unused Tracks
@@ -104,44 +71,29 @@ The Tenth track made for Better on Bedrock. This track was composed by Patchy (d
 ### Travels v1
 This song was made for Better on Bedrock's "Beyond the Overworld" update. This track was composed by J. Rivers, and was their first iteration of Travels.
 
-<audio controls>
-  <source src="/Main/assets/music/travels_beta.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+<AudioPlayer audioSrc="/Main/assets/music/travels_beta.mp3" />
 
 ### Deeds Demo v1
 This song was made for Better on Bedrock's "Beyond the Overworld" update. This track was composed by J. Rivers, and was their first iteration of this song.
 
-<audio controls>
-  <source src="/Main/assets/music/deeds_demo.ogg" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
+<AudioPlayer audioSrc="/Main/assets/music/deeds_demo.ogg" />
 ### Deeds Demo v2
 This song was made for Better on Bedrock's "Beyond the Overworld" update. This track was composed by J. Rivers, and was their second iteration of this song.
 
-<audio controls>
-  <source src="/Main/assets/music/deeds.ogg" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+<AudioPlayer audioSrc="/Main/assets/music/deeds.ogg" />
 
 ### Confused (Travels Sample)
 This was mostly a sample from Travels, and it did make it into the Add-On, but was cut shortly after. This track was composed by J. Rivers.
 
-<audio controls>
-  <source src="/Main/assets/music/confused.ogg" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+<AudioPlayer audioSrc="/Main/assets/music/confused.ogg" />
+
 
 ## Changed Tracks
 
 ### Wandering Souls v2
 This song is an improvement for Wondering Souls v1. This track will be added in a future update This track was composed by Patchy (da_sleepyfox).
 
-<audio controls>
-  <source src="/Main/assets/music/wandering_souls.wav" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+<AudioPlayer audioSrc="/Main/assets/music/wandering_souls.wav" />
 
 ## Sound Effects
 
