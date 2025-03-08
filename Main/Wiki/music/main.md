@@ -101,7 +101,7 @@ This song is an improvement for Wondering Souls v1. This track will be added in 
 This sound effect was made for Better on Bedrock's "Beyond the Overworld" update. It went to be used for goals and quest in future updates. This track was composed by J. Rivers.
 
 <audio controls>
-  <source src="normal_quest.ogg" type="audio/mpeg">
+  <source src="/Main/assets/music/normal_quest.ogg" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -109,7 +109,7 @@ This sound effect was made for Better on Bedrock's "Beyond the Overworld" update
 This sound effect was made for Better on Bedrock's "Beyond the Overworld" update. It went to be used for rare goals and  when player completed quest tiers. This track was composed by J. Rivers.
 
 <audio controls>
-  <source src="epic_quest.ogg" type="audio/mpeg">
+  <source src="/Main/assets/music/epic_quest.ogg" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -119,7 +119,7 @@ This sound effect was made for Better on Bedrock's "Beyond the Overworld" update
 This song was made for Better on Bedrock's "Beyond the Overworld" update. It was a version of Travels, but was later added as a music disc. This track was composed by J. Rivers.
 
 <audio controls>
-  <source src="travelers.ogg" type="audio/mpeg">
+  <source src="/Main/assets/music/travelers.ogg" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -127,7 +127,7 @@ This song was made for Better on Bedrock's "Beyond the Overworld" update. It was
 This song was made for Better on Bedrock's "Reworked" update. It was a version of Fox Fur, but was later added as a music disc. This track was composed by Patchy (da_sleepyfox).
 
 <audio controls>
-  <source src="fox_disc.ogg" type="audio/mpeg">
+  <source src="/Main/assets/music/fox_disc.ogg" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -135,6 +135,6 @@ This song was made for Better on Bedrock's "Reworked" update. It was a version o
 This song was made for Better on Bedrock's "Reworked" update. This track was composed by Patchy (da_sleepyfox).
 
 <audio controls>
-  <source src="record_stardust.ogg" type="audio/mpeg">
+  <source src="/Main/assets/music/record_stardust.ogg" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
