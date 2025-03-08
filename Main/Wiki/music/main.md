@@ -15,22 +15,22 @@ This is a remix of Travels, and was used in Better on Bedrock's Marketplace trai
 ### Travels
 One of the first tracks made for Better on Bedrock for the "Beyond the Overworld" update. This track acts as the main theme for Better on Bedrock. This track was composed by J. Rivers
 
-<AudioPlayer audioSrc="travels.mp3" />
+<AudioPlayer audioSrc="travels" />
 
 ### Dawn Prelude
 The second track made for Better on Bedrock for the "Beyond the Overworld" update. This track was composed by J. Rivers
 
-<AudioPlayer audioSrc="dawn_prelude.mp3" />
+<AudioPlayer audioSrc="dawn_prelude" />
 
 ### Cozy Palms
 The Third track made for Better on Bedrock for the "Beyond the Overworld" update. This track was composed by J. Rivers
 
-<AudioPlayer audioSrc="cozy_palms.mp3" />
+<AudioPlayer audioSrc="cozy_palms" />
 
 ### Reverie
 The Fourth track made for Better on Bedrock for the "Reworked" update. This track was mostly born from a sample used from Travels. This track was composed by J. Rivers
 
-<AudioPlayer audioSrc="reverie.mp3" />
+<AudioPlayer audioSrc="reverie" />
 
 ## Music Composed by Patchy (da_sleepyfox)
 
@@ -71,7 +71,7 @@ The Tenth track made for Better on Bedrock. This track was composed by Patchy (d
 ### Travels v1
 This song was made for Better on Bedrock's "Beyond the Overworld" update. This track was composed by J. Rivers, and was their first iteration of Travels.
 
-<AudioPlayer audioSrc="travels_beta.mp3" />
+<AudioPlayer audioSrc="travels_beta" />
 
 ### Deeds Demo v1
 This song was made for Better on Bedrock's "Beyond the Overworld" update. This track was composed by J. Rivers, and was their first iteration of this song.

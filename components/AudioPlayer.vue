@@ -31,7 +31,7 @@ export default {
   },
   computed: {
     audioUrl() {
-      return `/Main/assets/music/${this.audioSrc}.mp3`;
+      return `/Main/assets/music/${this.audioSrc}`;
     }
   },
   mounted() {
