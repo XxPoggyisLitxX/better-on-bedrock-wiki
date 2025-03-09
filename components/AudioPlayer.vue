@@ -30,10 +30,10 @@ export default {
     };
   },
   computed: {
-    audioUrl() {
-      return `/Main/assets/music/${this.audioSrc}.mp3`;
-    }
-  },
+  audioUrl() {
+    return new URL(`/Main/assets/music/${this.audioSrc}`, import.meta.url).href;
+  }
+},
   mounted() {
     this.loadSettings();
     this.setDefaultVolume();

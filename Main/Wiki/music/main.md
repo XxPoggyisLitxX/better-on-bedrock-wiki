@@ -10,27 +10,27 @@ Better on Bedrock comes with its own soundtrack! This page is dedicated to give 
 ### Travels - Trailer Version
 This is a remix of Travels, and was used in Better on Bedrock's Marketplace trailer
 
-<AudioPlayer audioSrc="travels_trailer" />
+<AudioPlayer audioSrc="travels_trailer.mp3" />
 
 ### Travels
 One of the first tracks made for Better on Bedrock for the "Beyond the Overworld" update. This track acts as the main theme for Better on Bedrock. This track was composed by J. Rivers
 
-<AudioPlayer audioSrc="travels" />
+<AudioPlayer audioSrc="travels.mp3" />
 
 ### Dawn Prelude
 The second track made for Better on Bedrock for the "Beyond the Overworld" update. This track was composed by J. Rivers
 
-<AudioPlayer audioSrc="dawn_prelude" />
+<AudioPlayer audioSrc="dawn_prelude.mp3" />
 
 ### Cozy Palms
 The Third track made for Better on Bedrock for the "Beyond the Overworld" update. This track was composed by J. Rivers
 
-<AudioPlayer audioSrc="cozy_palms" />
+<AudioPlayer audioSrc="cozy_palms.mp3" />
 
 ### Reverie
 The Fourth track made for Better on Bedrock for the "Reworked" update. This track was mostly born from a sample used from Travels. This track was composed by J. Rivers
 
-<AudioPlayer audioSrc="reverie" />
+<AudioPlayer audioSrc="reverie.mp3" />
 
 ## Music Composed by Patchy (da_sleepyfox)
 
