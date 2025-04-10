@@ -3,16 +3,16 @@ This page will go over tools in the Add-On, and each tool tier.
 
 ## Tool & Armor Tiers
 Better on Bedrock adds a few new tiers of tools and armor. We will list them in order, from weakest to strongest.
-- Leather
-- Wooden Tools
-- Stone Tools
-- Copper Armor & Tools
-- Iron Armor & Tools
-- Corstinite Armor & Tools
-- Diamond Armor & Tools
-- Netherite Armor & Tools
-- Endrite Tools
-- Starust Armor & Tools
+- Leather Tier (Armor & tools)
+- Wooden Tier (Only Tools)
+- Stone Tier (Only tools)
+- Copper Tier (Armor & Tools)
+- Iron Tier (Armor & Tools)
+- Corstinite Tier (Only Armor)
+- Diamond Tier (Armor & Tools)
+- Netherite Tier (Armor & Tools)
+- Enderite Tier (Armor & Tools)
+- Stardust Tier (Armor & Tools)
 
 ## Stardust
 <ImageShuffler
@@ -147,7 +147,7 @@ A full set of Amethyst Armor will apply knockback to any mob that attacks the pl
 
 
 ## Copper
-An Armor Tier before Iron.
+Weaker than Iron, but essential at the early game.
 <div style="display: flex; align-items: center;">
     <img src="/Main/assets/armor/copper_armor.png" alt="Example Image" width="128">
 </div>
