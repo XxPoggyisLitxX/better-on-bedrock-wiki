@@ -113,7 +113,7 @@ Upgrading your diamond tools and armor to stardust requires a smithing table and
   background="UI/smithing_background"
   :inputItems="[
     ['stardust_upgrade'],
-    ['diamond_sword', 'diamond_pickaxe', 'diamond_axe', 'diamond_shovel', 'diamond_hoe', 'diamond_helmet', 'diamond_chestplate', 'diamond_leggings', 'diamond_boots'],
+    ['diamond_sword', 'diamond_pickaxe', 'diamond_axe', 'diamond_shovel', 'diamond_hoe', 'netherite_helmet', 'netherite_chestplate', 'netherite_leggings', 'netherite_boots'],
     ['netherite_ingot']
   ]"
   :inputTooltips="[
