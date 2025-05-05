@@ -13,7 +13,7 @@ Need help with how to find mobs or what they do? This wiki has your back. Select
 </div>
 
 ### Info
-The Willager is part of the Illager Family. He is the ruler amongst them.
+The Willager is part of the Illager Family. He is the temporary ruler amongst them.
 ### Location
 The Willager is found at a ruined structures. The structure contains pillars and one chest in the center. Open the chest to summon the Willager.
 
@@ -33,7 +33,7 @@ The Enchantaegis is found at a ruined pyramid. The structure contains a secret r
 </div>
 
 ### Info
-The Flender is the Leader of the Phantoms.
+The Flender is the prime of an phantom, when it reaches its "queen" phase.
 ### Location
 The Flender is located on top of a quarts tower. To summon the Flender, simply walk near this tower and it will spawn.
 
@@ -43,9 +43,9 @@ The Flender is located on top of a quarts tower. To summon the Flender, simply w
 </div>
 
 ### Info
-The Shielded Pyroclast is the King of the Nether.
+The Shielded Pyroclast is one of the strongest life forms of the Nether, some call them King of the nether.
 ### Location
-The Shielded Pyroclast is located in a battle arena found in the Nether.
+The Shielded Pyroclast is located in an blackstone battle arena found in the Nether.
 
 ## Withered Samurai
 <div style="display: flex; align-items: center;">
@@ -53,9 +53,9 @@ The Shielded Pyroclast is located in a battle arena found in the Nether.
 </div>
 
 ### Info
-The Withered Samurai is the Wither Keeper
+The Withered Samurai was an legend between overworld warriors, only living by its willpower to stay alive
 ### Location
-The Withered Samurai is located inside a Blacstone Caslte found in the Nether.
+The Withered Samurai is located inside a Blackstone Castle found in the Nether.
 
 
 
@@ -108,7 +108,7 @@ This Mob can be bred with any food item
 </div>
 
 ### Info
-The deer is a passive mob. The deer has a change to spawn with an ehcnated variant. The enchanted variant gives the mob more health and better loot drops
+The deer is a passive mob. The deer has a change to spawn with an enchanted variant. The enchanted variant gives the mob more health and better loot drops
 ### Drops
 | **Drop**      | **%** | **Enchanted Drop** | **Enchanted %** |
 |---------------|-------|--------------------|-----------------|
@@ -122,7 +122,7 @@ This Mob can be bred with wheat
 </div>
 
 ### Info
-The Toucan is a passive mob. It is part of the bird family. It spawns anywhere in the Overworld. The Toucan can not be tamed.
+The Toucan is a passive mob. It is part of the bird family. It spawns mostly in Jungles. The Toucan can not be tamed.
 
 ## Squirrel
 <div style="display: flex; align-items: center;">
@@ -130,7 +130,7 @@ The Toucan is a passive mob. It is part of the bird family. It spawns anywhere i
 </div>
 
 ### Info
-The squirrel is a passive mob. It is found anywhere in the Overworld. The Squirrel can not be tamed
+The squirrel is a passive mob. It is found mostly in Forests. The Squirrel can not be tamed
 
 ## Goblin Trader
 <div style="display: flex; align-items: center;">
@@ -141,7 +141,7 @@ The squirrel is a passive mob. It is found anywhere in the Overworld. The Squirr
 The Goblin Trader is a Passive Mob. This mob has a rare chance to spawn. This little guy can be traded with, and he has the best trades.
 
 ::: info
-This mob has a 10% to spawn.
+This mob has a 10% chance to spawn everywhere in the overworld.
 :::
 
 ### Trades
@@ -227,7 +227,7 @@ The Lonely Wizard is a Villager Wizard. He lives alone far from his kind.
 ### Trades
 He trades Activated Runes for Staffs
 ### Where to find
-This mob is found within Taiga biomes inside a big house.
+This mob is mostly found within Taiga forests inside a big house.
 
 
 ## Sparrow
@@ -236,7 +236,7 @@ This mob is found within Taiga biomes inside a big house.
 </div>
 
 ### Info
-The Sparrow is a passive mob. It is part of the Bird Family. This Mob can not be tamed, but can be bred. This mob is found in the overworld.
+The Sparrow is a passive mob. It is part of the Bird Family. This Mob can not be tamed, but can be bred. This mob is found mostly in Forests of all kinds.
 ### Breedable
 This Mob can be bred with any seed
 
@@ -262,7 +262,7 @@ This Mob can not breed.
 </div>
 
 ### Info
-The Hell Hound is a wolf in the Nether. It is big. When it attacks, its target is set on fire
+The Hell Hound is a wolf in the Nether. It is big and has 2 heads. When it attacks, its target is set on fire
 ### Breedable
 This Mob can not breed.
 
@@ -531,4 +531,4 @@ The Soot is a new boss for the end dimension. Keen to preserve its treasure, it 
 </div>
 
 ### Info
-Who made that thing??
+Maybe a fox isnt a good test subject.
