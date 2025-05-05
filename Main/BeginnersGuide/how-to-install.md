@@ -7,7 +7,7 @@ BoB Currently can be downloaded via MCPEDL ( https://mcpedl.com/better-on-bedroc
 
 ![image](/Main/assets/beginners-guide/mcpedl-download.png)
 ### Discord
-You also have the option to download the Add-On via the discord channel 'Add-on Updates'
+You also have the option to download the Add-On via the discord channel 'Add-on Updates' alongside other projects  ( https://discord.gg/nUXHYjkcC9 )
 
  ![image](/Main/assets/beginners-guide/discord-download.png)
 
