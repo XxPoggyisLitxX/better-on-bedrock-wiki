@@ -105,6 +105,16 @@ A very tall tower. Holds a Waystone way at the top. You have to figure out how t
 - Savanna
 - Taiga
 
+
+## lonely wizard's house
+![image](/Main/assets/structures/wizard_house.png)
+This is where you'll find the lonely wizard, whom you can trade runes with in exchange for a magic staffs.
+### Biomes:
+- Snowy taiga
+- Taiga
+- Plains
+
+
 ## Zombie Hut
 ![image](/Main/assets/structures/zombie_hut.png)
 
@@ -117,8 +127,8 @@ A very tall tower. Holds a Waystone way at the top. You have to figure out how t
 
 
 ## Blackstone Castle
-Home of the Samurai
 ![image](/Main/assets/structures/samurai.png)
+Home of the Samurai
 
 ### Biomes:
 - Nether
