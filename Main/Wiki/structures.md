@@ -108,7 +108,7 @@ A very tall tower. Holds a Waystone way at the top. You have to figure out how t
 
 ## lonely wizard's house
 ![image](/Main/assets/structures/wizard_house.png)
-This is where you'll find the lonely wizard, whom you can trade runes with in exchange for magic staves.
+This is where you'll find the [lonely wizard](https://poggy.org/Main/Wiki/mobs.html#lonely-wizard), whom you can trade runes with in exchange for magic staves.
 ### Biomes:
 - Snowy taiga
 - Taiga
