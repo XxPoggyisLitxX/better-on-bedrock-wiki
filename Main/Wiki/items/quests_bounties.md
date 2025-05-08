@@ -50,6 +50,6 @@ If you happen to buy a quest that tries to unlock a quest that you own, it'll gr
 </div>
 
 ### Info
-Bounties work the same as quests, but can be found inside a Trader outpost which can spawn anywhere in the Overworld. It gives players a type of quest that requires them to hunt down mobs for rewards.
+Bounties work the same as quests, but can be found inside a [Trader outpost](/Main/Wiki/structures.html#trader-outpost) which can spawn anywhere in the Overworld. It gives players a type of quest that requires them to hunt down mobs for rewards.
 
 Refer to [this page](https://poggy.org/Main/Wiki/blocks/blocks.html#bounty-board) to learn how to obtain a Bounty Scroll.
