@@ -33,7 +33,7 @@ This is where the Witches gathered when they wanted to learn new enchantments.
 
 ## Enchantaegis
 ![image](/Main/assets/structures/enchanter.png)
-This is where you will find the Enchantaegis. He has some villagers locked up, so it is up to you to save them.
+This is where you'll find the [Enchantaegis](https://poggy.org/Main/Wiki/mobs.html#enchantaegis). He has some villagers locked up, so it is up to you to save them.
 ### Biomes:
 - Plains
 - Forests
@@ -41,7 +41,7 @@ This is where you will find the Enchantaegis. He has some villagers locked up, s
 
 ## Flender Tower
 ![image](/Main/assets/structures/flender.png)
-This tower is home to the Flender. Any traveler that goes near it, will have to battle for peace.
+This tower is home to the [Flender](https://poggy.org/Main/Wiki/mobs.html#flender). Any traveler that goes near it, will have to battle for peace.
 ### Biomes:
 - Plains
 - Forests
@@ -59,7 +59,7 @@ His music echoes the overworld.
 
 ## Ruined Arena
 ![image](/Main/assets/structures/willager_boss.png)
-This is where you will find the Willager. Seems innocent, but that chest seems off.
+This is where you'll find the [Willager](https://poggy.org/Main/Wiki/mobs.html#willager). Seems innocent, but that chest seems off.
 ### Biomes:
 - Plains
 - Forests
@@ -67,7 +67,7 @@ This is where you will find the Willager. Seems innocent, but that chest seems o
 
 ## Trader Outpost
 ![image](/Main/assets/structures/trader_outpost.png)
-This is the hideout for the Goblin Trader. He has some goodies, and a Bounty Board!
+This is the hideout for the [Goblin Trader](https://poggy.org/Main/Wiki/mobs.html#goblin-trader). He has some goodies, and a [Bounty Board](https://poggy.org/Main/Wiki/blocks/blocks.html#bounty-board)!
 ### Biomes:
 - Plains
 - Forests
@@ -97,7 +97,7 @@ One of many homes for the Vindicators
 
 ## Waystone Tower
 ![image](/Main/assets/structures/waystone_tower.png)
-A very tall tower. Holds a Waystone way at the top. You have to figure out how to reach the top.
+A very tall tower. Holds a [Waystone](https://poggy.org/Main/Wiki/blocks/blocks.html#waystone) way at the top. You have to figure out how to reach the top.
 ### Biomes:
 - Plains
 - Forests
@@ -108,7 +108,7 @@ A very tall tower. Holds a Waystone way at the top. You have to figure out how t
 
 ## lonely wizard's house
 ![image](/Main/assets/structures/wizard_house.png)
-This is where you'll find the lonely wizard, whom you can trade runes with in exchange for a magic staffs.
+This is where you'll find the [lonely wizard](https://poggy.org/Main/Wiki/mobs.html#lonely-wizard), whom you can trade runes with in exchange for magic staves.
 ### Biomes:
 - Snowy taiga
 - Taiga
@@ -117,7 +117,7 @@ This is where you'll find the lonely wizard, whom you can trade runes with in ex
 
 ## Zombie Hut
 ![image](/Main/assets/structures/zombie_hut.png)
-
+A common hideout for undead mobs.
 ### Biomes:
 - Plains
 - Forests
@@ -128,39 +128,50 @@ This is where you'll find the lonely wizard, whom you can trade runes with in ex
 
 ## Blackstone Castle
 ![image](/Main/assets/structures/samurai.png)
-Home of the Samurai
-
+This is where you'll find the [Withered Samurai](https://poggy.org/Main/Wiki/mobs.html#withered-samurai).
 ### Biomes:
 - Nether
 
 
 ## Inferior Boss Arena
 ![image](/Main/assets/structures/inferior.png)
-
+This is where you'll find the Inferior AKA the [Shielded Pyroclast](https://poggy.org/Main/Wiki/mobs.html#shielded-pyroclast).
 ### Biomes:
 - Nether
 
 ## Fungal Tower
 ![image](/Main/assets/structures/fungal_tower.png)
 A Home to the fungi.
+### Biomes:
+- The end
 
 ## Seeker Arena
 ![image](/Main/assets/structures/seeker_arena.png)
-Are you willing to take your chances?
+This is where you'll find the [seeker](https://poggy.org/Main/Wiki/mobs.html#seeker), Are you willing to take your chances?
+### Biomes:
+- The end
 
 ## Voided Statue
 ![image](/Main/assets/structures/voided_statue.png)
 I wonder who created such thing.
+### Biomes:
+- The end
 
 ## Floating End Portal
 ![image](/Main/assets/structures/end_portal_ruins.png)
 Huh A way back to the overworld. Cool!
+### Biomes:
+- The end
 
 ## Vacant Hideout
 ![image](/Main/assets/structures/vacant_hideout.png)
-huh, I wonder why they left..
+Huh, I wonder why they left..
+### Biomes:
+- The end
 
 ## Voided Ruins
 ![image](/Main/assets/structures/voided_ruins.png)
 How could someone live like this...
+### Biomes:
+- The end
 

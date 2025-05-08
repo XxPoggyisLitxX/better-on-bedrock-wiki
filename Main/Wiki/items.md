@@ -41,9 +41,9 @@ Refer to [this page](https://xxpoggyislitxx.github.io/better-on-bedrock-wiki/blo
 </div>
 
 ### Info
-Loot bags are treasure items. Loot bags can be used to get random loot
+Loot bags are treasure items. Loot bags can be used to get random loot.
 ### Where to find
-Loot bags are found within the chests of Trader Outposts.
+Loot bags are found within the chests of [Trader Outposts](https://poggy.org/Main/Wiki/structures.html#trader-outpost).
 
 
 ## Backpacks
@@ -55,7 +55,7 @@ Loot bags are found within the chests of Trader Outposts.
 ### Info
 Backpacks are utility items that can provide extra inventory space. They are useful when you need to carry a lot of items with you.
 ### Where to find
-Backpacks can be crafted. There are 3 sized of backpacks: `small`, `medium` and `large`. Each backpack has its own recipe shown below
+Backpacks can be crafted. There are 3 sized of backpacks: `small`, `medium` and `large`. Each backpack has its own recipe shown below.
 [image]
 Backpacks can be shared to other player. When your backpack has 32 stone, and you give that backpacks to another player, they will see the 32 stone. You can hold more than one of the same backpack type.
 
@@ -66,10 +66,10 @@ Backpacks can be shared to other player. When your backpack has 32 stone, and yo
   <img src="/Main/assets/deer_hide.png" alt="Example Image" width="32">
 </div>
 
-Deer Hide is an item dropped from Deers
+Deer Hide is an item dropped from Deers.
 
 ### Where to find
-This item is found by killing Deers
+This item is found by killing Deers.
 
 
 ## Stronger String
@@ -78,7 +78,7 @@ This item is found by killing Deers
 </div>
 
 ### Info
-This item is used to craft backpacks
+This item is used to craft backpacks.
 ### Where to find
 This item is crafted with the recipe below.
 
@@ -91,7 +91,7 @@ This item is crafted with the recipe below.
 ### Info
 Quest scroll is an item that you receive once you load your world for the first time. This item, once opened, will reveal quests that you can complete. There are quest tiers and each tier has a set of quests. Quests do give rewards once completed.
 ### Where to find
-The item is given once you load your world for the first time. When you lose the item, you can craft it with the recipe shown below.
+The item is given once you load your world for the first time. If you lose the item, you can craft it with the recipe shown below.
 
 
 ## Bounty Scroll
@@ -100,9 +100,9 @@ The item is given once you load your world for the first time. When you lose the
 </div>
 
 ### Info
-The Bounty Scroll is an item that provides you bounties. These bounties consist of mobs that you got to kill for rewards
+The Bounty Scroll is an item that provides you bounties. These bounties consist of mobs that you got to kill for rewards.
 ### Where to find
-The Bounty Scroll can be found at a Trader Outpost. You need to use the Bounty Board block to receive the scroll.
+The Bounty Scroll can be found at a [Trader Outpost](https://poggy.org/Main/Wiki/structures.html#trader-outpost). Interact with the Bounty Board to receive a rolled up bounty scroll.
 
 
 ## Magic Staffs
@@ -113,7 +113,7 @@ The Bounty Scroll can be found at a Trader Outpost. You need to use the Bounty B
 ### Info
 Magic staffs are items that can cast different types of spells.
 ### Where to find
-Magic Staffs are found by trading with a Lonely Wizard. This mob spawns in a house in forest biomes. The process to obtain Staffs are a bit complex, but it will be explained below.
+Magic Staffs are found by trading with a [Lonely Wizard](https://poggy.org/Main/Wiki/mobs.html#lonely-wizard). This mob spawns in a [small house](https://poggy.org/Main/Wiki/structures.html#lonely-wizard-s-house) mainly in taiga biomes. The process to obtain Staffs are a bit complex, but it will be explained below.
 ## Process to find
 <div style="display: flex; align-items: center;">
   <img src="/Main/assets/magic_scroll_mine.png" alt="Example Image" width="64">
@@ -132,10 +132,9 @@ You first need to find inactive runes. These can be found by killing bosses or c
 </div>
 
 ### Info
-The Quetzacaw Egg is an item that can be placed. It will place an egg that will hatch into a Friendly Quetzacaw
+The Quetzacaw Egg is an item that can be placed. It will place an egg that will hatch into a Friendly [Quetzacaw](https://poggy.org/Main/Wiki/mobs.html#quetzacaw).
 ### Where to find
-This item can be found within the chests of the Blackstone Castle
-
+This item can be found within the chests of the [Blackstone Castle](https://poggy.org/Main/Wiki/structures.html#blackstone-castle).
 
 ## Waystone Key
 <div style="display: flex; align-items: center;">
@@ -154,9 +153,9 @@ The Waystone Key can be crafted with the recipe below.
 </div>
 
 ### Info
-This item has only one use, and that is to craft a Waystone Key
+This item has only one use, and that is to craft a Waystone Key.
 ### Where to find
-This item is found by killing Enderman.
+This item is obtained by killing Enderman.
 
 ## Item Table
 <table>
