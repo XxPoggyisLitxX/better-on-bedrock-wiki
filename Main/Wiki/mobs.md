@@ -15,7 +15,7 @@ Need help with how to find mobs or what they do? This wiki has your back. Select
 ### Info
 The Willager is part of the Illager Family. He is the temporary ruler amongst them.
 ### Location
-The Willager is found in an ancient [ruined structure](https://poggy.org/Main/Wiki/structures.html#ruined-arena). The structure contains pillars and one chest in the center. Open the chest to summon the Willager.
+The Willager is found in an ancient [ruined structure](/Main/Wiki/structures.html#ruined-arena). The structure contains pillars and one chest in the center. Open the chest to summon the Willager.
 
 ## Enchantaegis
 <div style="display: flex; align-items: center;">
@@ -25,7 +25,7 @@ The Willager is found in an ancient [ruined structure](https://poggy.org/Main/Wi
 ### Info
 The Enchantaegis is part of the Illager Family. He is the one that gave them power. He can not be damaged while he is enchanted.
 ### Location
-The Enchantaegis is found at a [ruined pyramid](https://poggy.org/Main/Wiki/structures.html#enchantaegis). The structure contains a secret room and kidnapped villager that were tested on by the Enchantaegis.
+The Enchantaegis is found at a [ruined pyramid](/Main/Wiki/structures.html#enchantaegis). The structure contains a secret room and kidnapped villager that were tested on by the Enchantaegis.
 
 ## Flender
 <div style="display: flex; align-items: center;">
@@ -35,7 +35,7 @@ The Enchantaegis is found at a [ruined pyramid](https://poggy.org/Main/Wiki/stru
 ### Info
 The Flender is the prime of an phantom, when it reaches its "queen" phase.
 ### Location
-The Flender is located on top of a [quarts tower](https://poggy.org/Main/Wiki/structures.html#flender-tower). To summon the Flender, simply walk near this tower and it will spawn.
+The Flender is located on top of a [quarts tower](/Main/Wiki/structures.html#flender-tower). To summon the Flender, simply walk near this tower and it will spawn.
 
 ## Shielded Pyroclast
 <div style="display: flex; align-items: center;">
@@ -45,7 +45,7 @@ The Flender is located on top of a [quarts tower](https://poggy.org/Main/Wiki/st
 ### Info
 The Shielded Pyroclast is one of the strongest life forms of the Nether, some call them King of the nether.
 ### Location
-The Shielded Pyroclast is located in an blackstone [battle arena](https://poggy.org/Main/Wiki/structures.html#inferior-boss-arena) found in the Nether.
+The Shielded Pyroclast is located in an blackstone [battle arena](/Main/Wiki/structures.html#inferior-boss-arena) found in the Nether.
 
 ## Withered Samurai
 <div style="display: flex; align-items: center;">
@@ -55,7 +55,7 @@ The Shielded Pyroclast is located in an blackstone [battle arena](https://poggy.
 ### Info
 The Withered Samurai was an legend between overworld warriors, only living by its willpower to stay alive
 ### Location
-The Withered Samurai is located inside a [Blackstone Castle](https://poggy.org/Main/Wiki/structures.html#blackstone-castle) found in the Nether.
+The Withered Samurai is located inside a [Blackstone Castle](/Main/Wiki/structures.html#blackstone-castle) found in the Nether.
 
 
 
@@ -227,7 +227,7 @@ The Lonely Wizard is a Villager Wizard. He lives alone far from his kind.
 ### Trades
 He trades Activated Runes for Staffs
 ### Where to find
-This mob is mostly found within Taiga forests inside a [big house](https://poggy.org/Main/Wiki/structures.html#lonely-wizard-s-house).
+This mob is mostly found within Taiga forests inside a [large house](/Main/Wiki/structures.html#lonely-wizard-s-house).
 
 
 ## Sparrow
