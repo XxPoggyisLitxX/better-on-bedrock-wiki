@@ -41,7 +41,7 @@ This is where you'll find the [Enchantaegis](/Main/Wiki/mobs.html#enchantaegis).
 
 ## Flender Tower
 ![image](/Main/assets/structures/flender.png)
-This tower is home to the [Flender](https://poggy.org/Main/Wiki/mobs.html#flender). Any traveler that goes near it, will have to battle for peace.
+This tower is home to the [Flender](/Main/Wiki/mobs.html#flender). Any traveler that goes near it, will have to battle for peace.
 ### Biomes:
 - Plains
 - Forests
@@ -59,7 +59,7 @@ His music echoes the overworld.
 
 ## Ruined Arena
 ![image](/Main/assets/structures/willager_boss.png)
-This is where you'll find the [Willager](https://poggy.org/Main/Wiki/mobs.html#willager). Seems innocent, but that chest seems off.
+This is where you'll find the [Willager](/Main/Wiki/mobs.html#willager). Seems innocent, but that chest seems off.
 ### Biomes:
 - Plains
 - Forests
@@ -67,7 +67,7 @@ This is where you'll find the [Willager](https://poggy.org/Main/Wiki/mobs.html#w
 
 ## Trader Outpost
 ![image](/Main/assets/structures/trader_outpost.png)
-This is the hideout for the [Goblin Trader](https://poggy.org/Main/Wiki/mobs.html#goblin-trader). He has some goodies, and a [Bounty Board](https://poggy.org/Main/Wiki/blocks/blocks.html#bounty-board)!
+This is the hideout for the [Goblin Trader](/Main/Wiki/mobs.html#goblin-trader). He has some goodies, and a [Bounty Board](/Main/Wiki/blocks/blocks.html#bounty-board)!
 ### Biomes:
 - Plains
 - Forests
@@ -97,7 +97,7 @@ One of many homes for the Vindicators
 
 ## Waystone Tower
 ![image](/Main/assets/structures/waystone_tower.png)
-A very tall tower. Holds a [Waystone](https://poggy.org/Main/Wiki/blocks/blocks.html#waystone) way at the top. You have to figure out how to reach the top.
+A very tall tower. Holds a [Waystone](/Main/Wiki/blocks/blocks.html#waystone) way at the top. You have to figure out how to reach the top.
 ### Biomes:
 - Plains
 - Forests
@@ -108,7 +108,7 @@ A very tall tower. Holds a [Waystone](https://poggy.org/Main/Wiki/blocks/blocks.
 
 ## lonely wizard's house
 ![image](/Main/assets/structures/wizard_house.png)
-This is where you'll find the [lonely wizard](https://poggy.org/Main/Wiki/mobs.html#lonely-wizard), whom you can trade runes with in exchange for magic staves.
+This is where you'll find the [lonely wizard](/Main/Wiki/mobs.html#lonely-wizard), whom you can trade runes with in exchange for magic staves.
 ### Biomes:
 - Snowy taiga
 - Taiga
@@ -128,14 +128,14 @@ A common hideout for undead mobs.
 
 ## Blackstone Castle
 ![image](/Main/assets/structures/samurai.png)
-This is where you'll find the [Withered Samurai](https://poggy.org/Main/Wiki/mobs.html#withered-samurai).
+This is where you'll find the [Withered Samurai](/Main/Wiki/mobs.html#withered-samurai).
 ### Biomes:
 - Nether
 
 
 ## Inferior Boss Arena
 ![image](/Main/assets/structures/inferior.png)
-This is where you'll find the Inferior AKA the [Shielded Pyroclast](https://poggy.org/Main/Wiki/mobs.html#shielded-pyroclast).
+This is where you'll find the Inferior AKA the [Shielded Pyroclast](/Main/Wiki/mobs.html#shielded-pyroclast).
 ### Biomes:
 - Nether
 
@@ -147,7 +147,7 @@ A Home to the fungi.
 
 ## Seeker Arena
 ![image](/Main/assets/structures/seeker_arena.png)
-This is where you'll find the [seeker](https://poggy.org/Main/Wiki/mobs.html#seeker), Are you willing to take your chances?
+This is where you'll find the [seeker](/Main/Wiki/mobs.html#seeker), Are you willing to take your chances?
 ### Biomes:
 - The end
 
