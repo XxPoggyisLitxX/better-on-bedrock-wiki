@@ -33,7 +33,7 @@ This is where the Witches gathered when they wanted to learn new enchantments.
 
 ## Enchantaegis
 ![image](/Main/assets/structures/enchanter.png)
-This is where you'll find the [Enchantaegis](https://poggy.org/Main/Wiki/mobs.html#enchantaegis). He has some villagers locked up, so it is up to you to save them.
+This is where you'll find the [Enchantaegis](/Main/Wiki/mobs.html#enchantaegis). He has some villagers locked up, so it is up to you to save them.
 ### Biomes:
 - Plains
 - Forests
