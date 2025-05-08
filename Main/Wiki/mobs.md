@@ -504,7 +504,7 @@ The Mush is a new ambient creature for the end dimension. Their species are surp
 </div>
 
 ### Info
-The Seeker is a new boss for the end dimension. Watch out for its piercing eye, the few that survive say it has a strong attraction.
+The Seeker is a new boss found in an [arena](/Main/Wiki/structures.html#seeker-arena) within the End dimension. Watch out for its piercing eye, the few that survive say it has a strong attraction.
 
 ### Extra Info 
 | **Spawns**  | **Drops**     | **%** |
