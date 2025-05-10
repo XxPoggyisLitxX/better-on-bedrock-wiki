@@ -29,7 +29,7 @@ After doing this, the Add-On will start to import into your Minecraft applicatio
 
 ### Mobile
 
-With Minecraft, installing the Add-On is a bit of a tedious task as it requires more steps on a lot of devices. This wiki can only provide so much information, as there are many different versions and brands of devices that people use.
+With Mobile, installing the Add-On is a bit of a tedious task as it requires more steps on a lot of devices. This wiki can only provide so much information, as there are many different versions and brands of devices that people use.
 
 One method of correctly installing the Add-On to your world is by following the steps below:
 
