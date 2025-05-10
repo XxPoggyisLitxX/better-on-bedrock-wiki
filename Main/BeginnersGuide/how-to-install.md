@@ -20,7 +20,7 @@ You can also download the Add-On via the Discord channel 'Add-on Updates' alongs
 
 ### PC
 
-To import the Add-On to your Minecraft application, once you have downloaded the Add-On from either of the links above, head to your files folder where you will see the .mcaddon file.
+To import the Add-On to your Minecraft application, once you have downloaded the Add-On from either of the links above, head to your downloads folder where you will see the .mcaddon file.
 
 As you can see below:
 
