@@ -3,43 +3,47 @@
 
 ## Downloading
 ### MCPEDL
-BoB Currently can be downloaded via MCPEDL ( https://mcpedl.com/better-on-bedrock/ )
+BoB currently can be downloaded via MCPEDL ( https://mcpedl.com/better-on-bedrock/ )
 
 ![image](/Main/assets/beginners-guide/mcpedl-download.png)
-### Discord
-You can also download the Add-On via the discord channel 'Add-on Updates' alongside other projects, feel free to join!  ( https://discord.gg/nUXHYjkcC9 )
 
- ![image](/Main/assets/beginners-guide/discord-download.png)
+### Discord
+You can also download the Add-On via the Discord channel 'Add-on Updates' alongside other projects. Feel free to join! ( https://discord.gg/nUXHYjkcC9 )
+
+![image](/Main/assets/beginners-guide/discord-download.png)
 
 ## Importing the addon
 
 ### PC
 
-To import the Add-On to your minecraft application once you have downloaded the Add-On from either of the links above head to your files folder where you will see the .mcaddon. 
+To import the Add-On to your Minecraft application, once you have downloaded the Add-On from either of the links above, head to your files folder where you will see the .mcaddon file.
 
-As you can see below : 
+As you can see below:
 
 ![image](/Main/assets/beginners-guide/downloads-pc.png)
 
-Make sure you either double click the .mcaddon download or open it via using the right click on your mouse
+Make sure you either double-click the .mcaddon download or open it by right-clicking on it with your mouse.
 ![image](/Main/assets/beginners-guide/pc-open.png)
-After doing this the Add-On will start to import into your minecraft application
+
+After doing this, the Add-On will start to import into your Minecraft application.
+
 ### Mobile
 
-With minecraft the Add-on is a bit of a tedious task as it requires more steps on alot of devices, this wiki can only provide so much information about the steps as there is all different versions of devices and different brands of devices that people use.
+With Minecraft, installing the Add-On is a bit of a tedious task as it requires more steps on a lot of devices. This wiki can only provide so much information, as there are many different versions and brands of devices that people use.
 
 One method of correctly installing the Add-On to your world is by following the steps below:
 
-After installing the Add-On via mcpedl or the discord server, the Add-On should show up as a file within your mobiles files as something similar to the image below
+After installing the Add-On via MCPEDL or the Discord server, the Add-On should appear in your mobile files similar to the image below:
 ![image](/Main/assets/beginners-guide/mobile-import1.png)
 
-To make this file able to be opened with minecraft we have to do a few things for example we need to remove the .zip at the end of the file name
+To make this file compatible with Minecraft, we have to do a few things. For example, we need to remove the .zip extension at the end of the file name:
 ![image](/Main/assets/beginners-guide/mobile-import2.png)
 
-Not only do we have to remove the .zip but you will also in alot of cases have to rename the addon completely as this can cause the addon not to give you the option to open with minecraft. This wiki suggest you either rename the Add-On fully to the extent of being the case of `Bob.mcaddon` or you can rename to what is shown in the image below
+Not only do we have to remove the .zip, but in many cases, you'll also have to rename the Add-On completely, as this can prevent Minecraft from giving you the option to open it. This wiki suggests either renaming the Add-On fully, such as `Bob.mcaddon`, or using the name shown in the image below:
 
 ![image](/Main/assets/beginners-guide/mobile-import3.png)
 
-Following all the steps above it should now let you open the file using minecraft and succesfully import into your minecraft application
+Following all the steps above, it should now let you open the file using Minecraft and successfully import it into your Minecraft application.
 ![image](/Main/assets/beginners-guide/mobile-import4.png)
-*mobile images provided by `i terrorize villagers` on discord*
+
+*Mobile images provided by `i terrorize villagers` on Discord*
