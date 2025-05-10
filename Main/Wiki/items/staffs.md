@@ -14,7 +14,7 @@ A staff will loose manna as it's being used, but manna can be refilled to a staf
 
 Soul is dropped from undead mobs.
 ### Where to find
-Magic Staffs are found by trading with a Lonely Wizard. This mob spawns in a house in forest biomes.
+Magic Staffs are found by trading with a [Lonely Wizard](/Main/Wiki/mobs.html#lonely-wizard). This mob spawns in the [lonely wizard's house](/Main/Wiki/structures.html#lonely-wizard-s-house) in forest biomes.
 ## Process to find
 <div style="display: flex; align-items: center;">
     <img src="/Main/assets/upgraded_flame_rune.png" alt="Example Image" width="64">
@@ -24,9 +24,9 @@ Magic Staffs are found by trading with a Lonely Wizard. This mob spawns in a hou
 </div>
 
 ### Where to find
-Players are required to find runes, which can be found in chests around the overworld and nether. For instance, the flame rune is found in nether chests.
+Players are required to find runes, which can be found in chests around the overworld and nether. For instance, the flame rune can be found in nether fortress chests.
 
-Once you have your runes, you can buy a magic staff from the Lonely Wizard.
+Once you have your runes, you can buy a magic staff from the [Lonely Wizard](/Main/Wiki/mobs.html#lonely-wizard).
 
 <Trading :tiers="[
   {

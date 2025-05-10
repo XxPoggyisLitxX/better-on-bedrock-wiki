@@ -43,7 +43,7 @@ Refer to [this page](https://xxpoggyislitxx.github.io/better-on-bedrock-wiki/blo
 ### Info
 Loot bags are treasure items. Loot bags can be used to get random loot.
 ### Where to find
-Loot bags are found within the chests of [Trader Outposts](https://poggy.org/Main/Wiki/structures.html#trader-outpost).
+Loot bags are found within the chests of [Trader Outposts](/Main/Wiki/structures.html#trader-outpost).
 
 
 ## Backpacks
@@ -102,7 +102,7 @@ The item is given once you load your world for the first time. If you lose the i
 ### Info
 The Bounty Scroll is an item that provides you bounties. These bounties consist of mobs that you got to kill for rewards.
 ### Where to find
-The Bounty Scroll can be found at a [Trader Outpost](https://poggy.org/Main/Wiki/structures.html#trader-outpost). Interact with the Bounty Board to receive a rolled up bounty scroll.
+The Bounty Scroll can be found at a [Trader Outpost](/Main/Wiki/structures.html#trader-outpost). Interact with the Bounty Board to receive a rolled up bounty scroll.
 
 
 ## Magic Staffs
@@ -113,7 +113,7 @@ The Bounty Scroll can be found at a [Trader Outpost](https://poggy.org/Main/Wiki
 ### Info
 Magic staffs are items that can cast different types of spells.
 ### Where to find
-Magic Staffs are found by trading with a [Lonely Wizard](https://poggy.org/Main/Wiki/mobs.html#lonely-wizard). This mob spawns in a [small house](https://poggy.org/Main/Wiki/structures.html#lonely-wizard-s-house) mainly in taiga biomes. The process to obtain Staffs are a bit complex, but it will be explained below.
+Magic Staffs are found by trading with a [Lonely Wizard](/Main/Wiki/mobs.html#lonely-wizard). This mob spawns in a [small house](/Main/Wiki/structures.html#lonely-wizard-s-house) mainly in taiga biomes. The process to obtain Staffs are a bit complex, but it will be explained below.
 ## Process to find
 <div style="display: flex; align-items: center;">
   <img src="/Main/assets/magic_scroll_mine.png" alt="Example Image" width="64">
@@ -132,9 +132,9 @@ You first need to find inactive runes. These can be found by killing bosses or c
 </div>
 
 ### Info
-The Quetzacaw Egg is an item that can be placed. It will place an egg that will hatch into a Friendly [Quetzacaw](https://poggy.org/Main/Wiki/mobs.html#quetzacaw).
+The Quetzacaw Egg is an item that can be placed. It will place an egg that will hatch into a Friendly [Quetzacaw](/Main/Wiki/mobs.html#quetzacaw).
 ### Where to find
-This item can be found within the chests of the [Blackstone Castle](https://poggy.org/Main/Wiki/structures.html#blackstone-castle).
+This item can be found within the chests of the [Blackstone Castle](/Main/Wiki/structures.html#blackstone-castle).
 
 ## Waystone Key
 <div style="display: flex; align-items: center;">
@@ -142,7 +142,7 @@ This item can be found within the chests of the [Blackstone Castle](https://pogg
 </div>
 
 ### Info
-The Waystone Key is an item that allows you to teleport to any saved waystone once used.
+The Waystone Key is an item that allows you to teleport to any saved [waystone](/Main/Wiki/blocks/blocks.html#waystone) once used.
 ### Where to find
 The Waystone Key can be crafted with the recipe below.
 
