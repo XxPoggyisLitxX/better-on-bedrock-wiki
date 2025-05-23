@@ -11,7 +11,7 @@ This item does 12 attack Damage, and has 1243 durability. This item can be repai
 :::
 
 ### Where to find
-This item is found by killing the Shielded Pyroclast.
+This item is found by killing the [Shielded Pyroclast](/Main/Wiki/mobs.html#shielded-pyroclast).
 
 ## Nether Gauntlet
 <div style="display: flex; align-items: center;">
@@ -22,12 +22,16 @@ This item is found by killing the Shielded Pyroclast.
 This item requires 3 stones to function. You don't need all 3, and you can add them in any order.
 
 ### Where to find
-This item is found by killing a Withered Samurai.
+This item is found by killing a [Shielded Pyroclast](/Main/Wiki/mobs.html#shielded-pyroclast).
 ### Stone Usage
 - Green Stone
   * When the player sneaks and they use the item, it will shoot a wither skull.
 - Yellow Stone
-  * When the player charges the item, it will shoot a Pyroclast Shield
+  * When the player charges the item, it will shoot a Pyroclast Shield.
+- Red Stone
+  * Provides a health boost as long as it is held in the offhand.
+
+These stones can be found in the [blackstone castle](/Main/Wiki/structures.html#blackstone-castle).
 
   ## Ghost Necklace
 <div style="display: flex; align-items: center;">
