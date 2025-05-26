@@ -65,7 +65,7 @@ Monitor your personal progress and in-game accomplishments.
 
 | Description |
 | --- |
-| - See completed **Challenges and Milestones**<br>- Track gameplay progress<br>- Note: No rewards for tracked goals, but main quests do offer them |
+| - See completed **Advancements and Milestones**<br>- Track gameplay progress<br>- Note: No rewards for tracked goals, but main quests do offer them |
 
 ---
 
