@@ -12,6 +12,8 @@ import Anvil from '../../components/Anvil.vue'
 import Trading from '../../components/Trading.vue'
 import AudioPlayer from '../../components/AudioPlayer.vue'
 import YouTubeEmbed from '../../components/YouTubeEmbed.vue'
+import FeatureSection from '../../components/FeatureSection.vue'
+import './restructured-blog.css'
 
 export default {
     extends: DefaultTheme,
@@ -29,5 +31,6 @@ export default {
     app.component('Trading', Trading)
     app.component('AudioPlayer', AudioPlayer)
     app.component('YouTubeEmbed', YouTubeEmbed)
+    app.component('FeatureSection', FeatureSection)
   }
 }

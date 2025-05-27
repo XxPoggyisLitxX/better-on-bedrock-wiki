@@ -1,0 +1,124 @@
+/* --- SCSS/CSS for Markdown Blog Styling --- */
+
+/* Basic section spacing */
+section, .image-grid-2-col, .single-image-center, .call-to-action-section {
+  margin: 3rem 0;
+}
+
+/* Hero image */
+.main-hero-image {
+  text-align: center;
+  margin: 2rem 0;
+}
+.main-hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Grid layout for images */
+.image-grid-2-col {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  align-items: start;
+  margin-top: 1rem;
+}
+.image-item {
+  text-align: center;
+}
+.image-item img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  max-height: 300px;
+}
+.image-caption {
+  font-size: 0.95rem;
+  color: #ccc;
+  margin-top: 0.5rem;
+}
+
+/* Centered single image */
+.single-image-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.single-image-center img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+
+/* Call to action */
+.call-to-action-section {
+  background: #222;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 4rem;
+}
+.call-to-action-section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.call-to-action-section p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+.download-button {
+  background-color: #36a1ff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.download-button:hover {
+  background-color: #1e7ecb;
+}
+
+/* Scroll Reveal Animations */
+[data-aos] {
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition-duration: 1s;
+}
+[data-aos].aos-animate {
+  opacity: 1;
+  transform: none;
+}
+
+/* Entity Texture Card */
+.entity-image-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 1rem auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease;
+}
+.entity-image-card:hover {
+  transform: translateY(-2px);
+}
+.entity-image-card img {
+  width: 128px;
+  height: 128px;
+  object-fit: contain;
+  border-radius: 6px;
+}
+.entity-info h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #fff;
+}
+.entity-info p {
+  margin: 0.25rem 0 0;
+  font-size: 0.95rem;
+  color: #bbb;
+}
