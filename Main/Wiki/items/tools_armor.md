@@ -108,7 +108,7 @@ We're not done yet! You are then required to find a stardust upgrade template, w
   ]"
 />
 
-Upgrading your diamond tools and armor to stardust requires a smithing table and a netherite ingot.
+Upgrading your diamond tools and netherite armor to stardust requires a smithing table and a netherite ingot.
 <ShufflingSmithingTable
   background="UI/smithing_background"
   :inputItems="[
