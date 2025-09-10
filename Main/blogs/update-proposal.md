@@ -6,7 +6,7 @@ description: Overhauled structures, new villages, sprawling mineshafts, eerie du
 
 <!-- HERO -->
 <ParallaxHero
-  title="The Structure Update Proposal"
+  title="The Structure Update"
   subtitle="Overhauled structures, new villages, sprawling mineshafts, eerie dungeons, and updated arenas to explore."
   badge="Better on Bedrock v1.2 — Restructured"
   image="/Main/assets/blogs/cherry_village.png"

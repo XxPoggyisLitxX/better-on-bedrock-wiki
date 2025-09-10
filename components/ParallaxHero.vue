@@ -23,7 +23,6 @@ const props = defineProps({
   height: { type: [Number, String], default: 520 },
 })
 
-// Helper to resolve image paths for Vite build
 function resolveImg(src) {
   if (src.startsWith('/Main/assets')) {
     const relPath = src.replace(/^\//, '');
