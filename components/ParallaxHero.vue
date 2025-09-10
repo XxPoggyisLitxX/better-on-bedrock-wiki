@@ -23,8 +23,20 @@ const props = defineProps({
   height: { type: [Number, String], default: 520 },
 })
 
+// Helper to resolve image paths for Vite build
+function resolveImg(src) {
+  if (src.startsWith('/Main/assets')) {
+    const relPath = src.replace(/^\//, '');
+    const images = import.meta.glob('/Main/assets/**/*', { eager: true, as: 'url' });
+    if (images['/' + relPath]) return images['/' + relPath];
+    if (images[src]) return images[src];
+    if (images[relPath]) return images[relPath];
+  }
+  return src;
+}
+
 const bgStyle = computed(() => ({
-  '--hero-img': `url(${props.image})`,
+  '--hero-img': `url(${resolveImg(props.image)})`,
   minHeight: typeof props.height === 'number' ? props.height + 'px' : props.height
 }))
 </script>
