@@ -14,11 +14,24 @@ import AudioPlayer from '../../components/AudioPlayer.vue'
 import YouTubeEmbed from '../../components/YouTubeEmbed.vue'
 import FeatureSection from '../../components/FeatureSection.vue'
 import './restructured-blog.css'
+import Callout from '../../components/Callout.vue'
+import FeatureGrid from '../../components/FeatureGrid.vue'
+import GalleryMasonary from '../../components/GalleryMasonry.vue'
+import ImageCarousel from '../../components/ImageCarousel.vue'
+import ParallaxHero from '../../components/ParallaxHero.vue'
+import StatBadge from '../../components/StatBadge.vue'
+
 
 export default {
     extends: DefaultTheme,
   enhanceApp({ app }) {
     app.component('CraftingTable', CraftingTable)
+      app.component('Callout', Callout)
+  app.component('FeatureGrid', FeatureGrid)
+  app.component('GalleryMasonry', GalleryMasonary)
+  app.component('ImageCarousel', ImageCarousel)
+  app.component('ParallaxHero', ParallaxHero)
+  app.component('StatBadge', StatBadge)
     app.component('SmithingTable', SmithingTable)
     app.component('ShufflingCraftingTable', ShufflingCraftingTable)
     app.component('ToolTip', ToolTip)
