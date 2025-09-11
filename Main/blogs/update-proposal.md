@@ -12,8 +12,7 @@ description: Overhauled structures, new villages, sprawling mineshafts, eerie du
   image="/Main/assets/blogs/cherry_village.png"
 >
   <template #actions>
-    <a class="vp-button" href="#features">See Features</a>
-    <a class="vp-button brand" href="#watch">Watch Teasers</a>
+    <a class="vp-button brand" target="https://www.youtube.com/watch?v=kSI09tXAavM" rel="noopener">Watch Teasers</a>
   </template>
 </ParallaxHero>
 
