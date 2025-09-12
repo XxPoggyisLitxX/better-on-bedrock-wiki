@@ -5,10 +5,13 @@
 
 # Better on Bedrock is now available on the [Minecraft marketplace](https://www.minecraft.net/en-us/marketplace/pdp/poggy/better-on-bedrock/6c3a6979-dc77-41c6-b19e-0071dabedf71)!
 
-# Download guide
 ### NOTE: better on bedrock no longer requires experimental toggles!
+
+# Download guide
+
 ### MCPEDL
 BoB currently can be downloaded via the [MCPEDL](https://mcpedl.com/better-on-bedrock/) page.
+
 ![image](/Main/assets/beginners-guide/mcpedl-download.png)
 
 ### Discord
@@ -16,9 +19,9 @@ You can also download the Add-On via the Discord channel 'Add-on Updates' alongs
 
 ![image](/Main/assets/beginners-guide/discord-download.png)
 
-## Importing the addon
+---
 
-### PC
+## Importing the addon on PC:
 
 To import the Add-On to your Minecraft application, once you have downloaded the Add-On from either of the links above, head to your downloads folder where you will see the .mcaddon file.
 
@@ -31,7 +34,11 @@ Make sure you either double-click the .mcaddon download or open it by right-clic
 
 After doing this, the Add-On will start to import into your Minecraft application.
 
-# Mobile
+---
+
+
+
+## Importing the addon on Mobile
 
 With Mobile, installing the Add-On is a bit of a tedious task as it requires more steps on a lot of devices. This wiki can only provide so much information, as there are many different versions and brands of devices that people use.
 
