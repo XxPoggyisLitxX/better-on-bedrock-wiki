@@ -56,7 +56,7 @@ const beginnerGuide = [{text: 'Beginners Guides',
   items:[
     {text: 'How to install', link: '/Main/BeginnersGuide/how-to-install'},
     {text: 'Adding to your world', link:'/Main/BeginnersGuide/adding-to-world'},
-    {text: 'Config & starter items', link:'/Main/BeginnersGuide/starter-items.md'},
+    {text: 'Config & starter items', link:'/Main/BeginnersGuide/starter-items'},
     {text: 'Back To Home', link:'/'}
   ]
 }]
