@@ -62,13 +62,38 @@ const props = defineProps({
   pauseOnHover: { type: Boolean, default: false }
 })
 
-// Resolve image helper compatible with Vite build
+// Resolve image helper compatible with Vite build, supports extension-less imports
 function resolveImg(src) {
   if (!src || typeof src !== 'string') return src
-  if (src.startsWith('/Main/assets')) {
+
+  // Work with both "/Main/assets" and "Main/assets"
+  const isMain = src.startsWith('/Main/assets') || src.startsWith('Main/assets')
+  if (isMain) {
     const relPath = src.replace(/^\//, '')
     const images = import.meta.glob('/Main/assets/**/*', { eager: true, as: 'url' })
-    return images['/' + relPath] || images[src] || images[relPath] || src
+
+    // Direct matches
+    if (images['/' + relPath]) return images['/' + relPath]
+    if (images[src]) return images[src]
+    if (images[relPath]) return images[relPath]
+
+    // If no extension provided, try common ones
+    const name = relPath.split('/').pop() || ''
+    const hasExt = /\.[a-zA-Z0-9]+$/.test(name)
+    if (!hasExt) {
+      const exts = ['.png', '.jpg', '.jpeg', '.webp', '.gif', '.avif', '.svg']
+      for (const ext of exts) {
+        const withExt = relPath + ext
+        if (images['/' + withExt]) return images['/' + withExt]
+        if (images[withExt]) return images[withExt]
+      }
+      // Fallback: index.{ext} inside folder
+      for (const ext of exts) {
+        const idx = relPath.replace(/\/+$/, '') + '/index' + ext
+        if (images['/' + idx]) return images['/' + idx]
+        if (images[idx]) return images[idx]
+      }
+    }
   }
   return src
 }
@@ -80,7 +105,6 @@ const resolvedItems = computed(() => {
     if (it && typeof it === 'object') {
       return { ...it, src: resolveImg(it.src) }
     }
-    // allow string entries
     return { src: resolveImg(String(it)), alt: '', caption: '' }
   })
 })

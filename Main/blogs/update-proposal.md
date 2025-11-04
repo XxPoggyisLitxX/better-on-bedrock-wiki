@@ -13,7 +13,7 @@ wide: true
   title="The Structure Update"
   subtitle="Overhauled structures, new villages, sprawling mineshafts, eerie dungeons, and updated arenas to explore."
   badge="Better on Bedrock v1.2 — Restructured"
-  image="/Main/assets/blogs/Preview4.png"
+  image="/Main/assets/blogs/Preview4"
 >
   <template #actions>
     <a class="vp-button brand" href="https://www.youtube.com/watch?v=kSI09tXAavM" target="_blank" rel="noopener">Watch Teasers</a>
@@ -56,33 +56,33 @@ Cherry blossoms, lush jungles, swamp mists, and dry mesa's! Each village is craf
     { 
       title: 'Jungle Village', 
       items: [ 
-        { src: '/Main/assets/blogs/jungle_01.png', caption: 'Town Center' }, 
-        { src: '/Main/assets/blogs/jungle_02.png', caption: 'Jungle Village Layout' }, 
-        { src: '/Main/assets/blogs/jungle_03.png', caption: 'Blacksmith' } 
+        { src: '/Main/assets/blogs/jungle_01', caption: 'Town Center' }, 
+        { src: '/Main/assets/blogs/jungle_02', caption: 'Jungle Village Layout' }, 
+        { src: '/Main/assets/blogs/jungle_03', caption: 'Blacksmith' } 
       ] 
     }, 
     { 
       title: 'Swamp Village', 
       items: [ 
-        { src: '/Main/assets/blogs/swamp_01.png', caption: 'Swamp Village Layout' }, 
-        { src: '/Main/assets/blogs/swamp_02.png', caption: 'Swamp Village street view' }, 
-        { src: '/Main/assets/blogs/swamp_03.png', caption: 'Swamp Village street view' } 
+        { src: '/Main/assets/blogs/swamp_01', caption: 'Swamp Village Layout' }, 
+        { src: '/Main/assets/blogs/swamp_02', caption: 'Swamp Village street view' }, 
+        { src: '/Main/assets/blogs/swamp_03', caption: 'Swamp Village street view' } 
       ] 
     }, 
     { 
       title: 'Cherry Village', 
       items: [ 
-        { src: '/Main/assets/blogs/cherry_01.png', caption: 'Town Center' }, 
-        { src: '/Main/assets/blogs/cherry_02.png', caption: 'Cherry Village street view' }, 
-        { src: '/Main/assets/blogs/cherry_03.png', caption: 'Cherry Village Layout' } 
+        { src: '/Main/assets/blogs/cherry_01', caption: 'Town Center' }, 
+        { src: '/Main/assets/blogs/cherry_02', caption: 'Cherry Village street view' }, 
+        { src: '/Main/assets/blogs/cherry_03', caption: 'Cherry Village Layout' } 
       ] 
     }, 
     { 
       title: 'Mesa Village', 
       items: [ 
-        { src: '/Main/assets/blogs/mesa_01.png', caption: 'Dense canopy pathways' }, 
-        { src: '/Main/assets/blogs/mesa_02.png', caption: 'Homes above the roots' }, 
-        { src: '/Main/assets/blogs/mesa_03.png', caption: 'Night in the treetops' } 
+        { src: '/Main/assets/blogs/mesa_01', caption: 'Dense canopy pathways' }, 
+        { src: '/Main/assets/blogs/mesa_02', caption: 'Homes above the roots' }, 
+        { src: '/Main/assets/blogs/mesa_03', caption: 'Night in the treetops' } 
       ] 
     } 
   ]"
@@ -97,9 +97,9 @@ Cherry blossoms, lush jungles, swamp mists, and dry mesa's! Each village is craf
       card: {
         title: 'Jungle Village',
         items: [
-          { src: '/Main/assets/blogs/jungle_01.png', caption: 'Town Center' },
-          { src: '/Main/assets/blogs/jungle_02.png', caption: 'Jungle Village Layout' },
-          { src: '/Main/assets/blogs/jungle_03.png', caption: 'Blacksmith' }
+          { src: '/Main/assets/blogs/jungle_01', caption: 'Town Center' },
+          { src: '/Main/assets/blogs/jungle_02', caption: 'Jungle Village Layout' },
+          { src: '/Main/assets/blogs/jungle_03', caption: 'Blacksmith' }
         ]
       }
     },
@@ -109,9 +109,9 @@ Cherry blossoms, lush jungles, swamp mists, and dry mesa's! Each village is craf
       card: {
         title: 'Cherry Village',
         items: [
-          { src: '/Main/assets/blogs/cherry_01.png', caption: 'Town Center' },
-          { src: '/Main/assets/blogs/cherry_02.png', caption: 'Cherry Village street view' },
-          { src: '/Main/assets/blogs/cherry_03.png', caption: 'Cherry Village Layout' }
+          { src: '/Main/assets/blogs/cherry_01', caption: 'Town Center' },
+          { src: '/Main/assets/blogs/cherry_02', caption: 'Cherry Village street view' },
+          { src: '/Main/assets/blogs/cherry_03', caption: 'Cherry Village Layout' }
         ]
       }
     },
@@ -121,9 +121,9 @@ Cherry blossoms, lush jungles, swamp mists, and dry mesa's! Each village is craf
       card: {
         title: 'Cherry Village',
         items: [
-          { src: '/Main/assets/blogs/swamp_01.png', caption: 'Town Center' },
-          { src: '/Main/assets/blogs/swamp_02.png', caption: 'Cherry Village street view' },
-          { src: '/Main/assets/blogs/swamp_03.png', caption: 'Cherry Village Layout' }
+          { src: '/Main/assets/blogs/swamp_01', caption: 'Town Center' },
+          { src: '/Main/assets/blogs/swamp_02', caption: 'Cherry Village street view' },
+          { src: '/Main/assets/blogs/swamp_03', caption: 'Cherry Village Layout' }
         ]
       }
     },
@@ -133,9 +133,9 @@ Cherry blossoms, lush jungles, swamp mists, and dry mesa's! Each village is craf
       card: {
         title: 'Cherry Village',
         items: [
-          { src: '/Main/assets/blogs/mesa_01.png', caption: 'Town Center' },
-          { src: '/Main/assets/blogs/mesa_02.png', caption: 'Cherry Village street view' },
-          { src: '/Main/assets/blogs/mesa_03.png', caption: 'Cherry Village Layout' }
+          { src: '/Main/assets/blogs/mesa_01', caption: 'Town Center' },
+          { src: '/Main/assets/blogs/mesa_02', caption: 'Cherry Village street view' },
+          { src: '/Main/assets/blogs/mesa_03', caption: 'Cherry Village Layout' }
         ]
       }
     }
@@ -151,7 +151,7 @@ Cherry blossoms, lush jungles, swamp mists, and dry mesa's! Each village is craf
   title="Below the Surface: Mineshafts"
   subtitle="Wider routes, sightlines, better loot paths."
   :bullets="['Broader corridors', 'Lantern waypoints', 'Safer intersections']"
-  :images="[{src:'/Main/assets/blogs/mineshaft_02.png', caption:'New Mineshaft'}]"
+  :images="[{src:'/Main/assets/blogs/mineshaft_02', caption:'New Mineshaft'}]"
 />
 
 
@@ -165,7 +165,7 @@ Cherry blossoms, lush jungles, swamp mists, and dry mesa's! Each village is craf
       card: {
         title: 'Jungle Village',
         items: [
-            { src:'/Main/assets/blogs/willager_boss.png'}
+            { src:'/Main/assets/blogs/willager_boss'}
         ]
       }
     },
@@ -175,7 +175,7 @@ Cherry blossoms, lush jungles, swamp mists, and dry mesa's! Each village is craf
       card: {
         title: 'Jungle Village',
         items: [
-            { src:'/Main/assets/blogs/enchanter_boss.png'}
+            { src:'/Main/assets/blogs/enchanter_boss'}
         ]
       }
     }
@@ -189,7 +189,7 @@ Cherry blossoms, lush jungles, swamp mists, and dry mesa's! Each village is craf
   title="Terrain-aware Structures!"
   subtitle="Structures blend in with the terrain better than ever thanks to Jigsaw Blocks! This Trader Outpost consists of 3 seperate pieces."
   :bullets="['More adaptive to the terrain', 'No more structures cutting through terrain']"
-  :images="[{src:'/Main/assets/blogs/trader_outpost.png', caption:'New Mineshaft'}]"
+  :images="[{src:'/Main/assets/blogs/trader_outpost', caption:'New Mineshaft'}]"
 />
 
 ## Randomly Generated Dungeons!
@@ -202,7 +202,7 @@ Cherry blossoms, lush jungles, swamp mists, and dry mesa's! Each village is craf
       card: {
         title: 'Jungle Village',
         items: [
-            { src:'/Main/assets/blogs/well_dungeon.png', caption:'Well Dungeon'}
+            { src:'/Main/assets/blogs/well_dungeon', caption:'Well Dungeon'}
         ]
       }
     }
@@ -219,10 +219,10 @@ Cherry blossoms, lush jungles, swamp mists, and dry mesa's! Each village is craf
       card: {
         title: 'Jungle Village',
         items: [
-            { src:'/Main/assets/blogs/adventure_camp.png', caption:'Adventure Camp'},
-            { src:'/Main/assets/blogs/pillage_ship.png', caption:'Pillager Ship'},
-            { src:'/Main/assets/blogs/birch_waystone.png', caption:'Waystone Hut (Birch)'},
-            { src:'/Main/assets/blogs/trail_digsite.png', caption:'Trail Digsite'}
+            { src:'/Main/assets/blogs/adventure_camp', caption:'Adventure Camp'},
+            { src:'/Main/assets/blogs/pillage_ship', caption:'Pillager Ship'},
+            { src:'/Main/assets/blogs/birch_waystone', caption:'Waystone Hut (Birch)'},
+            { src:'/Main/assets/blogs/trail_digsite', caption:'Trail Digsite'}
         ]
       }
     }
