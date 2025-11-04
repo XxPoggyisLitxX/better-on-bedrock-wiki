@@ -1,8 +1,8 @@
 <template>
   <section class="feature-row" :class="{ reverse }">
     <div class="media">
-      <ImageSlideshow v-if="images?.length" :items="images" :aspect="aspect" autoplay arrows indicators />
-      <img v-else :src="resolveImg(src)" :alt="alt || 'image'" loading="lazy" />
+  <ImageSlideshow v-if="images?.length" :items="images" :aspect="aspect" autoplay arrows indicators />
+      <img v-else :src="src" :alt="alt || 'image'" />
     </div>
     <div class="copy">
       <h3 class="h3">{{ title }}</h3>
@@ -27,24 +27,16 @@ defineProps({
   reverse: { type: Boolean, default: false },
   aspect: { type: String, default: '16/9' }
 })
-
-function resolveImg(src) {
-  if (!src || typeof src !== 'string') return src
-  if (src.startsWith('/Main/assets') || src.startsWith('Main/assets')) {
-    const relPath = src.replace(/^\//, '')
-    const images = import.meta.glob('/Main/assets/**/*.{png,jpg,jpeg,webp,avif,gif,svg}', {
-      eager: true,
-      query: '?url',
-      import: 'default'
-    })
-    return images['/' + relPath] || images[src] || images[relPath] || src
-  }
-  return src
-}
 </script>
 
 <style scoped>
-.feature-row { display: grid; gap: 1.5rem; align-items: center; max-width: 1500px; margin: 0 auto; }
+.feature-row {
+  display: grid;
+  gap: 1.5rem;
+  align-items: center;
+  max-width: 1500px;
+  margin: 0 auto;
+}
 @media(min-width:1024px){
   .feature-row{grid-template-columns:1.2fr 1fr}
   .feature-row.reverse .media{order:2}
