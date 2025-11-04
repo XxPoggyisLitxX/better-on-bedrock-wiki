@@ -7,28 +7,23 @@
   </section>
 </template>
 
-
 <script setup>
 const props = defineProps({
   images: { type: Array, default: () => [] }
 })
 
-// Helper to resolve image paths for Vite build
 function resolveImg(src) {
-  // If src starts with '/Main/assets', use import.meta.glob
-  if (src.startsWith('/Main/assets')) {
-    // Remove leading slash for glob
-    const relPath = src.replace(/^\//, '');
-    // Vite import.meta.glob eager
-    const images = import.meta.glob('/Main/assets/**/*', { eager: true, as: 'url' });
-    // Try direct match
-    if (images['/' + relPath]) return images['/' + relPath];
-    if (images[src]) return images[src];
-    // Try without leading slash
-    if (images[relPath]) return images[relPath];
+  if (!src || typeof src !== 'string') return src
+  if (src.startsWith('/Main/assets') || src.startsWith('Main/assets')) {
+    const relPath = src.replace(/^\//, '')
+    const images = import.meta.glob('/Main/assets/**/*.{png,jpg,jpeg,webp,avif,gif,svg}', {
+      eager: true,
+      query: '?url',
+      import: 'default'
+    })
+    return images['/' + relPath] || images[src] || images[relPath] || src
   }
-  // Otherwise, return as-is (for public/ or external)
-  return src;
+  return src
 }
 </script>
 

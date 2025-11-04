@@ -16,7 +16,7 @@
         :key="i"
         class="card"
       >
-        <img :src="c.src" :alt="c.alt || c.caption" />
+        <img :src="resolveImg(c.src)" :alt="c.alt || c.caption" loading="lazy" />
         <footer v-if="c.caption">{{ c.caption }}</footer>
       </article>
     </div>
@@ -31,6 +31,20 @@ const props = defineProps({
 })
 const active = ref('All')
 const shown = computed(() => active.value === 'All' ? props.items : props.items.filter(i => i.tag === active.value))
+
+function resolveImg(src) {
+  if (!src || typeof src !== 'string') return src
+  if (src.startsWith('/Main/assets') || src.startsWith('Main/assets')) {
+    const relPath = src.replace(/^\//, '')
+    const images = import.meta.glob('/Main/assets/**/*.{png,jpg,jpeg,webp,avif,gif,svg}', {
+      eager: true,
+      query: '?url',
+      import: 'default'
+    })
+    return images['/' + relPath] || images[src] || images[relPath] || src
+  }
+  return src
+}
 </script>
 
 <style scoped>

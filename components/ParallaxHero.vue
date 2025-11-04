@@ -26,16 +26,18 @@ const props = defineProps({
 function resolveImg(src) {
   if (!src || typeof src !== 'string') return src
 
-  if (src.startsWith('/Main/assets')) {
+  if (src.startsWith('/Main/assets') || src.startsWith('Main/assets')) {
     const relPath = src.replace(/^\//, '')
-    const images = import.meta.glob('/Main/assets/**/*', { eager: true, as: 'url' })
+    const images = import.meta.glob('/Main/assets/**/*.{png,jpg,jpeg,webp,avif,gif,svg}', {
+      eager: true,
+      query: '?url',
+      import: 'default'
+    })
 
-    // 1) Direct matches
     if (images['/' + relPath]) return images['/' + relPath]
     if (images[src]) return images[src]
     if (images[relPath]) return images[relPath]
 
-    // 2) If no extension provided, try common ones
     const name = relPath.split('/').pop() || ''
     const hasExt = /\.[a-zA-Z0-9]+$/.test(name)
     if (!hasExt) {
@@ -45,7 +47,6 @@ function resolveImg(src) {
         if (images['/' + withExt]) return images['/' + withExt]
         if (images[withExt]) return images[withExt]
       }
-      // Also try index.{ext} inside a folder
       for (const ext of exts) {
         const idx = relPath.replace(/\/+$/, '') + '/index' + ext
         if (images['/' + idx]) return images['/' + idx]
