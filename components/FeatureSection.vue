@@ -1,57 +1,50 @@
 <template>
-  <section class="feature-section" :data-aos="reverse ? 'fade-left' : 'fade-right'">
-    <h2 class="section-title">{{ title }}</h2>
-    <p class="section-subtitle">{{ subtitle }}</p>
-    <div class="image-grid">
-      <div class="image-item" v-for="(image, i) in images" :key="i">
-        <img :src="image.src" :alt="image.caption" />
-        <p class="image-caption">{{ image.caption }}</p>
-      </div>
+  <section class="feature-row" :class="{ reverse }">
+    <div class="media">
+  <ImageSlideshow v-if="images?.length" :items="images" :aspect="aspect" autoplay arrows indicators />
+      <img v-else :src="src" :alt="alt || 'image'" />
+    </div>
+    <div class="copy">
+      <h3 class="h3">{{ title }}</h3>
+      <p v-if="subtitle" class="sub">{{ subtitle }}</p>
+      <ul v-if="bullets?.length" class="bullets">
+        <li v-for="(b,i) in bullets" :key="i">{{ b }}</li>
+      </ul>
+      <slot />
     </div>
   </section>
 </template>
 
 <script setup>
+import ImageSlideshow from './ImageSlideshow.vue'
 defineProps({
   title: String,
   subtitle: String,
+  bullets: Array,
   images: Array,
-  reverse: Boolean,
+  src: String,
+  alt: String,
+  reverse: { type: Boolean, default: false },
+  aspect: { type: String, default: '16/9' }
 })
 </script>
 
 <style scoped>
-.feature-section {
-  margin: 3rem 0;
-}
-.section-title {
-  font-size: 1.6rem;
-  font-weight: bold;
-}
-.section-subtitle {
-  font-size: 1.1rem;
-  margin-bottom: 1rem;
-}
-.image-grid {
+.feature-row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
+  align-items: center;
+  max-width: 1500px;
+  margin: 0 auto;
 }
-.image-item {
-  text-align: center;
+@media(min-width:1024px){
+  .feature-row{grid-template-columns:1.2fr 1fr}
+  .feature-row.reverse .media{order:2}
+  .feature-row.reverse .copy{order:1}
 }
-.image-item img {
-  width: 100%;
-  border-radius: 8px;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-}
-.image-item img:hover {
-  transform: scale(1.02);
-}
-.image-caption {
-  font-size: 0.9rem;
-  margin-top: 0.5rem;
-  color: #bbb;
-}
+.media{border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgb(0 0 0 / .25)}
+.media :deep(img){display:block;width:100%;height:auto}
+.h3{margin:0 0 .25rem;font-size:clamp(1.25rem,1vw+1rem,1.6rem)}
+.sub{opacity:.9;margin:0 0 .5rem}
+.bullets{margin:.5rem 0 0;display:grid;gap:.25rem;padding-left:1.1rem}
 </style>

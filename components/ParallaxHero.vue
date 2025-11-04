@@ -53,7 +53,7 @@ const bgStyle = computed(() => ({
 .backdrop{
   position:absolute; inset:0;
   background: linear-gradient(180deg, rgba(0,0,0,.45), rgba(0,0,0,.45));
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(0px);
 }
 .wrap{
   position: relative;

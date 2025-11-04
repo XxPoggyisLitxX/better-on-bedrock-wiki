@@ -1,5 +1,5 @@
 <template>
-  <div class="stats">
+  <div class="stats" :style="{ gridTemplateColumns: `repeat(${items.length}, minmax(0, 1fr))` }">
     <div v-for="(s,i) in items" :key="i" class="stat">
       <div class="num">{{ s.value }}</div>
       <div class="txt">{{ s.label }}</div>
@@ -14,9 +14,12 @@ const props = defineProps({
 </script>
 
 <style scoped>
-.stats{
-  display:grid; grid-template-columns: repeat(3,minmax(0,1fr));
+.stats {
+  display: grid;
   gap: .75rem;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 600px;
 }
 @media (max-width: 700px){ .stats{ grid-template-columns: 1fr; } }
 .stat{

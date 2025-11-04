@@ -2,22 +2,39 @@
 outline: deep
 title: Better on Bedrock — The Structure Update Proposal
 description: Overhauled structures, new villages, sprawling mineshafts, eerie dungeons, and updated arenas to explore.
+wide: true
 ---
+
+
+
 
 <!-- HERO -->
 <ParallaxHero
   title="The Structure Update"
   subtitle="Overhauled structures, new villages, sprawling mineshafts, eerie dungeons, and updated arenas to explore."
   badge="Better on Bedrock v1.2 — Restructured"
-  image="/Main/assets/blogs/cherry_village.png"
+  image="/Main/assets/blogs/Preview4.png"
 >
   <template #actions>
     <a class="vp-button brand" href="https://www.youtube.com/watch?v=kSI09tXAavM" target="_blank" rel="noopener">Watch Teasers</a>
   </template>
 </ParallaxHero>
 
-## Highlights
+<div style="text-align: center; margin: 2rem 0;">
+  <h2 style="margin-bottom: 0.5rem;">What is Restructured?</h2>
+  <p style="font-size: 1.15rem; max-width: 600px; margin: 0 auto;">
+    Restructured is a deep pass on world generation &amp; structures using jigsaw tech, aiming for more variety, fewer odd placements, and more memorable journeys.
+  </p>
+</div>
 
+<StatBadge :items="[
+  { value: '25+', label: 'New/Overhauled Structures' },
+  { value: '4', label: 'Biome Villages' },
+  { value: '2', label: 'New Dungeons' }
+]" />
+
+
+<!--
 <FeatureGrid :features="[
   { icon: '🏘️', title: 'Biome-Specific Villages', description: 'Cherry Groves, Jungles, Swamps and Mesa villages now match their biomes for stronger fantasy and better gameplay.' },
   { icon: '⛏️', title: 'New Mineshaft', description: 'Vanilla mineshafts but bigger!' },
@@ -26,55 +43,193 @@ description: Overhauled structures, new villages, sprawling mineshafts, eerie du
   { icon: '🌄', title: 'Terrain-Aware Generation', description: 'Restructured focuses on natural placement and seamless blending with terrain.' },
   { icon: '🥾', title: 'Pillager Camps', description: 'Ambush points and tactical bases spice up survival routes.' }
 ]" />
-
-<Callout tone="tip" label="What is Restructured?">
-Restructured is a deep pass on world generation & structures using jigsaw tech, aiming for more variety, fewer odd placements, and more memorable journeys.
-</Callout>
+-->
 
 ## Villages, Reimagined
 
-Cherry blossoms, jungle thickets, swamp mists, and dry mesa's! Each village is crafted to feel native to its biome.
+Cherry blossoms, lush jungles, swamp mists, and dry mesa's! Each village is crafted to feel native to its biome.
 
-<GalleryMasonry :images="[
-  { src: '/Main/assets/blogs/cherry_village.png', alt: 'Cherry Grove Village', caption: 'Calm, elegant homes under pink canopies.' },
-  { src: '/Main/assets/blogs/jungle_village.png', alt: 'Jungle Village', caption: 'A work-in-progress look at dense jungle living.' },
-  { src: '/Main/assets/blogs/mesa_village.png', alt: 'Mesa Village', caption: 'A more dangerous Pillager presence.' },
-  { src: '/Main/assets/blogs/swamp_village.png', alt: 'Swamp Village', caption: 'A more dangerous Pillager presence.' }
-]" />
+
+<!--
+<MansoryCard
+  :cards="[ 
+    { 
+      title: 'Jungle Village', 
+      items: [ 
+        { src: '/Main/assets/blogs/jungle_01.png', caption: 'Town Center' }, 
+        { src: '/Main/assets/blogs/jungle_02.png', caption: 'Jungle Village Layout' }, 
+        { src: '/Main/assets/blogs/jungle_03.png', caption: 'Blacksmith' } 
+      ] 
+    }, 
+    { 
+      title: 'Swamp Village', 
+      items: [ 
+        { src: '/Main/assets/blogs/swamp_01.png', caption: 'Swamp Village Layout' }, 
+        { src: '/Main/assets/blogs/swamp_02.png', caption: 'Swamp Village street view' }, 
+        { src: '/Main/assets/blogs/swamp_03.png', caption: 'Swamp Village street view' } 
+      ] 
+    }, 
+    { 
+      title: 'Cherry Village', 
+      items: [ 
+        { src: '/Main/assets/blogs/cherry_01.png', caption: 'Town Center' }, 
+        { src: '/Main/assets/blogs/cherry_02.png', caption: 'Cherry Village street view' }, 
+        { src: '/Main/assets/blogs/cherry_03.png', caption: 'Cherry Village Layout' } 
+      ] 
+    }, 
+    { 
+      title: 'Mesa Village', 
+      items: [ 
+        { src: '/Main/assets/blogs/mesa_01.png', caption: 'Dense canopy pathways' }, 
+        { src: '/Main/assets/blogs/mesa_02.png', caption: 'Homes above the roots' }, 
+        { src: '/Main/assets/blogs/mesa_03.png', caption: 'Night in the treetops' } 
+      ] 
+    } 
+  ]"
+/>
+-->
+
+<ZigZagShowcase
+  :sections="[
+    {
+      title: 'Jungle Village',
+      description: 'A cozy village under the leaves and bamboo everywhere, with lanterns on the streets and nature taking part in civilization',
+      card: {
+        title: 'Jungle Village',
+        items: [
+          { src: '/Main/assets/blogs/jungle_01.png', caption: 'Town Center' },
+          { src: '/Main/assets/blogs/jungle_02.png', caption: 'Jungle Village Layout' },
+          { src: '/Main/assets/blogs/jungle_03.png', caption: 'Blacksmith' }
+        ]
+      }
+    },
+    {
+      title: 'Cherry Village',
+      description: 'A beautiful Chinese-inspired village within the Cherry Groves. It is a cozy little town under a shower of pink petals. Wooden porches and the calm environment make it an easy place to trade and chill.',
+      card: {
+        title: 'Cherry Village',
+        items: [
+          { src: '/Main/assets/blogs/cherry_01.png', caption: 'Town Center' },
+          { src: '/Main/assets/blogs/cherry_02.png', caption: 'Cherry Village street view' },
+          { src: '/Main/assets/blogs/cherry_03.png', caption: 'Cherry Village Layout' }
+        ]
+      }
+    },
+     {
+      title: 'Swamp Village',
+      description: 'Who ever thought villagers could live within the soggy swamps? A pretty neat village deep withing the swamps where Villagers do science on the mushrooms.',
+      card: {
+        title: 'Cherry Village',
+        items: [
+          { src: '/Main/assets/blogs/swamp_01.png', caption: 'Town Center' },
+          { src: '/Main/assets/blogs/swamp_02.png', caption: 'Cherry Village street view' },
+          { src: '/Main/assets/blogs/swamp_03.png', caption: 'Cherry Village Layout' }
+        ]
+      }
+    },
+     {
+      title: 'Mesa Village',
+      description: 'Inspired by the Wild-West times. This village keeps the feel and look as if it existed since the Wild-west era. This village features its own unique layout to try and stay true to Wild-west villages.',
+      card: {
+        title: 'Cherry Village',
+        items: [
+          { src: '/Main/assets/blogs/mesa_01.png', caption: 'Town Center' },
+          { src: '/Main/assets/blogs/mesa_02.png', caption: 'Cherry Village street view' },
+          { src: '/Main/assets/blogs/mesa_03.png', caption: 'Cherry Village Layout' }
+        ]
+      }
+    }
+  ]"
+/>
+
+
+
 
 ## Below the Surface: Mineshafts
 
-<GalleryMasonry :images="[
-  { src: '/Main/assets/blogs/mineshaft.png', alt: 'New Mineshaft', caption: 'Wider routes, better sightlines, new loot paths.' }
-]" />
+<FeatureSection
+  title="Below the Surface: Mineshafts"
+  subtitle="Wider routes, sightlines, better loot paths."
+  :bullets="['Broader corridors', 'Lantern waypoints', 'Safer intersections']"
+  :images="[{src:'/Main/assets/blogs/mineshaft_02.png', caption:'New Mineshaft'}]"
+/>
+
 
 ## Boss Arenas, Overhauled
 
-<GalleryMasonry :images="[
-  { src: '/Main/assets/blogs/willager_boss.png', alt: 'Willager Arena', caption: 'A more fearsome battleground, with a totaly not suspicous chest.' },
-  { src: '/Main/assets/blogs/enchanter_boss.png', alt: 'Enchanter Arena', caption: 'The Enchanter returns with a new venue.' }
-]" />
+<ZigZagShowcase
+  :sections="[
+    {
+      title: 'Overhauled Willager Arena!',
+      description: 'A more fearsome battleground, with a totaly not suspicous chest.',
+      card: {
+        title: 'Jungle Village',
+        items: [
+            { src:'/Main/assets/blogs/willager_boss.png'}
+        ]
+      }
+    },
+     {
+      title: 'Overhauled Enchanter Arena!',
+      description: 'The Enchanter returns with a new venue.',
+      card: {
+        title: 'Jungle Village',
+        items: [
+            { src:'/Main/assets/blogs/enchanter_boss.png'}
+        ]
+      }
+    }
+  ]"
+/>
+
 
 ## Terrain-Aware Overhauls
 
-<GalleryMasonry :images="[
-  { src: '/Main/assets/blogs/trader_outpost.png', alt: 'Trader Outpost', caption: 'Structures now fit more naturally into the world.' }
-]" />
+<FeatureSection
+  title="Terrain-aware Structures!"
+  subtitle="Structures blend in with the terrain better than ever thanks to Jigsaw Blocks! This Trader Outpost consists of 3 seperate pieces."
+  :bullets="['More adaptive to the terrain', 'No more structures cutting through terrain']"
+  :images="[{src:'/Main/assets/blogs/trader_outpost.png', caption:'New Mineshaft'}]"
+/>
+
+## Randomly Generated Dungeons!
+
+<ZigZagShowcase
+  :sections="[
+    {
+      title: 'Well Dungeon!',
+      description: 'The Well Dungeon has been rebuilt from the ground-up to feature proper random generation. This means that most rooms and spawners will be random for each one you find! The Well Dungeon is below any Blackstone Well you find on the overworld surface!',
+      card: {
+        title: 'Jungle Village',
+        items: [
+            { src:'/Main/assets/blogs/well_dungeon.png', caption:'Well Dungeon'}
+        ]
+      }
+    }
+  ]"
+/>
 
 ## Overhauled Structures - A Glimpes!
 
-<GalleryMasonry :images="[
-  { src: '/Main/assets/blogs/adventure_camp.png', alt: 'Adventure Camp', caption: 'Adventure Camps feel more liks camps.' },
-    { src: '/Main/assets/blogs/pillage_ship.png', alt: 'Pillager Ship', caption: 'Pillagers who sail the seven seas. Yar Matey!' },
-      { src: '/Main/assets/blogs/well_dungeon.png', alt: 'Well Dungeon', caption: 'Redesigned for more combat experience with decent loot rewards.' },
-      { src: '/Main/assets/blogs/birch_waystone.png', alt: 'Trader Outpost', caption: 'Waystone Huts have biome variants.' },
-      { src: '/Main/assets/blogs/trail_digsite.png', alt: 'Trader Outpost', caption: 'I wonder what this sherd is..' }
-]" />
+<ZigZagShowcase
+  :sections="[
+    {
+      title: 'Overhauled Structures!',
+      description: 'Some early looks at all of our new and overhauled structures!',
+      card: {
+        title: 'Jungle Village',
+        items: [
+            { src:'/Main/assets/blogs/adventure_camp.png', caption:'Adventure Camp'},
+            { src:'/Main/assets/blogs/pillage_ship.png', caption:'Pillager Ship'},
+            { src:'/Main/assets/blogs/birch_waystone.png', caption:'Waystone Hut (Birch)'},
+            { src:'/Main/assets/blogs/trail_digsite.png', caption:'Trail Digsite'}
+        ]
+      }
+    }
+  ]"
+/>
 
-<StatBadge :items="[
-  { value: '40+', label: 'New/Overhauled Structures' },
-  { value: '4', label: 'Biome Villages' }
-]" />
+### What are you waiting for? Jump in now to experience a brand new world of Better on Bedrock!
 
 ## FAQ
 

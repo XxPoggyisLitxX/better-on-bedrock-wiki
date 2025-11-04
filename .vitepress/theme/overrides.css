@@ -1,0 +1,23 @@
+/* Only for pages that set wide: true (or layoutClass: wide-structure) */
+body.wide-structure {
+  --vp-layout-max-width: 1200px !important;
+  --vp-content-width: 900px !important;
+  --vp-aside-width: 320px !important;
+}
+
+/* Relax container clamps only on wide pages */
+body.wide-structure .VPContent .container,
+body.wide-structure .VPHome .container,
+body.wide-structure .VPDoc .container,
+body.wide-structure .VPDoc .content,
+body.wide-structure .VPDoc .content-container {
+  max-width: none !important;
+}
+
+/* Optional: remove centering to get a fuller-bleed feel */
+body.wide-structure .VPDoc .container {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 1px;
+  padding-right: 1px;
+}

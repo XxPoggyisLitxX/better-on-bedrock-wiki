@@ -33,17 +33,23 @@ function resolveImg(src) {
 </script>
 
 <style scoped>
-.masonry{
-  columns: 3 320px;
-  column-gap: .75rem;
+.masonry {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: .75rem;
 }
-.item{
-  break-inside: avoid;
+.item {
+  flex: 0 1 320px;
   margin-bottom: .75rem;
   border-radius: .875rem;
   overflow: hidden;
   border: 1px solid var(--vp-c-divider);
   background: var(--vp-c-bg-soft);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .item img{ width: 100%; display: block; }
 figcaption{
