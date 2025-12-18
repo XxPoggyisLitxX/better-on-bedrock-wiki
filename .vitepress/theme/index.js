@@ -20,7 +20,7 @@ import './restructured-blog.css'
 import './overrides.css'
 import Callout from '../../components/Callout.vue'
 import FeatureGrid from '../../components/FeatureGrid.vue'
-import GalleryMasonary from '../../components/GalleryMasonry.vue'
+import GalleryMasonry from '../../components/GalleryMasonry.vue'
 import ImageCarousel from '../../components/ImageCarousel.vue'
 import ParallaxHero from '../../components/ParallaxHero.vue'
 import StatBadge from '../../components/StatBadge.vue'
@@ -51,7 +51,7 @@ export default {
     app.component('ImageSlideshow', ImageSlideshow)
     app.component('Callout', Callout)
     app.component('FeatureGrid', FeatureGrid)
-    app.component('GalleryMasonry', GalleryMasonary)
+    app.component('GalleryMasonry', GalleryMasonry)
     app.component('ImageCarousel', ImageCarousel)
     app.component('ParallaxHero', ParallaxHero)
     app.component('StatBadge', StatBadge)
