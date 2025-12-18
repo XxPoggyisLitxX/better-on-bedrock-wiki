@@ -113,6 +113,8 @@ const index = ref(0)
 const hovering = ref(false)
 let timer = null
 
+const isBrowser = typeof window !== 'undefined'
+
 const length = computed(() => resolvedItems.value.length)
 const showControls = computed(() => length.value > 1)
 
@@ -132,6 +134,7 @@ function go(i)   { if (i >= 0 && i < length.value) index.value = i }
 
 function clear() { if (timer) { clearInterval(timer); timer = null } }
 function start() {
+  if (!isBrowser) return
   clear()
   if (!showControls.value) return
   if (!props.autoplay) return
