@@ -1,4 +1,4 @@
-import DefaultTheme from 'vitepress/theme'
+import DefaultTheme, { useSidebar } from 'vitepress/theme'
 import { watchEffect } from 'vue'
 import { useData } from 'vitepress'
 
@@ -32,17 +32,18 @@ import VersusRow from '../../components/VersusRow.vue'
 export default {
   extends: DefaultTheme,
   setup() {
-    const { frontmatter } = useData()
-    const CLASS = 'wide-structure'
+        const { frontmatter } = useData();
+        const { hasSidebar } = useSidebar();
 
-    if (typeof window !== 'undefined') {
-      watchEffect(() => {
-        const enable =
-          frontmatter.value.wide === true || frontmatter.value.layoutClass === CLASS
-        document.body.classList.toggle(CLASS, !!enable)
-      })
-    }
-  },
+        if (typeof window !== "undefined") {
+            watchEffect(() => {
+                const isWide =
+                    frontmatter.value.wide === true || frontmatter.value.layoutClass === "wide-structure"
+
+                document.body.classList.toggle("wide-content", isWide);
+            });
+        };
+    },
   enhanceApp({ app }) {
     app.component('CraftingTable', CraftingTable)
     app.component('VersusRow', VersusRow)

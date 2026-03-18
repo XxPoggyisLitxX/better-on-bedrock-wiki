@@ -1,177 +1,217 @@
-# Better on Bedrock Structure Wiki
-:::info
-This wiki is a work-in-progress. More info/updates coming soon!
-:::
+---
+title: Better on Bedrock — Structures
+description: Overhauled structures, new villages, sprawling mineshafts, eerie dungeons, and updated arenas to explore.
+wide: true
+---
 
-Curious as to how they look and where to find them?
-Look no further as this page shows you the player! all of the current structures you can find within the Add-On
-![image](/Main/assets/bob-rebrand.png)
-## Adventurer Camp
-![image](/Main/assets/structures/adventure_camp.png)
-This structure is home to one lost traveler. It was set up at random places in a world. It was his way to write a story.
+<!-- HERO -->
+<ParallaxHero
+  title="New Structures"
+  subtitle="Overhauled structures, new villages, sprawling mineshafts, eerie dungeons, and updated arenas to explore."
+  badge="Better on Bedrock — Structures"
+  image="/Main/assets/blogs/Preview4"
+>
+  <template #actions>
+    <a class="vp-button brand" href="https://www.youtube.com/watch?v=-diO8nHSVZ4" target="_blank" rel="noopener">Watch Trailer</a>
+  </template>
+</ParallaxHero>
 
-#### Biomes:
-- Savanna
-- Taiga
-- Birch Forest
-- Plains
+<Callout type="warning" title="Work in Progress">
+  This page is still being worked on — some information may be incomplete or subject to change. Additional details and updates will be added soon.
+</Callout>
 
-## Adventurer House
-![image](/Main/assets/structures/adventure_house.png)
-This was the permanent home to the lost traveler.
-### Biomes:
-- Plains
-- Forests
+## Villages, Reimagined
 
-## Enchant Tower
-![image](/Main/assets/structures/enchant_tower.png)
-This is where the Witches gathered when they wanted to learn new enchantments.
-### Biomes:
-- Plains
-- Forests
-- Birch Forest
-
-## Enchantaegis
-![image](/Main/assets/structures/enchanter.png)
-This is where you'll find the [Enchantaegis](/Main/Wiki/mobs.html#enchantaegis). He has some villagers locked up, so it is up to you to save them.
-### Biomes:
-- Plains
-- Forests
-- Birch Forest
-
-## Flender Tower
-![image](/Main/assets/structures/flender.png)
-This tower is home to the [Flender](/Main/Wiki/mobs.html#flender). Any traveler that goes near it, will have to battle for peace.
-### Biomes:
-- Plains
-- Forests
-- Birch Forest
-- Savanna
-
-## River's Base
-![image](/Main/assets/structures/river_tower.png)
-His music echoes the overworld.
-### Biomes:
-- Plains
-- Forests
-- Birch Forest
-- Savanna
-
-## Ruined Arena
-![image](/Main/assets/structures/willager_boss.png)
-This is where you'll find the [Willager](/Main/Wiki/mobs.html#willager). Seems innocent, but that chest seems off.
-### Biomes:
-- Plains
-- Forests
-- Birch Forest
-
-## Trader Outpost
-![image](/Main/assets/structures/trader_outpost.png)
-This is the hideout for the [Goblin Trader](/Main/Wiki/mobs.html#goblin-trader). He has some goodies, and a [Bounty Board](/Main/Wiki/blocks/blocks.html#bounty-board)!
-### Biomes:
-- Plains
-- Forests
-- Birch Forest
-- Savanna
-- Taiga
-
-## Vindicator Hideout
-![image](/Main/assets/structures/vindicator_cooker.png)
-One of many homes for the Vindicators
-### Biomes:
-- Plains
-- Forests
-- Birch Forest
-- Savanna
-- Taiga
-
-## Vindicator House
-![image](/Main/assets/structures/vindicator_house.png)
-One of many homes for the Vindicators
-### Biomes:
-- Plains
-- Forests
-- Birch Forest
-- Savanna
-- Taiga
-
-## Waystone Tower
-![image](/Main/assets/structures/waystone_tower.png)
-A very tall tower. Holds a [Waystone](/Main/Wiki/blocks/blocks.html#waystone) way at the top. You have to figure out how to reach the top.
-### Biomes:
-- Plains
-- Forests
-- Birch Forest
-- Savanna
-- Taiga
+Cherry blossoms, lush jungles, swamp mists, and dry mesa's! Each village is crafted to feel native to its biome.
 
 
-## lonely wizard's house
-![image](/Main/assets/structures/wizard_house.png)
-This is where you'll find the [lonely wizard](/Main/Wiki/mobs.html#lonely-wizard), whom you can trade runes with in exchange for magic staves.
-### Biomes:
-- Snowy taiga
-- Taiga
-- Plains
+<!--
+<MansoryCard
+  :cards="[ 
+    { 
+      title: 'Jungle Village', 
+      items: [ 
+        { src: '/Main/assets/blogs/jungle_01', caption: 'Town Center' }, 
+        { src: '/Main/assets/blogs/jungle_02', caption: 'Jungle Village Layout' }, 
+        { src: '/Main/assets/blogs/jungle_03', caption: 'Blacksmith' } 
+      ] 
+    }, 
+    { 
+      title: 'Swamp Village', 
+      items: [ 
+        { src: '/Main/assets/blogs/swamp_01', caption: 'Swamp Village Layout' }, 
+        { src: '/Main/assets/blogs/swamp_02', caption: 'Swamp Village street view' }, 
+        { src: '/Main/assets/blogs/swamp_03', caption: 'Swamp Village street view' } 
+      ] 
+    }, 
+    { 
+      title: 'Cherry Village', 
+      items: [ 
+        { src: '/Main/assets/blogs/cherry_01', caption: 'Town Center' }, 
+        { src: '/Main/assets/blogs/cherry_02', caption: 'Cherry Village street view' }, 
+        { src: '/Main/assets/blogs/cherry_03', caption: 'Cherry Village Layout' } 
+      ] 
+    }, 
+    { 
+      title: 'Mesa Village', 
+      items: [ 
+        { src: '/Main/assets/blogs/mesa_01', caption: 'Dense canopy pathways' }, 
+        { src: '/Main/assets/blogs/mesa_02', caption: 'Homes above the roots' }, 
+        { src: '/Main/assets/blogs/mesa_03', caption: 'Night in the treetops' } 
+      ] 
+    } 
+  ]"
+/>
+-->
+
+<ZigZagShowcase
+  :sections="[
+    {
+      title: 'Jungle Village',
+      description: 'A cozy village under the leaves and bamboo everywhere, with lanterns on the streets and nature taking part in civilization',
+      card: {
+        title: 'Jungle Village',
+        items: [
+          { src: '/Main/assets/blogs/jungle_01', caption: 'Town Center' },
+          { src: '/Main/assets/blogs/jungle_02', caption: 'Jungle Village Layout' },
+          { src: '/Main/assets/blogs/jungle_03', caption: 'Blacksmith' }
+        ]
+      }
+    },
+    {
+      title: 'Cherry Village',
+      description: 'A beautiful Chinese-inspired village within the Cherry Groves. It is a cozy little town under a shower of pink petals. Wooden porches and the calm environment make it an easy place to trade and chill.',
+      card: {
+        title: 'Cherry Village',
+        items: [
+          { src: '/Main/assets/blogs/cherry_01', caption: 'Town Center' },
+          { src: '/Main/assets/blogs/cherry_02', caption: 'Cherry Village street view' },
+          { src: '/Main/assets/blogs/cherry_03', caption: 'Cherry Village Layout' }
+        ]
+      }
+    },
+     {
+      title: 'Swamp Village',
+      description: 'Who ever thought villagers could live within the soggy swamps? A pretty neat village deep withing the swamps where Villagers do science on the mushrooms.',
+      card: {
+        title: 'Cherry Village',
+        items: [
+          { src: '/Main/assets/blogs/swamp_01', caption: 'Town Center' },
+          { src: '/Main/assets/blogs/swamp_02', caption: 'Cherry Village street view' },
+          { src: '/Main/assets/blogs/swamp_03', caption: 'Cherry Village Layout' }
+        ]
+      }
+    },
+     {
+      title: 'Mesa Village',
+      description: 'Inspired by the Wild-West times. This village keeps the feel and look as if it existed since the Wild-west era. This village features its own unique layout to try and stay true to Wild-west villages.',
+      card: {
+        title: 'Cherry Village',
+        items: [
+          { src: '/Main/assets/blogs/mesa_01', caption: 'Town Center' },
+          { src: '/Main/assets/blogs/mesa_02', caption: 'Cherry Village street view' },
+          { src: '/Main/assets/blogs/mesa_03', caption: 'Cherry Village Layout' }
+        ]
+      }
+    }
+  ]"
+/>
 
 
-## Zombie Hut
-![image](/Main/assets/structures/zombie_hut.png)
-A common hideout for undead mobs.
-### Biomes:
-- Plains
-- Forests
-- Birch Forest
-- Savanna
-- Taiga
 
 
-## Blackstone Castle
-![image](/Main/assets/structures/samurai.png)
-This is where you'll find the [Withered Samurai](/Main/Wiki/mobs.html#withered-samurai).
-### Biomes:
-- Nether
+## Below the Surface: Mineshafts
 
 
-## Inferior Boss Arena
-![image](/Main/assets/structures/inferior.png)
-This is where you'll find the Inferior AKA the [Shielded Pyroclast](/Main/Wiki/mobs.html#shielded-pyroclast).
-### Biomes:
-- Nether
+<ZigZagShowcase
+  :sections="[
+    {
+      title: 'Below the Surface: Mineshafts',
+      description: 'Wider routes, sightlines, better loot paths.',
+      card: {
+        title: 'Jungle Village',
+        items: [
+            { src:'/Main/assets/blogs/mineshaft_02'}
+        ]
+      }
+    }
+  ]"
+/>
 
-## Fungal Tower
-![image](/Main/assets/structures/fungal_tower.png)
-A Home to the fungi.
-### Biomes:
-- The end
+## Boss Arenas
 
-## Seeker Arena
-![image](/Main/assets/structures/seeker_arena.png)
-This is where you'll find the [seeker](/Main/Wiki/mobs.html#seeker), Are you willing to take your chances?
-### Biomes:
-- The end
+<ZigZagShowcase
+  :sections="[
+    {
+      title: 'Willager Arena!',
+      description: 'A more fearsome battleground, with a totaly not suspicous chest.',
+      card: {
+        title: 'Jungle Village',
+        items: [
+            { src:'/Main/assets/blogs/willager_boss'}
+        ]
+      }
+    },
+     {
+      title: 'Enchanter Arena!',
+      description: 'The Enchanter returns with a new venue.',
+      card: {
+        title: 'Jungle Village',
+        items: [
+            { src:'/Main/assets/blogs/enchanter_boss'}
+        ]
+      }
+    }
+  ]"
+/>
 
-## Voided Statue
-![image](/Main/assets/structures/voided_statue.png)
-I wonder who created such thing.
-### Biomes:
-- The end
+## Randomly Generated Dungeons!
 
-## Floating End Portal
-![image](/Main/assets/structures/end_portal_ruins.png)
-Huh A way back to the overworld. Cool!
-### Biomes:
-- The end
+<ZigZagShowcase
+  :sections="[
+    {
+      title: 'Well Dungeon!',
+      description: 'The Well Dungeon has been rebuilt from the ground-up to feature proper random generation. This means that most rooms and spawners will be random for each one you find! The Well Dungeon is below any Blackstone Well you find on the overworld surface!',
+      card: {
+        title: 'Jungle Village',
+        items: [
+            { src:'/Main/assets/blogs/well_dungeon', caption:'Well Dungeon'}
+        ]
+      }
+    }
+  ]"
+/>
 
-## Vacant Hideout
-![image](/Main/assets/structures/vacant_hideout.png)
-Huh, I wonder why they left..
-### Biomes:
-- The end
+## Overhauled Structures - A Glimpes!
 
-## Voided Ruins
-![image](/Main/assets/structures/voided_ruins.png)
-How could someone live like this...
-### Biomes:
-- The end
+<ZigZagShowcase
+  :sections="[
+    {
+      title: 'Overhauled Structures!',
+      description: 'Some early looks at all of our new and overhauled structures!',
+      card: {
+        title: 'Jungle Village',
+        items: [
+            { src:'/Main/assets/blogs/adventure_camp', caption:'Adventure Camp'},
+            { src:'/Main/assets/blogs/trader_outpost' },
+            { src:'/Main/assets/blogs/pillage_ship', caption:'Pillager Ship'},
+            { src:'/Main/assets/blogs/birch_waystone', caption:'Waystone Hut (Birch)'},
+            { src:'/Main/assets/blogs/trail_digsite', caption:'Trail Digsite'}
+        ]
+      }
+    }
+  ]"
+/>
 
+<br />
+
+<br />
+What are you waiting for? Jump in now to experience a brand new world of Better on Bedrock!
+<br />
+
+<br />
+
+# FAQ
+
+## Can I locate Better on Bedrock structures?
+Yes! Use `/locate structure` to find them. Locator maps are planned.

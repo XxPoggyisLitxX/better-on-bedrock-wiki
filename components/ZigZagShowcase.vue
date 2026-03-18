@@ -53,35 +53,21 @@ defineProps({
 </script>
 
 <style scoped>
- 
-.zigzag { display: grid; gap: 3rem; margin: 0 auto; }
+/* Base Layout */
+.zigzag { 
+  display: grid; 
+  gap: 4rem; /* Gives clear separation between sections */
+  margin: 0 auto; 
+}
 
 .row {
   display: grid;
-  gap: 2rem;
+  gap: 1.5rem; /* Tighter gap between image and text on mobile */
   align-items: center;
-  grid-template-columns: 1fr; /* mobile stacks */
+  grid-template-columns: 1fr; /* Mobile stacks by default */
 }
 
-/* Desktop: 2 columns; flip order for .reverse */
-@media (min-width: 1024px) {
-  .row {
-    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
-  }
-  
-  .row .media { order: 1; }
-  .row .copy  { order: 2; justify-self: start; text-align: left; }
-
-  
-  .row.reverse .media { order: 2; }
-  .row.reverse .copy  { 
-    order: 1;
-    justify-self: end;     /* <<< hugs the center so it sits next to the image */
-    text-align: right;      /* keep readability */
-  }
-}
-
- 
+/* Media container and Image fixes */
 .media {
   border-radius: 16px;
   overflow: hidden;
@@ -90,17 +76,85 @@ defineProps({
 }
 
 .media :deep(img),
-.media :deep(video) { display: block; width: 100%; height: 100%; }
+.media :deep(video) { 
+  display: block; 
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; /* Prevents image squishing/stretching */
+}
 
- 
-.copy       { max-width: 65ch; }
-.h3         { margin: 0 0 .5rem; font-size: clamp(1.25rem, 1.1vw + 1rem, 1.6rem); }
-.copy p     { opacity: .9; margin: .5rem 0 0; }
-.bullets    { margin: .75rem 0 0; padding-left: 1.1rem; display: grid; gap: .25rem; }
-.actions    { margin-top: 1rem; }
+/* Text & Copy fixes */
+.copy { 
+  width: 100%;
+  max-width: min(100%, 65ch); /* Prevents horizontal scrolling on small phones */
+}
 
-/* Explicit mobile stack */
+.h3 { 
+  margin: 0 0 .5rem; 
+  font-size: clamp(1.25rem, 1.1vw + 1rem, 1.6rem); 
+}
+
+.copy p { 
+  opacity: .9; 
+  margin: .5rem 0 0; 
+}
+
+.bullets { 
+  margin: .75rem 0 0; 
+  padding-left: 1.1rem; 
+  display: grid; 
+  gap: .25rem; 
+}
+
+.actions { margin-top: 1rem; }
+
+/* MOBILE SPECIFIC POLISH */
 @media (max-width: 1023.98px) {
-  .row { grid-template-columns: 1fr; }
+  /* Center everything on mobile for a cleaner look */
+  .copy {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Keep bullets left-aligned but center the list itself */
+  .bullets {
+    text-align: left;
+    display: inline-grid;
+    margin-top: 1rem;
+  }
+
+  /* Center the button */
+  .actions {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* DESKTOP (2 COLUMNS) */
+@media (min-width: 1024px) {
+  .zigzag { gap: 3rem; }
+  .row {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    gap: 2rem;
+  }
+  
+  /* Default Order: Image Left, Text Right */
+  .row .media { order: 1; }
+  .row .copy  { order: 2; justify-self: start; text-align: left; }
+
+  /* Reverse Order: Text Left, Image Right */
+  .row.reverse .media { order: 2; }
+  .row.reverse .copy  { 
+    order: 1;
+    justify-self: end; /* Hugs the center so it sits next to the image */
+    text-align: right; /* Keeps readability attached to the image */
+  }
+
+  /* Reset bullets for right-aligned text so they don't look weird */
+  .row.reverse .bullets {
+    justify-items: end;
+    padding-left: 0;
+    padding-right: 1.1rem;
+  }
 }
 </style>
