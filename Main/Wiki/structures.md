@@ -1,6 +1,6 @@
 ---
 title: Better on Bedrock — Structures
-description: Overhauled structures, new villages, sprawling mineshafts, eerie dungeons, and updated arenas to explore.
+description: New structures, new villages, sprawling mineshafts, eerie dungeons, and new boss arenas to explore.
 wide: true
 ---
 
